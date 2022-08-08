@@ -1,0 +1,15 @@
+$arrow-color: #110b1a;
+
+.header-left {
+  font-size: 25px;
+  color: $arrow-color;
+}
+
+.header-left::before {
+  content: "←";
+}
+
+.header-left::after {
+  content: "→";
+  padding-left: 10px;
+}
