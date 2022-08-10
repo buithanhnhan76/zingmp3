@@ -1,5 +1,5 @@
-const Event = () => {
-	return <div>Event</div>;
-};
+function Event() {
+  return <div>Event</div>;
+}
 
 export default Event;

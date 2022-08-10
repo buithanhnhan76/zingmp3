@@ -1,5 +1,5 @@
-const Search = () => {
-	return <div></div>;
-};
+function Search() {
+  return <div />;
+}
 
 export default Search;

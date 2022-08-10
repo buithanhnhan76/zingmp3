@@ -1,6 +1,7 @@
 import styles from './header-left.module.scss';
-const HeaderLeft = () => {
-	return <div className={styles['header-left']}></div>;
-};
+
+function HeaderLeft() {
+  return <div className={styles['header-left']} />;
+}
 
 export default HeaderLeft;

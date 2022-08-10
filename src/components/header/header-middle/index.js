@@ -1,5 +1,5 @@
-const HeaderMiddle = () => {
-	return <div>Header Middle</div>;
-};
+function HeaderMiddle() {
+  return <div>Header Middle</div>;
+}
 
 export default HeaderMiddle;

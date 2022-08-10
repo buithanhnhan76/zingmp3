@@ -1,5 +1,5 @@
-const RadioCarousel = () => {
-	return <div>RadioCarousel</div>;
-};
+function RadioCarousel() {
+  return <div>RadioCarousel</div>;
+}
 
 export default RadioCarousel;

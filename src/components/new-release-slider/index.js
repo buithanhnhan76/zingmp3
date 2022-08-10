@@ -1,5 +1,5 @@
-const NewReleaseSlider = () => {
-	return <div>NewReleaseSlider</div>;
-};
+function NewReleaseSlider() {
+  return <div>NewReleaseSlider</div>;
+}
 
 export default NewReleaseSlider;
