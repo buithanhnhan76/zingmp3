@@ -1,5 +1,3 @@
-function Partner() {
-  return <div>Partner</div>;
-}
+const Partner = () => <div>Partner</div>;
 
 export default Partner;

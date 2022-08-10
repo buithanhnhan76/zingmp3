@@ -1,5 +1,3 @@
-function NewRelease() {
-  return <div>New Release</div>;
-}
+const NewRelease = () => <div>New Release</div>;
 
 export default NewRelease;
