@@ -6,10 +6,9 @@ $arrow-color: #110b1a;
 }
 
 .header-left::before {
-  content: "←";
+  content: "\2190";
 }
 
 .header-left::after {
-  content: "→";
-  padding-left: 10px;
+  content: "\2192";
 }
