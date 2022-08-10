@@ -1,5 +1,5 @@
-const PlayList = () => {
-	return <div>Playlist</div>;
-};
+function PlayList() {
+  return <div>Playlist</div>;
+}
 
 export default PlayList;

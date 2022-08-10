@@ -18,38 +18,38 @@ import Event from '../src/components/event';
 import Partner from '../src/components/partner';
 
 function Home() {
-	return (
-		<div className={styles.container}>
-			<Head>
-				<title>Zing Mp3</title>
-				<meta name="description" content="Zing Mp3" />
-				<link
-					rel="icon"
-					href="https://static-zmp3.zmdcdn.me/skins/zmp3-v5.2/images/icon_zing_mp3_60.png"
-				/>
-			</Head>
-			<main className={styles['home-main']}>
-				<SideBar />
-				<div>
-					<Header />
-					<Gallery />
-					<NewRelease />
-					<PlayList />
-					<FavoriteArtist />
-					<PlayList />
-					<Chart />
-					<Card />
-					<Carousel />
-					<PlayList />
-					<NewReleaseSlider />
-					<PlaylistSlider />
-					<PlayList />
-					<RadioCarousel />
-					<Event />
-					<Partner />
-				</div>
-			</main>
-		</div>
-	);
+  return (
+    <div className={styles.container}>
+      <Head>
+        <title>Zing Mp3</title>
+        <meta name="description" content="Zing Mp3" />
+        <link
+          rel="icon"
+          href="https://static-zmp3.zmdcdn.me/skins/zmp3-v5.2/images/icon_zing_mp3_60.png"
+        />
+      </Head>
+      <main className={styles['home-main']}>
+        <SideBar />
+        <div>
+          <Header />
+          <Gallery />
+          <NewRelease />
+          <PlayList />
+          <FavoriteArtist />
+          <PlayList />
+          <Chart />
+          <Card />
+          <Carousel />
+          <PlayList />
+          <NewReleaseSlider />
+          <PlaylistSlider />
+          <PlayList />
+          <RadioCarousel />
+          <Event />
+          <Partner />
+        </div>
+      </main>
+    </div>
+  );
 }
 export default Home;

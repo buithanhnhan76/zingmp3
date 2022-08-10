@@ -1,5 +1,5 @@
-const PlaylistSlider = () => {
-	return <div>PlaylistSlider</div>;
-};
+function PlaylistSlider() {
+  return <div>PlaylistSlider</div>;
+}
 
 export default PlaylistSlider;

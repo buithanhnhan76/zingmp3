@@ -1,5 +1,5 @@
-const Carousel = () => {
-	return <div>Carousel</div>;
-};
+function Carousel() {
+  return <div>Carousel</div>;
+}
 
 export default Carousel;
