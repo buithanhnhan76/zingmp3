@@ -1,5 +1,3 @@
-function PlayList() {
-  return <div>Playlist</div>;
-}
+const PlayList = () => <div>Playlist</div>;
 
 export default PlayList;

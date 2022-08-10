@@ -1,5 +1,3 @@
-function NewReleaseSlider() {
-  return <div>NewReleaseSlider</div>;
-}
+const NewReleaseSlider = () => <div>NewReleaseSlider</div>;
 
 export default NewReleaseSlider;

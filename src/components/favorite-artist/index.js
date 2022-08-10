@@ -1,5 +1,3 @@
-function FavoriteArtist() {
-  return <div>FavoriteArtist</div>;
-}
+const FavoriteArtist = () => <div>FavoriteArtist</div>;
 
 export default FavoriteArtist;

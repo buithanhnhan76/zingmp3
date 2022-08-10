@@ -1,5 +1,3 @@
-function Chart() {
-  return <div>Chart</div>;
-}
+const Chart = () => <div>Chart</div>;
 
 export default Chart;

@@ -1,5 +1,3 @@
-function Gallery() {
-  return <div>Gallery</div>;
-}
+const Gallery = () => <div>Gallery</div>;
 
 export default Gallery;
