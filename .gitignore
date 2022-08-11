@@ -30,3 +30,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#uncommit file
+
+yarn.lock
+.eslintcache
+storybook-static/
