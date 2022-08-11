@@ -1,21 +1,21 @@
 import 'normalize.css';
 import Head from 'next/head';
 import React from 'react';
-import styles from '../styles/Home.module.scss';
-import Header from '../src/components/header/index';
-import SideBar from '../src/components/sidebar';
-import Gallery from '../src/components/gallery';
-import NewRelease from '../src/components/new-release';
-import PlayList from '../src/components/playlist';
-import FavoriteArtist from '../src/components/favorite-artist';
-import Chart from '../src/components/chart';
-import Card from '../src/components/card';
-import Carousel from '../src/components/carousel';
-import NewReleaseSlider from '../src/components/new-release-slider';
-import PlaylistSlider from '../src/components/playlist-slider';
-import RadioCarousel from '../src/components/radio-carousel';
-import Event from '../src/components/event';
-import Partner from '../src/components/partner';
+import styles from '../../styles/Home.module.scss';
+import Header from '../components/header/index';
+import SideBar from '../components/sidebar';
+import Gallery from '../components/gallery';
+import NewRelease from '../components/new-release';
+import PlayList from '../components/playlist';
+import FavoriteArtist from '../components/favorite-artist';
+import Chart from '../components/chart';
+import Card from '../components/card';
+import Carousel from '../components/carousel';
+import NewReleaseSlider from '../components/new-release-slider';
+import PlaylistSlider from '../components/playlist-slider';
+import RadioCarousel from '../components/radio-carousel';
+import Event from '../components/event';
+import Partner from '../components/partner';
 
 const Home = () => (
   <div className={styles.container}>
