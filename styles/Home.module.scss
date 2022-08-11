@@ -1,8 +1,7 @@
-.container {
-  padding: 0 2rem;
-}
+@import "../src/assets/styles/varibles";
 
 .home-main {
   display: grid;
-  grid-template-columns: 20% 1fr;
+  grid-template-columns: 17% 1fr;
+  color: $text-color;
 }

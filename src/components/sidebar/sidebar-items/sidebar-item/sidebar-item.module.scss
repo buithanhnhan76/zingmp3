@@ -1,0 +1,13 @@
+.sidebar-item-container {
+  padding: 7px 25px;
+}
+
+.sidebar-line-container {
+  padding: 7px 25px;
+}
+
+.sidebar-item-container:hover {
+  cursor: pointer;
+  background-color: #393243;
+  transition: background-color 0.5s ease-in;
+}

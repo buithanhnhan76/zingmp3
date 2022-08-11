@@ -1,0 +1,14 @@
+@import "../../../assets/styles/varibles";
+
+.sidebar-button-container{
+    color: $text-color;
+    padding: 0 28px;
+    height: 53px;
+    font-size: 14px;
+}
+
+.sidebar-button-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
