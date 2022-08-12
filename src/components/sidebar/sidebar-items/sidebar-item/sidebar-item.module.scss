@@ -3,13 +3,14 @@
 
 .sidebar-item-container {
   padding: 7px 25px;
+  border-left: 2px solid transparent;
 
   @extend .darkness;
 }
 
 .sidebar-item-active {
   background-color: $active-background-color;
-  border-left: 2px solid $banner-background-color;
+  border-color: $banner-background-color;
 }
 
 .sidebar-line-container {
