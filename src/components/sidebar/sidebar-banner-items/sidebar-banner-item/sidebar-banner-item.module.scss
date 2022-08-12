@@ -27,6 +27,11 @@
   font-weight: 600;
 }
 
+.sidebar-banner-item-button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
 .sidebar-vip-banner-item-button {
   border: 1px solid $vip-border-color;
   background-color: $banner-vip-background-color;
@@ -34,4 +39,9 @@
   padding: 6px 35px;
   border-radius: 50px;
   font-weight: 600;
+}
+
+.sidebar-vip-banner-item-button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
 }

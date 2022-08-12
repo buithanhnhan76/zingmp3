@@ -1,6 +1,10 @@
+@import "../../../assets/styles/ultilities.scss";
+
 .sidebar-brand-container {
   height: 70px;
   padding: 28px;
+
+  @extend .hover-darkness;
 }
 
 .sidebar-brand-logo {

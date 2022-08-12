@@ -1,5 +1,15 @@
+@import "../../../../assets/styles/ultilities.scss";
+@import "../../../../assets/styles/varibles";
+
 .sidebar-item-container {
   padding: 7px 25px;
+
+  @extend .darkness;
+}
+
+.sidebar-item-active {
+  background-color: $active-background-color;
+  border-left: 2px solid $banner-background-color;
 }
 
 .sidebar-line-container {
@@ -8,10 +18,19 @@
 
 .sidebar-item-container:hover {
   cursor: pointer;
-  background-color: #393243;
-  transition: background-color 0.5s ease-in;
+
+  @extend .hover-brightness;
 }
 
-.sidebar-item-icon {
+.sidebar-item-right-margin {
   margin-right: 10px;
+}
+
+.sidebar-item-left-margin {
+  margin-left: 10px;
+}
+
+.sidebar-item-content {
+  display: flex;
+  align-items: center;
 }

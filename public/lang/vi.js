@@ -17,7 +17,7 @@ export default {
     ],
     'banner-items': [
       {
-        title: 'Đăng nhập để khám phá nhiều playlist dành riêng cho bạn',
+        title: 'Đăng nhập để khám phá playlist dành riêng cho bạn',
         label: 'ĐĂNG NHẬP',
         type: 'login-banner',
       },
