@@ -1,10 +1,11 @@
 import { PlusOutlined } from '@ant-design/icons';
 import styles from './sidebar-button.module.scss';
 
-const SideBarButton = () => (
+const SideBarButton = ({ trans }) => (
   <div className={styles['sidebar-button-container']}>
-    <div className={styles["sidebar-button-content"]}>
-      <PlusOutlined /> Tạo playlist mới
+    <div className={styles['sidebar-button-content']}>
+      <PlusOutlined className={styles['sidebar-button-icon']} />
+      {trans.sidebar.button.label}
     </div>
   </div>
 );

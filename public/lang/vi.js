@@ -15,9 +15,20 @@ export default {
       { title: 'Top 100' },
       { title: 'MV' },
     ],
-  "banner-items": [
-    {title: "Đăng nhập để khám phá nhiều playlist dành riêng cho bạn" ,label: "ĐĂNG NHẬP", type: "login-banner"},
-    {title: "Nghe nhạc không quảng cáo cùng kho nhạc VIP", label: "NÂNG CẤP VIP", type: "vip-banner"}
-  ]
+    'banner-items': [
+      {
+        title: 'Đăng nhập để khám phá nhiều playlist dành riêng cho bạn',
+        label: 'ĐĂNG NHẬP',
+        type: 'login-banner',
+      },
+      {
+        title: 'Nghe nhạc không quảng cáo cùng kho nhạc VIP',
+        label: 'NÂNG CẤP VIP',
+        type: 'vip-banner',
+      },
+    ],
+    button: {
+      label: 'Tạo playlist mới',
+    },
   },
 };
