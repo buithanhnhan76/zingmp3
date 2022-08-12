@@ -1,0 +1,17 @@
+@import "../../../assets/styles/_varibles";
+
+.header-buttons-container {
+  font-size: 25px;
+  color: $header-button-color;
+  margin: auto 0;
+  width: 100px;
+}
+
+.header-buttons-container::before {
+  content: "\2190";
+  padding-right: 20px;
+}
+
+.header-buttons-container::after {
+  content: "\2192";
+}

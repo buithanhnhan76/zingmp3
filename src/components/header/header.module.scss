@@ -1,6 +1,10 @@
-$color-primary: #0070f3;
+@import "../../assets/styles/varibles";
 
-.header-left {
-  background-color: $color-primary;
-  height: 10px;
+.header-container {
+  height: 70px;
+  background-color: $header-background-color;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  color: $text-color;
 }
