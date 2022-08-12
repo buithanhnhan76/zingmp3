@@ -2,4 +2,6 @@
 
 .sidebar-container {
   background-color: $sidebar-background-color;
+  position: sticky;
+  top: 0;
 }
