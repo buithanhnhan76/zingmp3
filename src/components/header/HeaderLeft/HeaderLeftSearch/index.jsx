@@ -1,7 +1,7 @@
 import { SearchOutlined } from "@ant-design/icons";
-import styles from "./header-search.module.scss";
+import styles from "./HeaderLeftSearch.module.scss";
 
-const HeaderSearch = () => (
+const HeaderLeftSearch = () => (
   <div className={styles["header-search-container"]}>
     <SearchOutlined />
     <input
@@ -11,4 +11,4 @@ const HeaderSearch = () => (
   </div>
 );
 
-export default HeaderSearch;
+export default HeaderLeftSearch;

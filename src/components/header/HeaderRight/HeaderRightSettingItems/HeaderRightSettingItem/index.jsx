@@ -1,6 +1,6 @@
-import styles from "./header-setting-item.module.scss";
+import styles from "./HeaderRightSettingItem.module.scss";
 
-const HeaderSettingItem = ({ item }) => (
+const HeaderRightSettingItem = ({ item }) => (
   <div className={styles["header-setting-item-container"]}>
     <img
       className={styles["header-setting-item-icon"]}
@@ -10,4 +10,4 @@ const HeaderSettingItem = ({ item }) => (
   </div>
 );
 
-export default HeaderSettingItem;
+export default HeaderRightSettingItem;
