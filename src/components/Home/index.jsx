@@ -10,12 +10,14 @@ import PlaylistSlider from "../PlaylistSlider";
 import RadioCarousel from "../RadioCarousel";
 import Event from "../Event";
 import Partner from "../Partner";
+import styles from "./Home.module.scss";
 
 const Home = () => (
-  <div>
+  <div className={styles["home-container"]}>
     <Gallery />
     <NewRelease />
     <PlayList />
+
     <FavoriteArtist />
     <PlayList />
     <Chart />
