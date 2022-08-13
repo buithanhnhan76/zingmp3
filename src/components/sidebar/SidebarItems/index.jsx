@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import SideBarItem from './sidebar-item/index';
-import styles from './sidebar-items.module.scss';
+import SidebarItem from './sidebaritem';
+import styles from './SidebarItems.module.scss';
 
-const SideBarItems = ({ trans }) => {
+const SidebarItems = ({ trans }) => {
   const [selectedSideBarItem, setSelectedSideBarItem] = useState('');
   return (
     <div className={styles['side-bar-items-container']}>
       {trans.sidebar.items.map((item) => (
-        <SideBarItem
+        <SidebarItem
           key={item.title}
           item={item}
           selectedSideBarItem={selectedSideBarItem}
@@ -18,4 +18,4 @@ const SideBarItems = ({ trans }) => {
   );
 };
 
-export default SideBarItems;
+export default SidebarItems;

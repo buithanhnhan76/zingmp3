@@ -1,5 +1,5 @@
-import styles from './sidebar-banner-items.module.scss';
-import SideBarBannerItem from './sidebar-banner-item';
+import styles from './SidebarBannerItems.module.scss';
+import SideBarBannerItem from './SidebarBannerItem';
 
 const SideBarBannerItems = ({ trans }) => (
   <div className={styles['sidebar-banner-items-container']}>

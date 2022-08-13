@@ -1,4 +1,4 @@
-import styles from "./sidebar-brand.module.scss";
+import styles from "./SidebarBrand.module.scss";
 import ZingLogo from "../../../../public/photos/zing-logo.svg";
 
 const SideBarBrand = () => (

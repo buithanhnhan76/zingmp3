@@ -1,4 +1,4 @@
-import styles from './sidebar-banner-item.module.scss';
+import styles from './SidebarBannerItem.module.scss';
 
 const SideBarBannerItem = ({ item }) => (
   <div

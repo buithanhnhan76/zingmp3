@@ -1,9 +1,9 @@
 import { PlayCircleOutlined } from "@ant-design/icons";
 import Link from "next/link";
-import styles from "./sidebar-item.module.scss";
+import styles from "./SidebarItem.module.scss";
 import LiveTag from "../../../../../public/icons/live-tag.svg";
 
-const SideBarItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
+const SidebarItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
   const handleClickSideBarItem = (title) => {
     setSelectedSideBarItem(title);
   };
@@ -39,4 +39,4 @@ const SideBarItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
   );
 };
 
-export default SideBarItem;
+export default SidebarItem;
