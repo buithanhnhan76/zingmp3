@@ -24,7 +24,7 @@ const SidebarItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
           {item.title}
           {item.title === "Radio" && (
             <img
-              src={LiveTag.src}
+              src={item.iconSrc}
               alt="live tag"
               className={styles["sidebar-item-left-margin"]}
             />
