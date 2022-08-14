@@ -2,6 +2,8 @@
 
 .header-container {
   height: 70px;
+  width: calc(100vw - 240px);
+  overflow-x: auto;
   background-color: $header-background-color;
   padding: 0 60px;
   display: flex;

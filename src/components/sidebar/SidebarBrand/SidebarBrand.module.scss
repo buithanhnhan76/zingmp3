@@ -1,8 +1,13 @@
 @import "../../../assets/styles/ultilities.scss";
+@import "../../../assets/styles/varibles";
 
 .sidebar-brand-container {
   height: 70px;
   padding: 28px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: $sidebar-background-color;
 
   @extend .hover-darkness;
 }
