@@ -1,0 +1,33 @@
+@import "../../../../assets/styles/varibles";
+
+.header-search-container {
+  width: 500px;
+  height: 50px;
+  background-color: $header-search-background-color;
+  border-radius: 20px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 1248px) {
+    width: 400px;
+  }
+
+  @media screen and (max-width: 1048px) {
+    width: 300px;
+  }
+}
+
+.header-search {
+  background-color: $header-search-background-color;
+  margin-left: 5px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: $text-color;
+}
+
+.header-search::placeholder {
+  color: $text-color;
+  font-size: 12px;
+}
