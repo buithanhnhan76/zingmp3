@@ -1,0 +1,16 @@
+.event-item-header {
+  width: 345px;
+  height: 190px;
+  position: relative;
+}
+
+.event-item-header-photo {
+  width: 100%;
+  object-fit: contain;
+}
+
+.event-item-header-content {
+  position: absolute;
+  bottom: 0;
+  padding: 13px 10px;
+}
