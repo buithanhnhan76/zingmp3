@@ -1,3 +1,11 @@
+@import "../../assets/styles/varibles";
+
 .partner-container {
   height: 230px;
+}
+
+.partner-title {
+  text-align: center;
+  color: $partner-title-color;
+  margin-bottom: 27px;
 }

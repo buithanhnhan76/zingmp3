@@ -1,0 +1,9 @@
+.partner-items-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partner-items-container > div {
+  margin: 0 10px 30px;
+}

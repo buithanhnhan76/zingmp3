@@ -1,0 +1,18 @@
+@import "../../../../assets/styles/varibles";
+
+.partner-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 103px;
+  height: 58px;
+  background-color: $partner-background-color;
+  border-radius: 4px;
+}
+
+.partner-item-image {
+  height: 50px;
+  width: 90px;
+  width: 70%;
+  object-fit: contain;
+}
