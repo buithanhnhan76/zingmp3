@@ -17,7 +17,6 @@ const Home = () => (
     <Gallery />
     <NewRelease />
     <PlayList />
-
     <FavoriteArtist />
     <PlayList />
     <Chart />

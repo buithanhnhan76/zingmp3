@@ -2,9 +2,11 @@ import HeaderRightSettingItems from "./HeaderRightSettingItems";
 import HeaderRightLogin from "./HeaderRightLogin";
 import styles from "./HeaderRight.module.scss";
 
-const HeaderRight = () => <div className={styles["header-right-container"]}>
+const HeaderRight = () => (
+  <div className={styles["header-right-container"]}>
     <HeaderRightSettingItems></HeaderRightSettingItems>
     <HeaderRightLogin></HeaderRightLogin>
-  </div>;
+  </div>
+);
 
 export default HeaderRight;
