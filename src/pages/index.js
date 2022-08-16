@@ -1,8 +1,8 @@
 import 'normalize.css';
 import Head from 'next/head';
 import React from 'react';
+import iconZing from 'public/icons/icon-zing.png';
 import useTrans from '../hooks/useStrans';
-import iconZing from '../../public/icons/icon-zing.png';
 
 const Home = () => {
   const trans = useTrans();
