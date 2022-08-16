@@ -3,7 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import useTrans from '../hooks/useStrans';
 
-const App = () => {
+const Home = () => {
   const trans = useTrans();
   return (
     <div>
@@ -19,4 +19,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
