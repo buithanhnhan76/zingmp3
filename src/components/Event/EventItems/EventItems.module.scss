@@ -1,3 +1,7 @@
 .event-items-container {
   display: flex;
 }
+
+.event-items-container > div {
+  margin-right: 14px;
+}

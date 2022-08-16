@@ -7,7 +7,7 @@ import TangDuyTan from "../../../public/photos/TangDuyTan.webp";
 const listCelebs = [{imgSrc: Issac.src}, {imgSrc: NhatKimAnh.src}, {imgSrc: TangDuyTan.src}];
 
 const Event = () => <div className={styles["event-container"]}>
-    Sự Kiện
+    <h3 className={styles["event-title"]}>Sự Kiện</h3>
     <EventItems items={listCelebs}></EventItems>
     </div>;
 
