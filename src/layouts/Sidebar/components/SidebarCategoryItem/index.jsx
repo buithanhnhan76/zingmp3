@@ -26,15 +26,13 @@ const SidebarCategoryItem = ({
       >
         <div className={styles["sidebar-item-content"]}>
           <PlayCircleOutlined className={styles["sidebar-item-right-margin"]} />{" "}
-          {item.title}
+          {
+            <span className={styles["sidebar-item-right-margin"]}>
+              {item.title}
+            </span>
+          }
           {item.title === "Radio" && (
-            <Image
-              src={item.iconSrc}
-              alt="live tag"
-              width={34}
-              height={16}
-              className={styles["sidebar-item-left-margin"]}
-            />
+            <Image src={item.iconSrc} alt="live tag" width={34} height={16} />
           )}
         </div>
       </div>
