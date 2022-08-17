@@ -17,6 +17,11 @@
     width: 300px;
   }
 
+  .header-left-search-icon {
+    font-size: 1rem;
+    fill: $header-search-icon-color;
+  }
+
   .header-left-search {
     margin-left: 5px;
     outline: none;
@@ -26,7 +31,7 @@
     color: $text-color;
 
     .header-left-search::placeholder {
-      color: $text-color;
+      color: $header-search-icon-color;
       font-size: 1.2rem;
     }
   }
