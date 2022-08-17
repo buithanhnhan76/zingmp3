@@ -2,20 +2,19 @@
 @import "src/assets/styles/varibles";
 
 .sidebar-item-container {
-  padding: 7px 25px;
   border-left: 2px solid transparent;
+  padding: 7px 25px;
 
   @extend .darkness;
 }
 
 .sidebar-item-active {
-  background-color: $active-background-color;
   border-color: $banner-background-color;
+  background-color: $active-background-color;
 }
 
 .sidebar-item-container:hover {
-  cursor: pointer;
-
+  @extend .pointer;
   @extend .hover-brightness;
 }
 
