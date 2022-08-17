@@ -16,18 +16,18 @@
   @media screen and (max-width: 1048px) {
     width: 300px;
   }
-}
 
-.header-left-search {
-  margin-left: 5px;
-  outline: none;
-  border: none;
-  width: 100%;
-  background-color: $header-search-background-color;
-  color: $text-color;
-
-  .header-left-search::placeholder {
+  .header-left-search {
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: $header-search-background-color;
     color: $text-color;
-    font-size: 12px;
+
+    .header-left-search::placeholder {
+      color: $text-color;
+      font-size: 1.2rem;
+    }
   }
 }
