@@ -4,8 +4,8 @@ import styles from "./HeaderRight.module.scss";
 
 const HeaderRight = () => (
   <div className={styles["header-right-container"]}>
-    <HeaderRightSettingItems></HeaderRightSettingItems>
-    <HeaderRightLogin></HeaderRightLogin>
+    <HeaderRightSettingItems />
+    <HeaderRightLogin />
   </div>
 );
 

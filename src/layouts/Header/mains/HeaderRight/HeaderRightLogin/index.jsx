@@ -1,9 +1,9 @@
-import user from "../../../../../public/photos/user.jpg";
 import styles from "./HeaderRightLogin.module.scss";
+import Image from 'next/image';
 
 const HeaderRightLogin = () => (
   <div>
-    <img className={styles["header-right-login-photo"]} src={user.src} />
+    <Image className={styles["header-right-login-photo"]} width={40} height={40} src="/photos/user.jpg" />
   </div>
 );
 
