@@ -1,4 +1,4 @@
-@import "../../assets/styles/varibles";
+@import "src/assets/styles/varibles";
 
 .header-container {
   position: sticky;
@@ -6,10 +6,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  width: calc(100vw - 240px);
-  color: $text-color;
   overflow-x: auto;
-  background-color: $header-background-color;
+  width: calc(100vw - 240px);
+  height: 70px;
   padding: 0 60px;
+  background-color: $header-background-color;
+  color: $text-color;
 }

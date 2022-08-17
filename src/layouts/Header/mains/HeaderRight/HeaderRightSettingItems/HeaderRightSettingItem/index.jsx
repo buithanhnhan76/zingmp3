@@ -1,11 +1,14 @@
 import styles from "./HeaderRightSettingItem.module.scss";
+import Image from "next/image";
 
 const HeaderRightSettingItem = ({ item }) => (
   <div className={styles["header-setting-item-container"]}>
-    <img
+    <Image
       className={styles["header-setting-item-icon"]}
+      width={40}
+      height={40}
       src={item.src}
-      alt="icon"
+      alt="setting icon"
     />
   </div>
 );

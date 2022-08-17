@@ -1,6 +1,6 @@
 import HeaderRightSettingItem from "./HeaderRightSettingItem";
 import styles from "./HeaderRightSettingItems.module.scss";
-import Clip from "../../../../../public/icons/clip.svg";
+import Clip from "public/icons/clip.svg";
 
 const listSettingItems = [
   { src: Clip.src },
