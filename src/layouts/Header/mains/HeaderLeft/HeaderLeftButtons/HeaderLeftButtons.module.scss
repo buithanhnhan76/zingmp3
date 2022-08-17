@@ -6,12 +6,12 @@
   font-size: 25px;
   color: $header-button-color;
 
-  .header-buttons-container::before {
+  &::before {
     content: "\2190";
     padding-right: 20px;
   }
 
-  .header-buttons-container::after {
+  &::after {
     content: "\2192";
   }
 }

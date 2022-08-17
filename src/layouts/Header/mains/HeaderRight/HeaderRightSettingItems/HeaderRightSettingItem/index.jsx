@@ -5,8 +5,8 @@ const HeaderRightSettingItem = ({ item }) => (
   <div className={styles["header-setting-item-container"]}>
     <Image
       className={styles["header-setting-item-icon"]}
-      width={40}
-      height={40}
+      width={20}
+      height={20}
       src={item.src}
       alt="setting icon"
     />
