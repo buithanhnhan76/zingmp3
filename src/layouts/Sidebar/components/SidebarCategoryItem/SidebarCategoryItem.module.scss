@@ -8,9 +8,8 @@
   padding: 7px 25px;
 
   &:hover {
+    @extend .pointer;
     @extend .hover-brightness;
-
-    cursor: pointer;
   }
 
   .sidebar-item-content {
