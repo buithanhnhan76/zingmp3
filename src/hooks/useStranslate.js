@@ -1,15 +1,15 @@
 // router
 import { useRouter } from "next/router";
 // eng and vie content file
-import en from "public/lang/en";
-import vi from "public/lang/vi";
+import en from "public/locale/en";
+import vi from "public/locale/vi";
 
-const useTrans = () => {
+const useTranslate = () => {
   const { locale } = useRouter();
 
-  const trans = locale === "vi" ? vi : en;
+  const translate = locale === "vi" ? vi : en;
 
-  return trans;
+  return translate;
 };
 
-export default useTrans;
+export default useTranslate;
