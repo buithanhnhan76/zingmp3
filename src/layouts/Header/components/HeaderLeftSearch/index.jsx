@@ -1,4 +1,6 @@
+// search icon
 import { SearchOutlined } from "@ant-design/icons";
+// style
 import styles from "./HeaderLeftSearch.module.scss";
 
 const HeaderLeftSearch = () => (

@@ -1,5 +1,8 @@
-import HeaderRightSettingItem from "./HeaderRightSettingItem";
+// children
+import HeaderRightSettingItem from "../HeaderRightSettingItem";
+// style
 import styles from "./HeaderRightSettingItems.module.scss";
+// import image
 import Clip from "public/icons/clip.svg";
 
 const listSettingItems = [

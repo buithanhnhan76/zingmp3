@@ -26,8 +26,8 @@
     color: $text-color;
 
     .header-left-search::placeholder {
-      color: $header-search-icon-color;
       font-size: 1.2rem;
+      color: $header-search-icon-color;
     }
   }
 }
