@@ -2,10 +2,10 @@
 @import "src/assets/styles/varibles";
 
 .sidebar-item-container {
+  @extend .darkness;
+
   border-left: 2px solid transparent;
   padding: 7px 25px;
-
-  @extend .darkness;
 }
 
 .sidebar-item-active {
