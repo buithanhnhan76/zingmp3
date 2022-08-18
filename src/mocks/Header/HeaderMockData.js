@@ -7,6 +7,4 @@ const listSettingItems = [
   { id: 4, src: Clip.src },
 ];
 
-export default {
-  listSettingItems,
-};
+export { listSettingItems };
