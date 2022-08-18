@@ -1,0 +1,23 @@
+.pointer {
+  cursor: pointer;
+}
+
+.darkness {
+  filter: brightness(0.9);
+}
+
+.hover-darkness:hover {
+  filter: brightness(0.9);
+}
+
+.hover-brightness {
+  filter: brightness(1.1);
+}
+
+.border-top {
+  border-top: 1px solid;
+}
+
+.border-white {
+  border-color: white;
+}
