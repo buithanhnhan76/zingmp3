@@ -1,4 +1,5 @@
 import styles from "./HeaderRightLogin.module.scss";
+// next image
 import Image from 'next/image';
 
 const HeaderRightLogin = () => (

@@ -1,4 +1,6 @@
+// style
 import styles from "./HeaderRightSettingItem.module.scss";
+// next image
 import Image from "next/image";
 
 const HeaderRightSettingItem = ({ item }) => (

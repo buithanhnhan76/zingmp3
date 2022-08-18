@@ -1,5 +1,8 @@
-import HeaderRightSettingItems from "./HeaderRightSettingItems";
-import HeaderRightLogin from "./HeaderRightLogin";
+// Header right setting items
+import HeaderRightSettingItems from "../../components/HeaderRightSettingItems";
+// Header right login
+import HeaderRightLogin from "../../components/HeaderRightLogin";
+// styles
 import styles from "./HeaderRight.module.scss";
 
 const HeaderRight = () => (
