@@ -1,6 +1,6 @@
 // f2 component
 import HeaderLeftButtons from "../../components/HeaderLeftButtons";
-import HeaderLeftSearch from "../../HeaderLeftSearch";
+import HeaderLeftSearch from "../../components/HeaderLeftSearch";
 // style
 import styles from "./HeaderLeft.module.scss";
 
