@@ -1,6 +1,6 @@
 @import "src/assets/styles/varibles";
 
-.header-left-search-container {
+.search-bar-container {
   display: flex;
   align-items: center;
   border-radius: 20px;
@@ -17,7 +17,7 @@
     width: 300px;
   }
 
-  .header-left-search {
+  .search-bar {
     margin-left: 5px;
     outline: none;
     border: none;
@@ -25,7 +25,7 @@
     background-color: $header-search-background-color;
     color: $text-color;
 
-    .header-left-search::placeholder {
+    .search-bar::placeholder {
       font-size: 1.2rem;
       color: $header-search-icon-color;
     }
