@@ -3,7 +3,7 @@ import styles from "./HeaderRightLogin.module.scss";
 import Image from "next/image";
 
 const HeaderRightLogin = () => (
-  <div>
+  <div className={styles["header-right-login-container"]}>
     <Image
       className={styles["header-right-login-photo"]}
       width={40}
