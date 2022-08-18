@@ -1,0 +1,15 @@
+@import "src/assets/styles/varibles";
+
+.header-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  width: calc(100vw - 240px);
+  height: 70px;
+  padding: 0 60px;
+  background-color: $header-background-color;
+  color: $text-color;
+}
