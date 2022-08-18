@@ -1,6 +1,6 @@
 @font-face {
   font-family: inter;
-  src: url("public/fonts/inter/Inter-Black.ttf");
+  src: url("/public/fonts/inter/Inter-Black.ttf");
 }
 
 html,
