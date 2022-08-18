@@ -1,6 +1,6 @@
 // children
 import SettingItem from "../SettingItem";
-// style
+// list items
 import { listSettingItems } from "src/mocks/Header/HeaderMockData";
 // style
 import styles from "./SettingItems.module.scss";

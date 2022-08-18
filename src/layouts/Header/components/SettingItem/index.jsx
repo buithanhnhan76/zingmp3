@@ -1,7 +1,7 @@
-// style
-import styles from "./SettingItem.module.scss";
 // next image
 import Image from "next/image";
+// style
+import styles from "./SettingItem.module.scss";
 
 const SettingItem = ({ item }) => (
   <div className={styles["setting-item-container"]}>
