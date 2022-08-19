@@ -1,5 +1,5 @@
 import { useState } from "react";
-// f2 component
+// children
 import SidebarItem from "../../components/SidebarItem";
 // style
 import styles from "./SidebarItems.module.scss";

@@ -1,4 +1,4 @@
-// plus icon
+// libs
 import { PlusOutlined } from "@ant-design/icons";
 // style
 import styles from "./SidebarButton.module.scss";
