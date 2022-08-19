@@ -1,0 +1,8 @@
+@import "../../assets/styles/varibles";
+
+.home-main-container {
+  background-color: $home-background-color;
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  padding: 0 59px;
+}
