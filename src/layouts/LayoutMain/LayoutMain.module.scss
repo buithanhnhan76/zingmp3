@@ -1,0 +1,13 @@
+@import "src/assets/styles/varibles";
+@import "src/assets/styles/utils";
+
+.layout-main-container {
+  @extend .pointer;
+
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  overflow: hidden;
+  height: 100vh;
+  color: $text-color;
+  -webkit-tap-highlight-color: transparent;
+}
