@@ -1,11 +1,14 @@
+// libs
 import { PlayCircleOutlined } from "@ant-design/icons";
+import classNames from "classnames";
 import Link from "next/link";
-// style
-import styles from "./SidebarCategoryItem.module.scss";
 // next image
 import Image from "next/image";
-// classname
-import classNames from "classnames";
+// static icon
+import LiveIcon from "../LiveIcon";
+
+// style
+import styles from "./SidebarCategoryItem.module.scss";
 
 const SidebarCategoryItem = ({
   item,
@@ -25,14 +28,12 @@ const SidebarCategoryItem = ({
         onClick={() => handleClickSideBarItem(item.title)}
       >
         <div className={styles["sidebar-item-content"]}>
-          <PlayCircleOutlined className={styles["sidebar-item-right-margin"]} />{" "}
-          {
+          <PlayCircleOutlined className={styles["sidebar-item-right-margin"]} />
             <span className={styles["sidebar-item-right-margin"]}>
               {item.title}
             </span>
-          }
           {item.title === "Radio" && (
-            <Image src={item.src} alt="live tag" width={34} height={16} />
+            <LiveIcon />
           )}
         </div>
       </div>
