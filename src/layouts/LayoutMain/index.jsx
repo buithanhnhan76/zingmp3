@@ -1,14 +1,14 @@
-// style
-import styles from "./LayoutMain.module.scss";
 // sidebar
 import Sidebar from "../Sidebar";
 // header
 import Header from "../Header";
+// style
+import styles from "./LayoutMain.module.scss";
 
-const LayoutMain = ({ trans, children }) => (
+const LayoutMain = ({ translate, children }) => (
   <div>
     <main className={styles["layout-main-container"]}>
-      <Sidebar trans={trans} />
+      <Sidebar translate={translate} />
       <div>
         <Header />
         {children}
