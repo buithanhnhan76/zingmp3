@@ -7,15 +7,11 @@ import RightSideHeader from "./mains/RightSideHeader";
 import styles from "./Header.module.scss";
 
 
-const Header = ({ backGroundColor }) => (
+const Header = () => (
   <div className={classNames(styles["header-container"])}>
     <LeftSideHeader />
     <RightSideHeader />
   </div>
 );
-
-Header.defaultProps =  {
-  backGroundColor: '',
-}
 
 export default Header;

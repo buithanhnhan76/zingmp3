@@ -1,7 +1,9 @@
 import React from "react";
 
+// login container
 import LoginContainer from "src/layouts/Header/components/LoginContainer";
 
+// mock
 import userPhoto from "src/mocks/UserData/userPhoto.jpg";
 
 export default {

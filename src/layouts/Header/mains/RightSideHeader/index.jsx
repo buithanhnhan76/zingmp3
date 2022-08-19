@@ -1,6 +1,6 @@
 // setting items
 import SettingItems from "../../components/SettingItems";
-// zalo login
+// login container
 import LoginContainer from "../../components/LoginContainer";
 // styles
 import styles from "./RightSideHeader.module.scss";
