@@ -1,0 +1,23 @@
+@import "src/assets/styles/varibles";
+@import "src/assets/styles/utils.scss";
+
+.sidebar-button-container {
+  @extend .pointer;
+  @extend .hover-darkness;
+  @extend .border-top;
+
+  height: 53px;
+  padding: 0 28px;
+  font-size: 1.3rem;
+  color: $text-color;
+
+  .sidebar-button-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .sidebar-button-icon {
+    margin-right: 10px;
+  }
+}
