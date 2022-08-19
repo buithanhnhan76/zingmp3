@@ -32,7 +32,7 @@ const SidebarCategoryItem = ({
             </span>
           }
           {item.title === "Radio" && (
-            <Image src={item.iconSrc} alt="live tag" width={34} height={16} />
+            <Image src={item.src} alt="live tag" width={34} height={16} />
           )}
         </div>
       </div>

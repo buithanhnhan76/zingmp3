@@ -1,13 +1,13 @@
 // vip banner
-import SidebarBannerVipItem from "../SidebarBannerVipItem";
+import VipBanner from "../VipBanner";
 // login banner
-import SidebarBannerLoginItem from "../SidebarBannerLoginItem";
+import LoginBanner from "../LoginBanner";
 
 const SidebarBannerItem = ({ item }) =>
   item.type === "vip-banner" ? (
-    <SidebarBannerVipItem item={item} />
+    <VipBanner item={item} />
   ) : (
-    <SidebarBannerLoginItem item={item} />
+    <LoginBanner item={item} />
   );
 
 export default SidebarBannerItem;

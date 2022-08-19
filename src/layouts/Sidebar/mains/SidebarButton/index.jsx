@@ -3,11 +3,11 @@ import { PlusOutlined } from "@ant-design/icons";
 // style
 import styles from "./SidebarButton.module.scss";
 
-const SidebarButton = ({ trans }) => (
+const SidebarButton = ({ translate }) => (
   <div className={styles["sidebar-button-container"]}>
     <div className={styles["sidebar-button-content"]}>
       <PlusOutlined className={styles["sidebar-button-icon"]} />
-      {trans.sidebar.button.label}
+      {translate.sidebar.button.buttonLabel}
     </div>
   </div>
 );
