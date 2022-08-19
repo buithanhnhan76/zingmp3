@@ -1,0 +1,15 @@
+@import "src/assets/styles/utils.scss";
+@import "src/assets/styles/varibles";
+
+.sidebar-brand-container {
+  @extend .hover-darkness;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0 28px;
+  background-color: $sidebar-background-color;
+}
