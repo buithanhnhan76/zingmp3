@@ -1,0 +1,28 @@
+@import "src/assets/styles/utils.scss";
+@import "src/assets/styles/varibles";
+
+.sidebar-item-container {
+  @extend .darkness;
+
+  border-left: 2px solid transparent;
+  padding: 7px 25px;
+
+  &:hover {
+    @extend .pointer;
+    @extend .hover-brightness;
+  }
+
+  .sidebar-item-content {
+    display: flex;
+    align-items: center;
+
+    .sidebar-item-right-margin {
+      margin-right: 10px;
+    }
+  }
+}
+
+.sidebar-item-active {
+  border-color: $banner-background-color;
+  background-color: $active-background-color;
+}
