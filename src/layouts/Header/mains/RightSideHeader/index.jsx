@@ -1,14 +1,14 @@
 // setting items
 import SettingItems from "../../components/SettingItems";
 // zalo login
-import LoginButton from "../../components/LoginButton";
+import LoginContainer from "../../components/LoginContainer";
 // styles
 import styles from "./RightSideHeader.module.scss";
 
 const RightSideHeader = () => (
   <div className={styles["header-right-container"]}>
     <SettingItems />
-    <LoginButton />
+    <LoginContainer />
   </div>
 );
 

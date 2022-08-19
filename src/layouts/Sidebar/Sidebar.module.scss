@@ -1,0 +1,10 @@
+@import "src/assets/styles/varibles";
+
+.sidebar-container {
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  width: 240px;
+  height: 100vh;
+  background-color: $sidebar-background-color;
+}
