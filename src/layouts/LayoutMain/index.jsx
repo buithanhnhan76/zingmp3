@@ -1,6 +1,5 @@
-// sidebar
+// Sidebar and header
 import Sidebar from "../Sidebar";
-// header
 import Header from "../Header";
 // style
 import styles from "./LayoutMain.module.scss";
