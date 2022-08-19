@@ -1,14 +1,14 @@
-// f2 component
+// children
 import SidebarBannerItem from "../../components/SidebarBannerItem";
 // style
 import styles from "./SidebarBannerItems.module.scss";
 
-const SideBarBannerItems = ({ trans }) => (
+const SidebarBannerItems = ({ translate }) => (
   <div className={styles["sidebar-banner-items-container"]}>
-    {trans.sidebar["banner-items"].map((item) => (
+    {translate.sidebar["bannerItems"].map((item) => (
       <SidebarBannerItem key={item.title} item={item} />
     ))}
   </div>
 );
 
-export default SideBarBannerItems;
+export default SidebarBannerItems;
