@@ -2,12 +2,18 @@
 import LoginButton from "../LoginButton";
 import UserButton from "../UserButton";
 
-const LoginContainer = ({user}) => (
-  !user?<LoginButton />:<UserButton {...user}/>
-);
+// redux
+import { useSelector } from "react-redux";
 
-LoginContainer.defaultProps = {
-  user: '',
-}
+const LoginContainer = () => {
+
+  const {authentication} = useSelector((state) => state);
+
+  return !Object.keys(authentication.user).length ? (
+    <LoginButton />
+  ) : (
+    <UserButton {...authentication.user} />
+  );
+};
 
 export default LoginContainer;
