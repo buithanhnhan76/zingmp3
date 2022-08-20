@@ -7,7 +7,6 @@ import iconZing from "public/icons/icon-zing.png";
 // multiple languages
 import LayoutMain from "src/layouts/LayoutMain";
 import useTranslate from "../hooks/useStranslate";
-// layout main
 
 const Home = () => {
   const translate = useTranslate();
