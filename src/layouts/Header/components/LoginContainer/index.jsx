@@ -2,8 +2,7 @@
 import LoginButton from "../LoginButton";
 import UserButton from "../UserButton";
 
-import { store } from "src/redux/store";
-import { useEffect, useState } from "react";
+// redux
 import { useSelector } from "react-redux";
 
 const LoginContainer = () => {
