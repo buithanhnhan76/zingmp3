@@ -4,10 +4,10 @@ import Header from "../Header";
 // style
 import styles from "./LayoutMain.module.scss";
 
-const LayoutMain = ({ translate, children }) => (
+const LayoutMain = ({children }) => (
   <div>
     <main className={styles["layout-main-container"]}>
-      <Sidebar translate={translate} />
+      <Sidebar />
       <div>
         <Header />
         {children}
