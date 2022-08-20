@@ -14,5 +14,5 @@ const Template = (args) => (
   <Header {...args}/>
 );
 
-export const HeaderBlack = Template.bind({});
+export const HeaderComponent = Template.bind({});
 
