@@ -33,4 +33,9 @@ export default {
       buttonLabel: "Tạo playlist mới",
     },
   },
+  header: {
+    searchBar: {
+      placeholder: "Tìm kiếm bài hát, nghệ sĩ, lời bài hát...",
+    },
+  },
 };

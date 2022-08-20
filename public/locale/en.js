@@ -33,4 +33,9 @@ export default {
       buttonLabel: "Create new playlist",
     },
   },
+  header: {
+    searchBar: {
+      placeholder: "Search songs, artists, lyrics...",
+    },
+  },
 };

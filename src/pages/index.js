@@ -23,7 +23,7 @@ const Home = () => {
         <meta name="description" content="Zing Mp3" />
         <link rel="icon" href={iconZing.src} />
       </Head>
-      <LayoutMain translate={translate} />
+      <LayoutMain />
     </div>
   );
 };
