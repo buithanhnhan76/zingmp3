@@ -2,9 +2,11 @@ import React from "react";
 
 import Sidebar from "src/layouts/Sidebar";
 
-// mocks data
-import vi from "public/locale/vi";
-import en from "public/locale/en";
+// redux
+import { Provider } from "react-redux";
+import { translateViAndLogIn } from "src/mocks/stories/initalState/vi";
+import { translateEnAndLogIn } from "src/mocks/stories/initalState/en";
+import { createCustomStore } from "src/redux/store";
 
 export default {
   title: "Layout/Sidebar",
@@ -14,14 +16,21 @@ export default {
   },
 };
 
-const Template = (args) => <Sidebar {...args} />;
+const Template = (initalState) => {
+  const customStore = createCustomStore(initalState)
+  return (
+    <Provider store={customStore}>
+      <Sidebar />
+    </Provider>
+  );
+};
 
-export const SidebarVi = Template.bind({});
-SidebarVi.args = {
-    translate: vi
-}
+export const SidebarInVi = Template.bind({});
+SidebarInVi.args = {
+...translateViAndLogIn
+};
 
-export const SidebarEn = Template.bind({});
-SidebarEn.args = {
-  translate: en,
+export const SidebarInEn = Template.bind({});
+SidebarInEn.args = {
+  ...translateEnAndLogIn,
 };
