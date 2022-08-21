@@ -21,3 +21,12 @@ export const store = createStore(
 const makeStore = () => store;
 
 export const wrapper = createWrapper(makeStore);
+
+// custom store
+// creating store
+export const createCustomStore = (customInitalState) =>
+  createStore(
+    rootReducer,
+    customInitalState,
+    composeWithDevTools(applyMiddleware(...middleware))
+  );
