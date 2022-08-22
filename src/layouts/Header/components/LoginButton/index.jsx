@@ -6,6 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 // mocks
 import {user} from "src/mocks/UserData/user";
 import styles from "./LoginButton.module.scss";
+// image
+import userPhoto from "public/photos/user.jpg";
 
 
 const LoginButton = () => {
@@ -19,7 +21,7 @@ const LoginButton = () => {
       className={styles["login-button-photo"]}
       width={40}
       height={40}
-      src="/photos/user.jpg"
+      src={userPhoto.src}
     />
   </button>
 };
