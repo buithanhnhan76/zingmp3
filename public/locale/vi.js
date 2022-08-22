@@ -38,4 +38,7 @@ export default {
       placeholder: "Tìm kiếm bài hát, nghệ sĩ, lời bài hát...",
     },
   },
+  partner: {
+    title: "Đối tác âm nhạc",
+  },
 };

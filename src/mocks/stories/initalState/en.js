@@ -1,3 +1,4 @@
+// photos
 import LiveTag from "public/icons/live-tag.svg";
 import userPhoto from "src/mocks/UserData/userPhoto.jpg";
 
@@ -46,6 +47,9 @@ export const translateEnAndLogIn = {
         searchBar: {
           placeholder: "Search songs, artists, lyrics...",
         },
+      },
+      partner: {
+        title: "Music partner",
       },
     },
   },
