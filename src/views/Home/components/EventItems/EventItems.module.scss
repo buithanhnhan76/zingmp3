@@ -1,8 +1,8 @@
 .event-items-container {
   display: flex;
   justify-content: space-between;
-}
 
-.event-items-container > div {
-  margin-right: 14px;
+  > div {
+    margin-right: 14px;
+  }
 }
