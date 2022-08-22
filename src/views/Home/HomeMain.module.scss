@@ -1,0 +1,8 @@
+@import "src/assets/styles/_varibles.scss";
+
+.home-main-container {
+  height: calc(100vh - 70px);
+  padding: 0 59px;
+  overflow: hidden;
+  background-color: $home-background-color;
+}
