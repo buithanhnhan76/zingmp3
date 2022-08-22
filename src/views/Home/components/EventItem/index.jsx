@@ -1,24 +1,12 @@
 import styles from "./EventItem.module.scss";
+import Image from "next/image";
+import EventItemHeader from "../EventItemHeader";
+import EventItemFooter from "../EventItemFooter";
 
 const EventItem = ({ item }) => (
   <div className={styles["event-item-container"]}>
-    <div className={styles["event-item-header"]}>
-      <img src={item.src} className={styles["event-item-header-photo"]} />
-      <div className={styles["event-item-header-content"]}>
-        <span className={styles["event-item-header-content-category"]}>
-          PHÁT HÀNH BÀI HÁT
-        </span>
-        <h3 className={styles["event-item-header-content-title"]}>Một Thời Nhanh Như Một Ngày - Doãn</h3>
-        <span className={styles["event-item-content-date"]}>19:00 Thứ Ba, 16 tháng 8</span>
-      </div>
-      <div className={styles["event-opacity"]} />
-    </div>
-    <div className={styles["event-item-footer"]}>
-        <div className={styles["event-item-footer-title"]}>Lượt quan tâm</div>
-        <div>
-          <button className={styles["event-item-footer-button"]}>Quan tâm</button>
-        </div>
-      </div>
+    <EventItemHeader item={item} />
+    <EventItemFooter item={item} />
   </div>
 );
 
