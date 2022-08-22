@@ -8,7 +8,7 @@ import { translateEnAndLogIn } from "src/mocks/stories/initalState/en";
 import { translateViAndLogIn } from "src/mocks/stories/initalState/vi";
 
 export default {
-  title: "Layout/Partner",
+  title: "Views/Home/Partner",
   component: Partner,
   parameters: {
     layout: "fullscreen",
