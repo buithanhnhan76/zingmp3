@@ -38,4 +38,7 @@ export default {
       placeholder: "Search songs, artists, lyrics...",
     },
   },
+  partner: {
+    title: "Music partner",
+  },
 };
