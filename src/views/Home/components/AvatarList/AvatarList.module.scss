@@ -1,0 +1,20 @@
+@import "src/assets/styles/_varibles.scss";
+
+.avatar-list-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+
+  .avatar-list {
+    display: flex;
+
+    > div:not(:first-child) {
+      margin-left: -4px;
+    }
+  }
+
+  .avatar-list-count {
+    color: $text-secondary;
+    font-size: 1.5rem;
+  }
+}
