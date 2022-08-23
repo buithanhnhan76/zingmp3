@@ -9,7 +9,7 @@ import LayoutMain from "src/layouts/LayoutMain";
 // redux
 import { updateLocale } from "src/redux/actions/authenticationAction";
 import { useDispatch } from "react-redux";
-import Partner from "src/views/Home/mains/Partner";
+import HomeMain from "src/views/Home";
 import useTranslate from "../hooks/useStranslate";
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
         <link rel="icon" href={iconZing.src} />
       </Head>
       <LayoutMain>
-        <Partner />
+        <HomeMain />
       </LayoutMain>
     </div>
   );
