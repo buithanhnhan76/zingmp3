@@ -1,7 +1,8 @@
-import styles from "./EventItem.module.scss";
-import Image from "next/image";
+// child
 import EventItemHeader from "../EventItemHeader";
 import EventItemFooter from "../EventItemFooter";
+// style
+import styles from "./EventItem.module.scss";
 
 const EventItem = ({ item }) => (
   <div className={styles["event-item-container"]}>
