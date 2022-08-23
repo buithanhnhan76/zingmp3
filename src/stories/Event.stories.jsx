@@ -1,11 +1,7 @@
 import React from "react";
-// partner
+// Event
 import Event from "src/views/Home/mains/Event";
-// redux
-// import { Provider } from "react-redux";
-// import { createCustomStore } from "src/redux/store";
-// import { translateEnAndLogIn } from "src/mocks/stories/initalState/en";
-// import { translateViAndLogIn } from "src/mocks/stories/initalState/vi";
+// mock
 import { listEvents } from "src/mocks/Event";
 
 export default {
@@ -22,7 +18,7 @@ const Template = (args) => {
   );
 };
 
-export const EventDemo = Template.bind({});
-EventDemo.args = {
+export const EventComponent = Template.bind({});
+EventComponent.args = {
   items: listEvents,
 }
