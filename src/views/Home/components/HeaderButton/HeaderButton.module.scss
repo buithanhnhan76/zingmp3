@@ -1,0 +1,15 @@
+@import "src/assets/styles/_varibles.scss";
+
+.header-button {
+  &::before {
+    content: "\003C";
+    font-size: 20px;
+    color: $event-button-color;
+  }
+
+  &::after {
+    content: "\003E";
+    padding-left: 25px;
+    font-size: 20px;
+  }
+}

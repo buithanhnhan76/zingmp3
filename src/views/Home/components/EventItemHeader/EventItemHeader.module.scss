@@ -3,6 +3,7 @@
 .event-item-header {
   position: relative;
   overflow: hidden;
+  border-radius: 4px;
   width: 340px;
   height: 190px;
 
@@ -20,19 +21,20 @@
   .event-item-content {
     position: absolute;
     bottom: 0;
-    padding: 13px 10px;
     z-index: 10;
+    padding: 13px 10px;
 
     .event-item-content-date {
       font-size: 1.5rem;
     }
 
     .event-item-content-category {
-      color: $text-red;
-      font-size: 9px;
-      background-color: white;
       display: inline-block;
       padding: 2px 4px;
+      font-size: 9px;
+      text-transform: uppercase;
+      color: $text-red;
+      background-color: white;
     }
 
     .event-item-content-title {

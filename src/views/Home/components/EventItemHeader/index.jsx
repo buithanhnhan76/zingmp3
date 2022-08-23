@@ -8,13 +8,13 @@ const EventItemHeader = ({ item }) => (
     <Image layout="fill" objectFit="cover" src={item.src} />
     <div className={styles["event-item-content"]}>
       <span className={styles["event-item-content-category"]}>
-        PHÁT HÀNH BÀI HÁT
+        {item.category}
       </span>
       <h3 className={styles["event-item-content-title"]}>
-        Một Thời Nhanh Như Một Ngày - Doãn
+        {item.title}
       </h3>
       <span className={styles["event-item-content-date"]}>
-        19:00 Thứ Ba, 16 tháng 8
+        {item.date}
       </span>
     </div>
     <div className={styles["event-item-header-opacity"]} />
