@@ -1,3 +1,4 @@
+// photos
 import chiDan from "public/photos/chi-dan.png";
 import trinhThanhBinh from "public/photos/trinh-thanh-binh.png";
 import mrSiro from "public/photos/mr-siro.png";
