@@ -1,0 +1,8 @@
+.favorite-artist-item-photos-container {
+  display: flex;
+  justify-content: space-between;
+
+  .favorite-artist-item-photo {
+    border-radius: 10px;
+  }
+}

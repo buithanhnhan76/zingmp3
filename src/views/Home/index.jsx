@@ -8,6 +8,7 @@ import Chill from "./mains/Chill";
 import NewSongEveryDay from "./mains/NewSongEveryDay";
 import Top100 from "./mains/Top100";
 import Banner from "./mains/Banner";
+import FavoriteArtist from "./mains/FavoriteArtist";
 // style
 import styles from "./HomeMain.module.scss";
 
@@ -15,6 +16,7 @@ const HomeMain = () => (
   <div className={styles["home-main-container"]}>
     <MediaCarousel />
     <Chill />
+    <FavoriteArtist />
     <NewSongEveryDay />
     <Banner />
     <ArtistCarousel />
