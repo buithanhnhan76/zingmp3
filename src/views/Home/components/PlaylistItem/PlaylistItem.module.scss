@@ -1,0 +1,9 @@
+@import "src/assets/styles/_varibles.scss";
+
+.playlist-item-container {
+  font-size: 1.4rem;
+
+  .plaaylist-item-desc {
+    color: $playlist-desc-color;
+  }
+}
