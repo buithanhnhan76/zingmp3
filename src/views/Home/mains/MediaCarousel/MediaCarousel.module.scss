@@ -1,0 +1,13 @@
+.carousel-container {
+  position: relative;
+  margin: 20px 0;
+  width: 1120px;
+  height: 160px;
+
+  .carousel-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 160px;
+  }
+}
