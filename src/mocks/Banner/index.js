@@ -1,3 +1,4 @@
+// photos
 import bannerOne from "public/photos/banner-one.jpg";
 import bannerTwo from "public/photos/banner-two.jpg";
 import bannerThree from "public/photos/banner-three.jpg";
