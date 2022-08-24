@@ -2,12 +2,16 @@
   position: relative;
   margin: 20px 0;
   width: 1120px;
-  height: 160px;
+  height: 190px;
 
   .carousel-item {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    height: 160px;
+    height: 190px;
+
+    .carousel-image {
+      border-radius: 26px;
+    }
   }
 }

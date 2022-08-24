@@ -19,7 +19,7 @@ const MediaCarousel = () => {
       <Carousel autoplay dots={false} slidesToShow={3} ref={carousel}>
         {listMediaCarousel.map((item) => (
           <div key={item.id} className={classNames(styles["carousel-item"])}>
-            <Image src={item.src} layout="fill" objectFit="cover" />
+            <Image src={item.src} layout="fill" objectFit="contain" className={styles["carousel-image"]}/>
           </div>
         ))}
       </Carousel>
