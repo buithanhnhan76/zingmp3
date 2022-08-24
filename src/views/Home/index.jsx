@@ -1,3 +1,4 @@
+// child
 import Partner from "src/views/Home/mains/Partner";
 import Event from "src/views/Home/mains/Event";
 import ArtistCarousel from "./mains/ArtistCarousel";
@@ -6,6 +7,7 @@ import XOneCorner from "./mains/XOneCorner";
 import Chill from "./mains/Chill";
 import NewSongEveryDay from "./mains/NewSongEveryDay";
 import Top100 from "./mains/Top100";
+import Banner from "./mains/Banner";
 // style
 import styles from "./HomeMain.module.scss";
 
@@ -14,8 +16,9 @@ const HomeMain = () => (
     <MediaCarousel />
     <Chill />
     <NewSongEveryDay />
-    <Top100 />
+    <Banner />
     <ArtistCarousel />
+    <Top100 />
     <XOneCorner />
     <Event />
     <Partner />
