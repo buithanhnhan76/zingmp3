@@ -1,9 +1,10 @@
 .carousel-container {
+  position: relative;
   height: 160px;
   width: 1120px;
 
   .carousel-item {
-    height: 160px;
     position: relative;
+    height: 160px;
   }
 }
