@@ -11,6 +11,7 @@ import Banner from "./mains/Banner";
 import FavoriteArtist from "./mains/FavoriteArtist";
 import Chart from "./mains/Chart";
 import NewRelease from "./mains/NewRelease";
+import OutStandingRadio from "./mains/OutStandingRadio";
 // style
 import styles from "./HomeMain.module.scss";
 
@@ -26,6 +27,7 @@ const HomeMain = () => (
     <ArtistCarousel />
     <Top100 />
     <XOneCorner />
+    <OutStandingRadio />
     <Event />
     <Partner />
   </div>
