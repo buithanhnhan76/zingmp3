@@ -1,0 +1,14 @@
+@import "src/assets/styles/_varibles.scss";
+
+.new-release-item-container {
+  display: flex;
+
+  .new-release-item-photo {
+    margin-right: 10px !important;
+    border-radius: 5px;
+  }
+
+  .new-release-item-details {
+    color: $text-secondary;
+  }
+}
