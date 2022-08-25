@@ -10,12 +10,14 @@ import Top100 from "./mains/Top100";
 import Banner from "./mains/Banner";
 import FavoriteArtist from "./mains/FavoriteArtist";
 import Chart from "./mains/Chart";
+import NewRelease from "./mains/NewRelease";
 // style
 import styles from "./HomeMain.module.scss";
 
 const HomeMain = () => (
   <div className={styles["home-main-container"]}>
     <MediaCarousel />
+    <NewRelease />
     <Chill />
     <FavoriteArtist />
     <NewSongEveryDay />
