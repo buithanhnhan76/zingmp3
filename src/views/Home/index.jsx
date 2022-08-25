@@ -9,6 +9,7 @@ import NewSongEveryDay from "./mains/NewSongEveryDay";
 import Top100 from "./mains/Top100";
 import Banner from "./mains/Banner";
 import FavoriteArtist from "./mains/FavoriteArtist";
+import Chart from "./mains/Chart";
 // style
 import styles from "./HomeMain.module.scss";
 
@@ -18,6 +19,7 @@ const HomeMain = () => (
     <Chill />
     <FavoriteArtist />
     <NewSongEveryDay />
+    <Chart />
     <Banner />
     <ArtistCarousel />
     <Top100 />
