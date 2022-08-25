@@ -1,3 +1,5 @@
+@import "src/assets/styles/_varibles.scss";
+
 .button-container {
   border-radius: 20px;
   padding: 5px 25px;
@@ -10,4 +12,24 @@
 
 .background-transparent {
   background-color: transparent;
+}
+
+.background-purple {
+  background-color: $background-purple;
+}
+
+.border-none {
+  border: none;
+}
+
+.text-secondary {
+  color: $text-secondary;
+}
+
+.button-arrow {
+  &::after {
+    content: "\003E";
+    padding-left: 5px;
+    font-size: 20px;
+  }
 }

@@ -1,0 +1,13 @@
+.new-release-header-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0 20px;
+
+  .group-button-left {
+    display: flex;
+
+    > button {
+      margin-right: 10px;
+    }
+  }
+}
