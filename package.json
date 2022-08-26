@@ -61,7 +61,7 @@
     "stylelint-config-standard-scss": "^5.0.0"
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js, jsx}": [
       "eslint --cache --fix",
       "prettier --write"
     ],

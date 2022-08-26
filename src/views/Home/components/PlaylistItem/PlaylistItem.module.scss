@@ -3,7 +3,15 @@
 .playlist-item-container {
   font-size: 1.4rem;
 
-  .plaaylist-item-desc {
-    color: $playlist-desc-color;
+  .playlist-item-photo {
+    border-radius: 10px;
+  }
+
+  .playlist-item-title {
+    color: #fff;
+  }
+
+  .playlist-item-desc {
+    color: $text-secondary;
   }
 }
