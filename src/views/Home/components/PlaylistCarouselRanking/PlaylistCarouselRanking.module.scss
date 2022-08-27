@@ -6,46 +6,5 @@
   .carousel-container {
     height: 150px;
     width: 1120px;
-
-    .playlist-carousel-ranking-item {
-      display: flex;
-      background-color: $gray-background-color;
-      width: 340px;
-      height: 150px;
-      padding: 10px;
-
-      .playlist-carousel-ranking-content {
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        .playlist-carousel-ranking-item-title {
-          margin-bottom: 0;
-        }
-
-        .playlist-carousel-ranking-item-artists {
-          font-size: 1.2rem;
-          color: $text-secondary;
-        }
-
-        .playlist-carousel-ranking-item-content-footer {
-          display: flex;
-          justify-content: space-between;
-          color: $text-secondary;
-        }
-      }
-
-      .playlist-carousel-ranking-item-photo {
-        position: relative;
-        border-radius: 5px;
-        width: 120px;
-        overflow: hidden;
-      }
-
-      > div:not(:last-child) {
-        margin-right: 10px;
-      }
-    }
   }
 }
