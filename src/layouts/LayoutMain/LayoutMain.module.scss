@@ -7,6 +7,8 @@
   display: grid;
   grid-template-columns: 240px 1fr;
   overflow: hidden;
+  margin: 0 auto;
+  max-width: 1440px;
   height: 100vh;
   color: $text-color;
   -webkit-tap-highlight-color: transparent;

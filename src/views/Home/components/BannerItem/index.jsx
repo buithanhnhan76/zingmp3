@@ -1,9 +1,11 @@
 // libs
 import Image from "next/image";
+// style
+import styles from "./BannerItem.module.scss";
 
 const BannerItem = ({ src }) => (
-  <div>
-    <Image src={src} width={340} height={100} />
+  <div className={styles["banner-item-photo-container"]}>
+    <Image src={src} layout="fill" objectFit="cover" />
   </div>
 );
 

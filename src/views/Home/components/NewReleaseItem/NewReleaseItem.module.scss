@@ -3,9 +3,13 @@
 .new-release-item-container {
   display: flex;
 
-  .new-release-item-photo {
+  .new-release-item-photo-container {
+    position: relative;
+    overflow: hidden;
     margin-right: 10px !important;
     border-radius: 5px;
+    width: 60px;
+    height: 60px;
   }
 
   .new-release-item-details {

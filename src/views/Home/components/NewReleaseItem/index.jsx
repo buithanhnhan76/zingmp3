@@ -5,13 +5,9 @@ import styles from "./NewReleaseItem.module.scss";
 
 const NewReleaseItem = ({ item }) => (
   <div className={styles["new-release-item-container"]}>
-    <Image
-      src={item.src}
-      width={60}
-      height={60}
-      objectFit="cover"
-      className={styles["new-release-item-photo"]}
-    />
+    <div className={styles["new-release-item-photo-container"]}>
+      <Image src={item.src} layout="fill" objectFit="cover" />
+    </div>
     <div>
       <h3>{item.title}</h3>
       <p className={styles["new-release-item-details"]}>{item.artists}</p>
