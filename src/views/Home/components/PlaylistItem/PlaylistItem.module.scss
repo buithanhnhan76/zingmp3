@@ -1,6 +1,7 @@
 @import "src/assets/styles/_varibles.scss";
 
 .playlist-item-container {
+  min-width: 195px;
   font-size: 1.4rem;
 
   .playlist-item-photo-container {
@@ -11,8 +12,13 @@
     height: 195px;
   }
 
-  .playlist-item-title {
-    font-size: 1.4rem;
+  .playlist-item-photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    min-width: 195px;
+    width: 97%;
+    height: 210px;
   }
 
   .playlist-item-desc {
