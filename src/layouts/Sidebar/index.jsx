@@ -8,17 +8,13 @@ import { useSelector } from "react-redux";
 // Sidebar style
 import styles from "./Sidebar.module.scss";
 
-const Sidebar = () => {
-  const {translate} = useSelector((state) => state.locale);
-
-  return (
-    <div className={styles["sidebar-container"]}>
-      <SidebarBrand />
-      <SidebarItems translate={translate}/>
-      <SidebarBannerItems translate={translate} />
-      <SidebarButton translate={translate} />
-    </div>
-  );
-};
+const Sidebar = () => (
+  <div className={styles["sidebar-container"]}>
+    <SidebarBrand />
+    <SidebarItems />
+    <SidebarBannerItems />
+    <SidebarButton />
+  </div>
+);
 
 export default Sidebar;
