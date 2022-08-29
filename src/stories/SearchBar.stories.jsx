@@ -4,7 +4,7 @@ import React from "react";
 import SearchBar from "src/layouts/Header/components/SearchBar";
 
 export default {
-  title: "Layout/Header/SearchBar",
+  title: "Layout/Header/Components/SearchBar",
   component: SearchBar,
   parameters: {
     layout: "centered",
