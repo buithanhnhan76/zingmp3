@@ -6,14 +6,13 @@ import { useSelector } from "react-redux";
 import styles from "./SearchBar.module.scss";
 
 const SearchBar = () => {
-  const { translate } = useSelector((state) => state.locale);
+  const { placeholder } = useSelector(
+    (state) => state.locale.translate.header.searchBar
+  );
   return (
     <div className={styles["search-bar-container"]}>
       <SearchOutlined style={{ fontSize: "16px", color: "#b3b2b6" }} />
-      <input
-        placeholder={translate.header.searchBar.placeholder}
-        className={styles["search-bar"]}
-      />
+      <input placeholder={placeholder} className={styles["search-bar"]} />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import Header from "../Header";
 // style
 import styles from "./LayoutMain.module.scss";
 
-const LayoutMain = ({children }) => (
+const LayoutMain = ({ children }) => (
   <div>
     <main className={styles["layout-main-container"]}>
       <Sidebar />
