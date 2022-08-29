@@ -8,7 +8,7 @@ import styles from "./SidebarItems.module.scss";
 
 const SidebarItems = () => {
   // redux
-  const {items} = useSelector((state) => state.locale.translate.sidebar);
+  const { items } = useSelector((state) => state.locale.translate.sidebar);
   // selected sidebar item
   const [selectedSideBarItem, setSelectedSideBarItem] = useState("");
   return (

@@ -15,9 +15,9 @@ const PlaylistCarouselRanking = () => (
       autoplay
       className={styles["carousel-container"]}
     >
-      {listCarouselRankingSongs.map(
-        (song) => <PlaylistCarouselRankingItems key={song.id} song={song}/>
-      )}
+      {listCarouselRankingSongs.map((song) => (
+        <PlaylistCarouselRankingItems key={song.id} song={song} />
+      ))}
     </Carousel>
   </div>
 );

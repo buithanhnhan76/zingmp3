@@ -17,7 +17,12 @@ const TopSongItem = ({ song }) => (
       {song.rank}
     </div>
     <div>
-      <Image src={song.src} width={60} height={60} className={styles["top-song-item-photo"]} />
+      <Image
+        src={song.src}
+        width={60}
+        height={60}
+        className={styles["top-song-item-photo"]}
+      />
     </div>
     <div>
       <div className={styles["top-song-item-title"]}>{song.title}</div>

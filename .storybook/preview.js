@@ -1,4 +1,11 @@
+// redux
+import { Provider } from "react-redux";
+import { translateViAndLogIn } from "src/mocks/stories/initalState/vi";
+import { createCustomStore } from "src/redux/store";
+
 import "styles/globals.css";
+
+const customStore = createCustomStore(translateViAndLogIn);
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -9,3 +16,11 @@ export const parameters = {
     },
   },
 };
+
+export const decorators = [
+  (Story) => (
+    <Provider store={customStore}>
+      <Story />
+    </Provider>
+  ),
+];

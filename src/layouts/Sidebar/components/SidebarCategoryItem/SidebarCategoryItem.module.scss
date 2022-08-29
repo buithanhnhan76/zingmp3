@@ -5,7 +5,10 @@
   @extend .darkness;
 
   border-left: 2px solid transparent;
+  max-width: 240px;
   padding: 7px 25px;
+  background-color: $sidebar-background-color;
+  color: $text-color;
 
   &:hover {
     @extend .pointer;
@@ -24,5 +27,4 @@
 
 .sidebar-item-active {
   border-color: $banner-background-color;
-  background-color: $active-background-color;
 }
