@@ -3,7 +3,7 @@ import styles from "./PlaylistItem.module.scss";
 
 const PlaylistItem = ({ item }) => (
   <div className={styles["playlist-item-container"]}>
-    <div className={styles["playlist-item-photo"]}>
+    <div className={styles["playlist-item-photo-container"]}>
       <Image src={item.src} layout="fill" objectFit="cover" />
     </div>
     <div className={styles["playlist-item-title"]}>{item.title}</div>

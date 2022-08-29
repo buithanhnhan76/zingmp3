@@ -4,6 +4,14 @@
   min-width: 195px;
   font-size: 1.4rem;
 
+  .playlist-item-photo-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 195px;
+    height: 195px;
+  }
+
   .playlist-item-photo {
     position: relative;
     overflow: hidden;
@@ -11,10 +19,6 @@
     min-width: 195px;
     width: 97%;
     height: 210px;
-  }
-
-  .playlist-item-title {
-    color: #fff;
   }
 
   .playlist-item-desc {
