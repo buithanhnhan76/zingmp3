@@ -9,7 +9,7 @@ import styles from "./TopSongItems.module.scss";
 const TopSongItems = () => (
   <div className={styles["top-song-items-container"]}>
     {listTopSongs.map((song) => (
-      <TopSongItem song={song} />
+      <TopSongItem song={song} key={song.id} />
     ))}
     <div className={styles["top-song-items-buttons"]}>
       <Button buttonLabel="Xem thêm" />

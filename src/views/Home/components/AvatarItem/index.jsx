@@ -6,7 +6,7 @@ import userPhoto from "public/photos/user.jpg";
 
 const AvatarItem = () => (
   <div className={styles["avatar-item-container"]}>
-   <Image src={userPhoto.src} layout="fill" />
+    <Image src={userPhoto.src} layout="fill" />
   </div>
 );
 

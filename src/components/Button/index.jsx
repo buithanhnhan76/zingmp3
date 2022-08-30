@@ -3,7 +3,14 @@ import classNames from "classnames";
 // style
 import styles from "./Button.module.scss";
 
-const Button = ({ buttonLabel, borderColor, backGroundColor, border, color, arrow }) => (
+const Button = ({
+  buttonLabel,
+  borderColor,
+  backGroundColor,
+  border,
+  color,
+  arrow,
+}) => (
   <button
     className={classNames(
       styles["button-container"],
