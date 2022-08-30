@@ -6,8 +6,10 @@
   @extend .hover-darkness;
   @extend .border-top;
 
+  max-width: 240px;
   height: 53px;
   padding: 0 28px;
+  background-color: $sidebar-background-color;
   font-size: 1.3rem;
   color: $text-color;
 
