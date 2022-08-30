@@ -1,15 +1,19 @@
 import { useState } from "react";
 // children
 import SidebarItem from "../../components/SidebarItem";
+// redux
+import { useSelector } from "react-redux";
 // style
 import styles from "./SidebarItems.module.scss";
 
-const SidebarItems = ({ translate }) => {
+const SidebarItems = () => {
+  // redux
+  const { items } = useSelector((state) => state.locale.translate.sidebar);
   // selected sidebar item
   const [selectedSideBarItem, setSelectedSideBarItem] = useState("");
   return (
     <div className={styles["side-bar-items-container"]}>
-      {translate.sidebar.items.map((item) => (
+      {items.map((item) => (
         <SidebarItem
           key={item.title}
           item={item}

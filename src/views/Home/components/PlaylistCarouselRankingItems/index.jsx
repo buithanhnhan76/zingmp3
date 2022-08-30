@@ -4,7 +4,7 @@ import Image from "next/image";
 // style
 import styles from "./PlaylistCarouselRankingItems.module.scss";
 
-const PlaylistCarouselRankingItems = ({song}) => (
+const PlaylistCarouselRankingItems = ({ song }) => (
   <div key={song.id}>
     <div className={styles["playlist-carousel-ranking-item"]}>
       <div className={styles["playlist-carousel-ranking-item-photo"]}>

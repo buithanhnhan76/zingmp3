@@ -2,11 +2,11 @@
 import Sidebar from "../Sidebar";
 import Header from "../Header";
 // style
-import styles from "./LayoutMain.module.scss";
+import styles from "./MainLayout.module.scss";
 
-const LayoutMain = ({children }) => (
+const MainLayout = ({ children }) => (
   <div>
-    <main className={styles["layout-main-container"]}>
+    <main className={styles["main-layout-container"]}>
       <Sidebar />
       <div>
         <Header />
@@ -16,4 +16,4 @@ const LayoutMain = ({children }) => (
   </div>
 );
 
-export default LayoutMain;
+export default MainLayout;

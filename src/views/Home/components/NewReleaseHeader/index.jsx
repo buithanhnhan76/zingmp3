@@ -10,7 +10,12 @@ const NewReleaseHeader = () => (
       <Button buttonLabel="ALBUM" />
     </div>
     <div>
-      <Button buttonLabel="TẤT CẢ" border="none" color="secondary" arrow={true} />
+      <Button
+        buttonLabel="TẤT CẢ"
+        border="none"
+        color="secondary"
+        arrow={true}
+      />
     </div>
   </div>
 );

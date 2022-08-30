@@ -6,8 +6,7 @@ import UserButton from "../UserButton";
 import { useSelector } from "react-redux";
 
 const LoginContainer = () => {
-
-  const {authentication} = useSelector((state) => state);
+  const { authentication } = useSelector((state) => state);
 
   return !Object.keys(authentication.user).length ? (
     <LoginButton />
