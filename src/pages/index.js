@@ -5,7 +5,7 @@ import Head from "next/head";
 import React from "react";
 import iconZing from "public/icons/icon-zing.png";
 // multiple languages
-import LayoutMain from "src/layouts/LayoutMain";
+import MainLayout from "src/layouts/MainLayout";
 // redux
 import { updateLocale } from "src/redux/actions/authenticationAction";
 import { useDispatch } from "react-redux";
@@ -24,9 +24,9 @@ const Home = () => {
         <meta name="description" content="Zing Mp3" />
         <link rel="icon" href={iconZing.src} />
       </Head>
-      <LayoutMain>
+      <MainLayout>
         <HomeMain />
-      </LayoutMain>
+      </MainLayout>
     </div>
   );
 };

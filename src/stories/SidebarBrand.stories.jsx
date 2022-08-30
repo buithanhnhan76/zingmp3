@@ -7,7 +7,7 @@ export default {
   title: "Layout/Sidebar/Mains",
   component: SideBarBrand,
   parameters: {
-    layout: "centered",
+    layout: "fullscreen",
   },
 };
 
