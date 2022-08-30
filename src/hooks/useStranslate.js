@@ -7,8 +7,6 @@ import vi from "public/locale/vi";
 const useTranslate = () => {
   const { locale } = useRouter();
 
-  console.log(useRouter());
-
   const translate = locale === "vi" ? vi : en;
 
   return translate;
