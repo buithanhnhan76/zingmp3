@@ -1,3 +1,6 @@
+// link ECP
+// https://docs.google.com/spreadsheets/d/1Vx7AKq2WthocXDR1r1Ds8eutU1mvVD_G/edit?usp=sharing&ouid=106284170962344696887&rtpof=true&sd=true
+
 import useTranslate from "src/hooks/useStranslate";
 import "@testing-library/jest-dom";
 import { locales } from "public/locale";
