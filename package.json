@@ -13,12 +13,14 @@
     "predeploy": "npm run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "build-storybook",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@ant-design/plots": "^1.2.1",
     "antd": "^4.22.7",
+    "eslint-plugin-cypress": "^2.12.1",
     "next": "12.2.3",
     "next-redux-wrapper": "^7.0.5",
     "normalize.css": "^8.0.1",
@@ -28,6 +30,8 @@
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
+    "cypress": "^10.7.0",
+    "cypress-real-events": "^1.7.1",
     "sass": "^1.54.3"
   },
   "devDependencies": {

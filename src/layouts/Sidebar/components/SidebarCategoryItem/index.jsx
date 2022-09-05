@@ -20,12 +20,13 @@ const SidebarCategoryItem = ({
   };
 
   return (
-    <Link href="#">
+    <Link href="/">
       <div
         className={classNames(styles["sidebar-item-container"], {
           [styles["sidebar-item-active"]]: item.title === selectedSideBarItem,
         })}
         onClick={() => handleClickSideBarItem(item.title)}
+        data-cy="sidebar-category-item"
       >
         <div className={styles["sidebar-item-content"]}>
           <PlayCircleOutlined className={styles["sidebar-item-right-margin"]} />
