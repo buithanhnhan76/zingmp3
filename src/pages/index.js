@@ -1,21 +1,17 @@
 // libs
 import "normalize.css";
+import React from "react";
 // Head
 import Head from "next/head";
-import React from "react";
+// photos
 import iconZing from "public/icons/icon-zing.png";
-// multiple languages
-import MainLayout from "src/layouts/MainLayout";
 // redux
-import { updateLocale } from "src/redux/actions/authenticationAction";
-import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+// component
 import HomeMain from "src/views/Home";
-import useTranslate from "../hooks/useStranslate";
 
 const Home = () => {
-  const translate = useTranslate();
-  const dispatch = useDispatch();
-  dispatch(updateLocale({ translate }));
+  const translate = useSelector((state) => state.locale.translate);
 
   return (
     <div>
@@ -24,9 +20,7 @@ const Home = () => {
         <meta name="description" content="Zing Mp3" />
         <link rel="icon" href={iconZing.src} />
       </Head>
-      <MainLayout>
-        <HomeMain />
-      </MainLayout>
+      <HomeMain />
     </div>
   );
 };
