@@ -67,11 +67,11 @@
   },
   "lint-staged": {
     "*.{js, jsx}": [
-      "eslint --cache --fix",
-      "prettier --write"
+      "npx eslint --cache --fix",
+      "npx prettier --write"
     ],
     "*.{css,scss}": [
-      "stylelint --fix"
+      "npx stylelint --fix"
     ]
   }
 }

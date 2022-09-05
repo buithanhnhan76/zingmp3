@@ -1,4 +1,7 @@
+@import "src/assets/styles/_varibles.scss";
+
 .sidebar-line-item-container {
   width: 190px;
   padding: 7px 25px;
+  background-color: $sidebar-background-color;
 }

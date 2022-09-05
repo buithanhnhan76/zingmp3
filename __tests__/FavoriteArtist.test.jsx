@@ -1,5 +1,3 @@
-// __tests__/index.test.jsx
-
 import { render, screen } from "@testing-library/react";
 import FavoriteArtist from "src/views/Home/mains/FavoriteArtist";
 import "@testing-library/jest-dom";
