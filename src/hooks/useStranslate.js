@@ -6,7 +6,6 @@ import { locales } from "public/locale";
 const useTranslate = () => {
   const { locale } = useRouter();
 
-  // const translate = locale === "vi" ? vi : en;
   const translate = locales[locale];
 
   return translate;
