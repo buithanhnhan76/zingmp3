@@ -5,7 +5,7 @@ import NewReleaseItems from "../../components/NewReleaseItems";
 import styles from "./NewRelease.module.scss";
 
 const NewRelease = () => (
-  <div>
+  <div className={styles["new-release-container"]}>
     <h3 className={styles["new-release-title"]}>Mới Phát Hành</h3>
     <NewReleaseHeader />
     <NewReleaseItems />

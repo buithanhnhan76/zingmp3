@@ -19,6 +19,7 @@ const LoginButton = () => {
     <button
       className={styles["login-button-container"]}
       onClick={() => handleLogin()}
+      data-cy="login-button"
     >
       <Image
         className={styles["login-button-photo"]}

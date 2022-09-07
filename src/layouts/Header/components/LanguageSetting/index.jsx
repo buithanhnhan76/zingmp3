@@ -20,6 +20,7 @@ const LanguageSetting = () => {
     <div className={styles["language-setting-container"]}>
       <select
         className={styles["language-select"]}
+        data-cy="change-language"
         onChange={(e) => handleChangeLanguage(e.target.value)}
         value={selectedLocale}
       >

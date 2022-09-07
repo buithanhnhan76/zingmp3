@@ -11,7 +11,7 @@ const UserButton = ({ src }) => {
     dispatch(logOut());
   };
   return (
-    <button className={styles["user-button"]} onClick={() => handleLogout()}>
+    <button className={styles["user-button"]} onClick={() => handleLogout()} data-cy="user-button">
       <Image
         className={styles["user-button-photo"]}
         width={40}

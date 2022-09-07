@@ -60,4 +60,12 @@ export const listRadios = [
     hostSrc: radioHostPhotoOne.src,
     tagSrc: LiveTag.src,
   },
+  {
+    id: 8,
+    name: "Radio eight",
+    listener: 300,
+    src: radioPhotoOne.src,
+    hostSrc: radioHostPhotoOne.src,
+    tagSrc: LiveTag.src,
+  },
 ];
