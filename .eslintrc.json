@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+  "extends": ["next/core-web-vitals", "plugin:react/recommended", "plugin:cypress/recommended", "airbnb", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -20,6 +20,7 @@
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "default-param-last": "off",
+    "cypress/no-unnecessary-waiting": "off",
     "consistent-return": "off",
     "react/function-component-definition": [
       2,

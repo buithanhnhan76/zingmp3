@@ -13,3 +13,9 @@ export default {
 const Template = () => <MainLayout />;
 
 export const MainLayoutComponent = Template.bind({});
+
+MainLayoutComponent.parameters =  {
+  nextRouter: {
+    locale: "vi"
+  }
+}
