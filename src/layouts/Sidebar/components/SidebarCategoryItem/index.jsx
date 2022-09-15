@@ -20,6 +20,7 @@ const SidebarCategoryItem = ({
     <Link href="/">
       <a>
         <div
+          id="sidebar-item-image"
           className={classNames(styles["sidebar-item-container"], {
             [styles["sidebar-item-active"]]: item.title === selectedSideBarItem,
           })}

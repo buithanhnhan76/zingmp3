@@ -20,8 +20,5 @@ describe("Sidebar Category component", () => {
     // action
     render(<SidebarCategoryItem item={item} />);
     // assert
-    const testImage = document.querySelector("img");
-    expect(testImage.src).toContain("/_next/static/media/live-tag.9a546247.svg");
-
   });
 });
