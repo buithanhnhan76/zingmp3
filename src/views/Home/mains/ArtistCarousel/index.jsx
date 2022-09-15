@@ -10,12 +10,6 @@ import CarouselRightButton from "../../components/CarouselRightButton";
 // style
 import styles from "./ArtistCarousel.module.scss";
 
-const contentStyle = {
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-};
 const ArtistCarousel = () => {
   const carousel = useRef();
 
@@ -24,7 +18,7 @@ const ArtistCarousel = () => {
       <Carousel autoplay dots={false} slidesToShow={7} ref={carousel}>
         {listArtistCarousel.map((item) => (
           <div key={item.id} className={styles["carousel-item"]}>
-            <Image src={item.src} layout="fill" style={contentStyle} />
+            <Image src={item.src} layout="fill" />
           </div>
         ))}
       </Carousel>
