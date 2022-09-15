@@ -1,12 +1,9 @@
 // libs
-import { PlayCircleOutlined } from "@ant-design/icons";
 import classNames from "classnames";
 import Link from "next/link";
-// next image
 import Image from "next/image";
 // static icon
 import LiveIcon from "../LiveIcon";
-
 // style
 import styles from "./SidebarCategoryItem.module.scss";
 
@@ -29,7 +26,9 @@ const SidebarCategoryItem = ({
         data-cy="sidebar-category-item"
       >
         <div className={styles["sidebar-item-content"]}>
-          <PlayCircleOutlined className={styles["sidebar-item-right-margin"]} />
+          <div className={styles["sidebar-item-right-margin"]}>
+            <Image src={item.src} width={15} height={15} />
+          </div>
           <span className={styles["sidebar-item-right-margin"]}>
             {item.title}
           </span>
