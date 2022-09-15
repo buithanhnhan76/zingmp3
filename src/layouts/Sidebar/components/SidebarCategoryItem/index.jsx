@@ -18,23 +18,30 @@ const SidebarCategoryItem = ({
 
   return (
     <Link href="/">
-      <div
-        className={classNames(styles["sidebar-item-container"], {
-          [styles["sidebar-item-active"]]: item.title === selectedSideBarItem,
-        })}
-        onClick={() => handleClickSideBarItem(item.title)}
-        data-cy="sidebar-category-item"
-      >
-        <div className={styles["sidebar-item-content"]}>
-          <div className={classNames(styles["sidebar-item-icon"], styles["sidebar-item-right-margin"])}>
-            <Image src={item.src} width={15} height={15} />
+      <a>
+        <div
+          className={classNames(styles["sidebar-item-container"], {
+            [styles["sidebar-item-active"]]: item.title === selectedSideBarItem,
+          })}
+          onClick={() => handleClickSideBarItem(item.title)}
+          data-cy="sidebar-category-item"
+        >
+          <div className={styles["sidebar-item-content"]}>
+            <div
+              className={classNames(
+                styles["sidebar-item-icon"],
+                styles["sidebar-item-right-margin"]
+              )}
+            >
+              <Image src={item.src} width={15} height={15} />
+            </div>
+            <span className={styles["sidebar-item-right-margin"]}>
+              {item.title}
+            </span>
+            {item.title === "Radio" && <LiveIcon />}
           </div>
-          <span className={styles["sidebar-item-right-margin"]}>
-            {item.title}
-          </span>
-          {item.title === "Radio" && <LiveIcon />}
         </div>
-      </div>
+      </a>
     </Link>
   );
 };

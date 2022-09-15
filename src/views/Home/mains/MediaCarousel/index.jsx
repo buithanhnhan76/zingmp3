@@ -24,6 +24,7 @@ const MediaCarousel = () => {
               layout="fill"
               objectFit="contain"
               className={styles["carousel-image"]}
+              priority={item.id === 1}
             />
           </div>
         ))}
