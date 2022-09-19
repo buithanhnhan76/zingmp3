@@ -11,15 +11,15 @@ export default {
   },
 };
 
-let item = { title: "Radio" };
-const selectedSibarItem = "Radio";
+const item = { title: "Radio" };
+const selectedSideBarItem = "Radio";
 const setSelectedSideBarItem = () => {};
 
 const Template = (args) => <SidebarCategoryItem {...args} />;
 
 export const SidebarComponent = Template.bind({});
 SidebarComponent.args = {
-  item: item,
-  selectedSideBarItem: selectedSibarItem,
-  setSelectedSideBarItem: setSelectedSideBarItem,
+  item,
+  selectedSideBarItem,
+  setSelectedSideBarItem,
 };

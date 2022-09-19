@@ -21,6 +21,7 @@ const Button = ({
       { [styles["text-secondary"]]: color === "secondary" },
       { [styles["button-arrow"]]: arrow === true }
     )}
+    type="button"
   >
     {buttonLabel}
   </button>

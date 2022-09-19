@@ -14,7 +14,7 @@ const NewReleaseHeader = () => (
         buttonLabel="TẤT CẢ"
         border="none"
         color="secondary"
-        arrow={true}
+        arrow
       />
     </div>
   </div>

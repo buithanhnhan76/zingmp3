@@ -1,9 +1,9 @@
-//libs
+// libs
 import { Carousel } from "antd";
-// component
-import PlaylistCarouselRankingItems from "../PlaylistCarouselRankingItems";
 // mocks
 import { listCarouselRankingSongs } from "src/mocks/PlaylistCarouselRanking";
+// component
+import PlaylistCarouselRankingItems from "../PlaylistCarouselRankingItems";
 // style
 import styles from "./PlaylistCarouselRanking.module.scss";
 
