@@ -1,17 +1,26 @@
 /// <reference types="cypress" />
+// varibles
+import { visible } from "../varibles";
+// utils
+import { getDataCy } from "../utils";
 
-describe("authentication test", () => {
+describe("Authentication test", () => {
+  // varibles
+  const baseUrl = "/";
+  const loginButton = "login-button";
+  const userButton = "user-button";
   it("User login test", () => {
-    cy.visit("/");
-
-    cy.get('*[data-cy^="login-button"]').click();
-
-    cy.get('[data-cy="user-button"]').should("be.visible");
+    // Action
+    cy.visit(baseUrl);
+    cy.get(getDataCy(loginButton)).click();
+    // Assert
+    cy.get(getDataCy(userButton)).should(visible);
   });
 
   it("User logout test", () => {
-    cy.get('*[data-cy^="user-button"]').click();
-
-    cy.get('[data-cy="login-button"]').should("be.visible");
+    // Action
+    cy.get(getDataCy(userButton)).click();
+    // Assert
+    cy.get(getDataCy(loginButton)).should(visible);
   });
 });

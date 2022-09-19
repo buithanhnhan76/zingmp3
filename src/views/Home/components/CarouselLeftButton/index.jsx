@@ -6,6 +6,8 @@ const CarouselLeftButton = ({ carousel }) => (
     className={styles["carousel-left-button"]}
     onClick={() => carousel.current.prev()}
     data-cy="carousel-left-button"
+    type="button"
+    aria-label="carousel left button"
   />
 );
 

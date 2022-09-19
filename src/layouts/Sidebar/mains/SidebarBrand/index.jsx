@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 // libs
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +10,7 @@ import styles from "./SidebarBrand.module.scss";
 const SideBarBrand = () => (
   <div className={styles["sidebar-brand-container"]} data-cy="sidebar-brand">
     <Link href="/">
-      <a>
+      <a href="/#">
         <Image
           alt="side bar brand logo"
           width={120}
