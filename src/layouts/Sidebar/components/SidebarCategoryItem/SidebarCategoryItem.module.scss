@@ -18,7 +18,13 @@
     display: flex;
     align-items: center;
 
+    .sidebar-item-icon {
+      display: flex;
+      align-items: center;
+    }
+
     .sidebar-item-right-margin {
+      position: relative;
       margin-right: 10px;
     }
   }

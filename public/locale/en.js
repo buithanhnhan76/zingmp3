@@ -1,4 +1,6 @@
+// icons
 import LiveTag from "../icons/live-tag.svg";
+import EducationGeologyGlobal from "../icons/education-geology-global.svg";
 
 export default {
   head: {
@@ -6,16 +8,16 @@ export default {
   },
   sidebar: {
     items: [
-      { title: "Personal", src: LiveTag.src },
+      { title: "Personal", src: EducationGeologyGlobal.src },
       { title: "Discover", src: LiveTag.src },
-      { title: "#zingchart", src: LiveTag.src },
+      { title: "#zingchart", src: EducationGeologyGlobal.src },
       { title: "Radio", src: LiveTag.src },
-      { title: "Follow", src: LiveTag.src },
+      { title: "Follow", src: EducationGeologyGlobal.src },
       { title: "" },
       { title: "New music", src: LiveTag.src },
-      { title: "Category", src: LiveTag.src },
+      { title: "Category", src: EducationGeologyGlobal.src },
       { title: "Top 100", src: LiveTag.src },
-      { title: "MV", src: LiveTag.src },
+      { title: "MV", src: EducationGeologyGlobal.src },
     ],
     bannerItems: [
       {
