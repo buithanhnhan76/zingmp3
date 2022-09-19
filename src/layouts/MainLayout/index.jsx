@@ -1,5 +1,6 @@
 // libs
 import { useDispatch } from "react-redux";
+import React, { useEffect } from "react";
 // Sidebar and header
 import Sidebar from "../Sidebar";
 import Header from "../Header";
@@ -13,7 +14,9 @@ import styles from "./MainLayout.module.scss";
 const MainLayout = ({ children }) => {
   const translate = useTranslate();
   const dispatch = useDispatch();
-  dispatch(updateLocale({ translate }));
+  useEffect(() => {
+    dispatch(updateLocale({ translate }));
+  },[translate]);
 
   return (
     <div>

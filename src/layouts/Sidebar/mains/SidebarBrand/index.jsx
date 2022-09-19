@@ -9,12 +9,14 @@ import styles from "./SidebarBrand.module.scss";
 const SideBarBrand = () => (
   <div className={styles["sidebar-brand-container"]} data-cy="sidebar-brand">
     <Link href="/">
-      <Image
-        alt="side bar brand logo"
-        width={120}
-        height={40}
-        src={zingLogo.src}
-      />
+      <a>
+        <Image
+          alt="side bar brand logo"
+          width={120}
+          height={40}
+          src={zingLogo.src}
+        />
+      </a>
     </Link>
   </div>
 );

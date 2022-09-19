@@ -1,12 +1,9 @@
 // libs
-import { PlayCircleOutlined } from "@ant-design/icons";
 import classNames from "classnames";
 import Link from "next/link";
-// next image
 import Image from "next/image";
 // static icon
 import LiveIcon from "../LiveIcon";
-
 // style
 import styles from "./SidebarCategoryItem.module.scss";
 
@@ -21,21 +18,31 @@ const SidebarCategoryItem = ({
 
   return (
     <Link href="/">
-      <div
-        className={classNames(styles["sidebar-item-container"], {
-          [styles["sidebar-item-active"]]: item.title === selectedSideBarItem,
-        })}
-        onClick={() => handleClickSideBarItem(item.title)}
-        data-cy="sidebar-category-item"
-      >
-        <div className={styles["sidebar-item-content"]}>
-          <PlayCircleOutlined className={styles["sidebar-item-right-margin"]} />
-          <span className={styles["sidebar-item-right-margin"]}>
-            {item.title}
-          </span>
-          {item.title === "Radio" && <LiveIcon />}
+      <a>
+        <div
+          id="sidebar-item-image"
+          className={classNames(styles["sidebar-item-container"], {
+            [styles["sidebar-item-active"]]: item.title === selectedSideBarItem,
+          })}
+          onClick={() => handleClickSideBarItem(item.title)}
+          data-cy="sidebar-category-item"
+        >
+          <div className={styles["sidebar-item-content"]}>
+            <div
+              className={classNames(
+                styles["sidebar-item-icon"],
+                styles["sidebar-item-right-margin"]
+              )}
+            >
+              <Image src={item.src} width={15} height={15} id="categoryItemImg" priority={true} alt="category item image"/>
+            </div>
+            <span className={styles["sidebar-item-right-margin"]}>
+              {item.title}
+            </span>
+            {item.title === "Radio" && <LiveIcon />}
+          </div>
         </div>
-      </div>
+      </a>
     </Link>
   );
 };

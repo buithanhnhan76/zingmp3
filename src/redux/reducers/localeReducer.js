@@ -1,7 +1,14 @@
 import { UPDATE_LOCALE } from "../types";
 
 const initialState = {
-  translate: {},
+  translate: {
+    sidebar: { items: [], bannerItems: [], button: { buttonLabel: "" } },
+    header: {
+      searchBar: {},
+    },
+    partner: {},
+    head: { title: "" },
+  },
   loading: true,
 };
 

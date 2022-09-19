@@ -11,12 +11,11 @@ import { useSelector } from "react-redux";
 import HomeMain from "src/views/Home";
 
 const Home = () => {
-  const translate = useSelector((state) => state.locale.translate);
-
+  const { title } = useSelector((state) => state.locale.translate.head);
   return (
     <div>
       <Head>
-        <title>{translate.head.title} </title>
+        <title>{title}</title>
         <meta name="description" content="Zing Mp3" />
         <link rel="icon" href={iconZing.src} />
       </Head>
