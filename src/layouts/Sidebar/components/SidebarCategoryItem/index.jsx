@@ -34,7 +34,7 @@ const SidebarCategoryItem = ({
                 styles["sidebar-item-right-margin"]
               )}
             >
-              <Image src={item.src} width={15} height={15} />
+              <Image src={item.src} width={15} height={15} id="categoryItemImg" priority={true} alt="category item image"/>
             </div>
             <span className={styles["sidebar-item-right-margin"]}>
               {item.title}
