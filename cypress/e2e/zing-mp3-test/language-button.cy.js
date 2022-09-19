@@ -1,23 +1,42 @@
 /// <reference types="cypress" />
+// utils
+import { getDataCy } from "../utils";
 
-describe("change language button test", () => {
+describe("Change language button test", () => {
+  // varibles
+  const buttonDataCy = "change-language";
+  const span = "span";
+  const baseUrl = "/";
+  const include = "include";
+  const waitTime = 500;
+  // before each
   beforeEach(() => {
-    cy.visit("/");
-  });
-
-  it("Change language to en", () => {
-    cy.get('*[data-cy^="change-language"]').select("en");
-
-    cy.url().should("include", "/en");
-
-    cy.get("span").contains("Personal");
+    cy.visit(baseUrl);
   });
 
   it("Change language to vi", () => {
-    cy.get('*[data-cy^="change-language"]').select("vi");
+    // Arrange
+    const itemTitle = "Cá Nhân";
+    const locale = "vi";
+    // Action
+    cy.get(getDataCy(buttonDataCy)).select(locale);
+    // Assert
+    cy.url().should(include, `/${locale}`);
+    // wait
+    cy.wait(waitTime);
+    cy.get(span).contains(itemTitle);
+  });
 
-    cy.url().should("include", "/vi");
-
-    cy.get("span").contains("Cá Nhân");
+  it("Change language to en", () => {
+    // Arrange
+    const itemTitle = "Personal";
+    const locale = "en";
+    // Action
+    cy.get(getDataCy(buttonDataCy)).select(locale);
+    // Assert
+    cy.url().should(include, `/${locale}`);
+    // wait
+    cy.wait(waitTime);
+    cy.get(span).contains(itemTitle);
   });
 });

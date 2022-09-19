@@ -1,12 +1,17 @@
 /// <reference types="cypress" />
+// utils
+import { getDataCy } from "../utils";
 
-describe("sidebar brand test", () => {
-  it("sidebar brand logo click", () => {
-    cy.visit("/");
-
-    // cy.get('*[data-cy^="sidebar-brand"]').realHover().should('have.css', 'filter', 'brightness(0.9)');
-    cy.get('*[data-cy^="sidebar-brand"]').click();
-    // back to home page
-    cy.get("h3").contains("Mới Phát Hành");
+describe("Sidebar brand component", () => {
+  // varibles
+  const baseUrl = "/";
+  const sideBarBrand = "sidebar-brand";
+  const testHeadingTitle = "Mới Phát Hành";
+  it("Sidebar brand click", () => {
+    // Action
+    cy.visit(baseUrl);
+    cy.get(getDataCy(sideBarBrand)).click();
+    // Assert
+    cy.get("h3").contains(testHeadingTitle);
   });
 });
