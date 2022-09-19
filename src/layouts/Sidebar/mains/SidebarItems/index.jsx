@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-// children
-import SidebarItem from "../../components/SidebarItem";
-// redux
+// libs
+import { useState } from "react";
 import { useSelector } from "react-redux";
+// component
+import SidebarItem from "../../components/SidebarItem";
 // style
 import styles from "./SidebarItems.module.scss";
 

@@ -1,13 +1,14 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 // libs
 import { useDispatch } from "react-redux";
 import React, { useEffect } from "react";
-// Sidebar and header
-import Sidebar from "../Sidebar";
-import Header from "../Header";
 // hook
 import useTranslate from "src/hooks/useStranslate";
 // action
 import { updateLocale } from "src/redux/actions/authenticationAction";
+// component
+import Sidebar from "../Sidebar";
+import Header from "../Header";
 // style
 import styles from "./MainLayout.module.scss";
 

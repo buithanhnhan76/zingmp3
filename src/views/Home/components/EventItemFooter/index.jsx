@@ -9,7 +9,7 @@ const EventItemFooter = ({ item }) => (
       <AvatarList listAvatar={item.listInterested} />
     </div>
     <div>
-      <button className={styles["event-item-footer-button"]}>
+      <button className={styles["event-item-footer-button"]} type="button">
         {item.buttonLabel}
       </button>
     </div>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages, jsx-a11y/click-events-have-key-events */
 // libs
 import classNames from "classnames";
 import Link from "next/link";
@@ -18,13 +19,14 @@ const SidebarCategoryItem = ({
 
   return (
     <Link href="/">
-      <a>
+      <a href="/#">
         <div
           id="sidebar-item-image"
           className={classNames(styles["sidebar-item-container"], {
             [styles["sidebar-item-active"]]: item.title === selectedSideBarItem,
           })}
           onClick={() => handleClickSideBarItem(item.title)}
+          role="presentation"
           data-cy="sidebar-category-item"
         >
           <div className={styles["sidebar-item-content"]}>
@@ -34,7 +36,7 @@ const SidebarCategoryItem = ({
                 styles["sidebar-item-right-margin"]
               )}
             >
-              <Image src={item.src} width={15} height={15} id="categoryItemImg" priority={true} alt="category item image"/>
+              <Image src={item.src} width={15} height={15} id="categoryItemImg" priority alt="category item image"/>
             </div>
             <span className={styles["sidebar-item-right-margin"]}>
               {item.title}

@@ -1,7 +1,7 @@
-// child
-import NewReleaseItem from "../NewReleaseItem";
 // mock
 import { listNewReleaseSongs } from "src/mocks/NewRelease";
+// component
+import NewReleaseItem from "../NewReleaseItem";
 // style
 import styles from "./NewReleaseItems.module.scss";
 

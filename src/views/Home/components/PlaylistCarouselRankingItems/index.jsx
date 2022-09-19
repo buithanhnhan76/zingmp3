@@ -1,6 +1,5 @@
-//libs
+// libs
 import Image from "next/image";
-
 // style
 import styles from "./PlaylistCarouselRankingItems.module.scss";
 
