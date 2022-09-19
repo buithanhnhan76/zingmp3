@@ -1,7 +1,7 @@
-// children
-import SettingItem from "../SettingItem";
-// list items
+// mocks
 import { listSettingItems } from "src/mocks/Header/HeaderMockData";
+// component
+import SettingItem from "../SettingItem";
 // style
 import styles from "./SettingItems.module.scss";
 

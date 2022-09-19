@@ -1,12 +1,12 @@
 // libs
 import { Carousel } from "antd";
 import { useRef } from "react";
-// child
-import CarouselLeftButton from "../../components/CarouselLeftButton";
-import CarouselRightButton from "../../components/CarouselRightButton";
-import RadioItem from "../../components/RadioItem";
 // mock
 import { listRadios } from "src/mocks/OutstandingRadio";
+// component
+import CarouselLeftButton from "../CarouselLeftButton";
+import CarouselRightButton from "../CarouselRightButton";
+import RadioItem from "../RadioItem";
 // style
 import styles from "./OutStandingRadioCarousel.module.scss";
 

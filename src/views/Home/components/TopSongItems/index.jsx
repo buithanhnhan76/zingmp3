@@ -1,8 +1,8 @@
 // mock
 import { listTopSongs } from "src/mocks/TopSongItems";
-// child
-import TopSongItem from "../TopSongItem";
+// component
 import Button from "src/components/Button";
+import TopSongItem from "../TopSongItem";
 // styles
 import styles from "./TopSongItems.module.scss";
 

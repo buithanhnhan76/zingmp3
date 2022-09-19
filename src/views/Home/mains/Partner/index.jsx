@@ -1,8 +1,9 @@
-import PartnerItems from "../../components/PartnerItems";
+// libs
+import { useSelector } from "react-redux";
 // mocks
 import { listPartners } from "src/mocks/Partner";
-// redux
-import { useSelector } from "react-redux";
+// component
+import PartnerItems from "../../components/PartnerItems";
 // style
 import styles from "./Partner.module.scss";
 

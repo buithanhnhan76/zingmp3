@@ -1,6 +1,8 @@
-import FavoriteArtistItems from "../../components/FavoriteArtistItems";
+
 // mocks
 import { listArtists } from "src/mocks/FavoriteArtist";
+// component
+import FavoriteArtistItems from "../../components/FavoriteArtistItems";
 // style
 import styles from "./FavoriteArtist.module.scss";
 
