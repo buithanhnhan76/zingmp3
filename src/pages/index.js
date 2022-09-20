@@ -3,10 +3,10 @@ import "normalize.css";
 import React from "react";
 // Head
 import Head from "next/head";
-// photos
-import iconZing from "public/icons/icon-zing.png";
 // redux
 import { useSelector } from "react-redux";
+// photos
+import iconZing from "public/icons/icon-zing.png";
 // component
 import HomeMain from "src/views/Home";
 

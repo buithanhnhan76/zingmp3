@@ -1,3 +1,4 @@
+// photos
 import playListOne from "public/photos/playlist-one.webp";
 
 export const listNewSongCarousel = [

@@ -1,4 +1,4 @@
-// Mocks
+// photos
 import userPhoto from "./userPhoto.jpg";
 
 export const user = {

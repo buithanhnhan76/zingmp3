@@ -3,7 +3,7 @@
 // libs
 import "@testing-library/jest-dom";
 // locales
-import { locales } from "public/locale";
+import { locales } from "src/locale";
 // components
 import useTranslate from "src/hooks/useStranslate";
 

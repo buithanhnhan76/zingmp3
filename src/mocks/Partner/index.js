@@ -1,4 +1,4 @@
-// partner photos
+// photos
 import kakao from "public/photos/kakao.png";
 import sm from "public/photos/sm.png";
 import fuga from "public/photos/fuga.png";

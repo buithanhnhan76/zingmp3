@@ -1,6 +1,6 @@
 // icons
-import LiveTag from "../icons/live-tag.svg";
-import EducationGeologyGlobal from "../icons/education-geology-global.svg";
+import LiveTag from "public/icons/live-tag.svg";
+import EducationGeologyGlobal from "public/icons/education-geology-global.svg";
 
 export default {
   head: {

@@ -1,7 +1,7 @@
-// router
+// libs
 import { useRouter } from "next/router";
-// eng and vie content file
-import { locales } from "public/locale";
+// locales
+import { locales } from "src/locale";
 
 const useTranslate = () => {
   const { locale } = useRouter();

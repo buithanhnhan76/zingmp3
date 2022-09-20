@@ -1,4 +1,4 @@
-// event photos
+// photos
 import Issac from "public/photos/Issac.webp";
 import NhatKimAnh from "public/photos/NhatKimAnh.webp";
 import TangDuyTan from "public/photos/TangDuyTan.webp";
