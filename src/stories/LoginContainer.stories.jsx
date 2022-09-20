@@ -1,6 +1,6 @@
+// libs
 import React from "react";
-
-// login container
+// component
 import LoginContainer from "src/layouts/Header/components/LoginContainer";
 
 export default {

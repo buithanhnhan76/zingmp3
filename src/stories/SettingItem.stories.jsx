@@ -2,7 +2,6 @@
 import React from "react";
 // photos
 import Clip from "public/icons/clip.svg";
-
 // component
 import SettingItem from "src/layouts/Header/components/SettingItem";
 

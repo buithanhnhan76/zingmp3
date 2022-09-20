@@ -1,5 +1,6 @@
+// libs
 import React from "react";
-
+// component
 import MainLayout from "src/layouts/MainLayout";
 
 export default {

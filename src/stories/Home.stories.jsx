@@ -1,5 +1,6 @@
+// libs
 import React from "react";
-
+// component
 import Home from "src/pages";
 
 export default {

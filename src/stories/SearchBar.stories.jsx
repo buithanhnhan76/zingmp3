@@ -1,6 +1,6 @@
+// libs
 import React from "react";
-
-// login container
+// component
 import SearchBar from "src/layouts/Header/components/SearchBar";
 
 export default {

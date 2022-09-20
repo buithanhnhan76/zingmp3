@@ -1,5 +1,6 @@
+// libs
 import React from "react";
-
+// component
 import RightSideHeader from "src/layouts/Header/mains/RightSideHeader";
 
 export default {

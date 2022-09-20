@@ -1,5 +1,6 @@
+// libs
 import React from "react";
-// partner
+// component
 import Partner from "src/views/Home/mains/Partner";
 
 export default {

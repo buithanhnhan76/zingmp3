@@ -1,5 +1,6 @@
+// libs
 import React from "react";
-
+// component
 import Header from "src/layouts/Header";
 
 export default {

@@ -1,5 +1,5 @@
+// libs
 import React from "react";
-
 // component
 import SidebarCategoryItem from "src/layouts/Sidebar/components/SidebarCategoryItem";
 
@@ -11,6 +11,7 @@ export default {
   },
 };
 
+// varibles
 const item = { title: "Radio" };
 const selectedSideBarItem = "Radio";
 const setSelectedSideBarItem = () => {};

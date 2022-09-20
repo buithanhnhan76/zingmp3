@@ -1,5 +1,6 @@
+// libs
 import React from "react";
-
+// component
 import Sidebar from "src/layouts/Sidebar";
 
 export default {

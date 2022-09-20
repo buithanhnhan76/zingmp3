@@ -1,5 +1,6 @@
+// libs
 import React from "react";
-// Event
+//  component
 import Event from "src/views/Home/mains/Event";
 
 export default {

@@ -1,4 +1,6 @@
+// libs
 import { combineReducers } from "redux";
+// reducer
 import authenticationReducer from "./authenticationReducer";
 import localeReducer from "./localeReducer";
 
