@@ -1,9 +1,9 @@
-// childrens
+// children
 import SidebarBannerItems from "./mains/SidebarBannerItems";
 import SidebarBrand from "./mains/SidebarBrand";
 import SidebarButton from "./mains/SidebarButton";
 import SidebarItems from "./mains/SidebarItems";
-// Sidebar style
+// styleS
 import styles from "./Sidebar.module.scss";
 
 const Sidebar = () => (
