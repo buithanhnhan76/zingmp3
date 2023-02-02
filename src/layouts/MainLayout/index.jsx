@@ -8,7 +8,7 @@ import useTranslate from "src/hooks/useStranslate";
 import { updateLocale } from "src/redux/actions/authenticationAction";
 // component
 import Sidebar from "../Sidebar";
-import Header from "../Header";
+import MainBar from "../MainBar";
 // style
 import styles from "./MainLayout.module.scss";
 
@@ -17,16 +17,15 @@ const MainLayout = ({ children }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(updateLocale({ translate }));
-  },[translate]);
+  }, [translate]);
 
   return (
     <div>
       <main className={styles["main-layout-container"]}>
         <Sidebar />
-        <div>
-          <Header />
+        <MainBar>
           {children}
-        </div>
+        </MainBar>
       </main>
     </div>
   );
