@@ -1,17 +1,17 @@
 // children
-import SidebarBannerItems from "./mains/SidebarBannerItems";
-import SidebarBrand from "./mains/SidebarBrand";
-import SidebarButton from "./mains/SidebarButton";
-import SidebarItems from "./mains/SidebarItems";
-// styleS
-import styles from "./Sidebar.module.scss";
+import BannerItems from "../../components/BannerItems";
+import Brand from "../../components/Brand";
+import Button from "../../components/Button";
+import ListItems from "../../components/ListItems";
+// styles
+import styles from "./sidebar.module.scss";
 
 const Sidebar = () => (
   <div className={styles["sidebar-container"]}>
-    <SidebarBrand />
-    <SidebarItems />
-    <SidebarBannerItems />
-    <SidebarButton />
+    <Brand />
+    <ListItems />
+    <BannerItems />
+    <Button />
   </div>
 );
 

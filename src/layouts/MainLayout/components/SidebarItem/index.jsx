@@ -1,10 +1,10 @@
 // childrem
 import SidebarLineItem from "../SidebarLineItem";
-import SidebarCategoryItem from "../SidebarCategoryItem";
+import ListItem from "../ListItem";
 
 const SidebarItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) =>
   item.title ? (
-    <SidebarCategoryItem
+    <ListItem
       item={item}
       selectedSideBarItem={selectedSideBarItem}
       setSelectedSideBarItem={setSelectedSideBarItem}

@@ -1,7 +1,7 @@
 @import "src/assets/styles/utils.scss";
 @import "src/assets/styles/varibles";
 
-.sidebar-item-container {
+.list-item-container {
   @extend .darkness;
 
   border-left: 2px solid transparent;
@@ -14,23 +14,23 @@
     @extend .hover-brightness;
   }
 
-  .sidebar-item-content {
+  .list-item-content {
     display: flex;
     align-items: center;
 
-    .sidebar-item-icon {
+    .list-item-icon {
       display: flex;
       align-items: center;
     }
 
-    .sidebar-item-right-margin {
+    .list-item-right-margin {
       position: relative;
       margin-right: 10px;
     }
   }
 }
 
-.sidebar-item-active {
+.list-item-active {
   border-color: $banner-background-color;
   background-color: $active-background-color;
 }

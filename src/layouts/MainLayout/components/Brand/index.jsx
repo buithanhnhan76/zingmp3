@@ -5,10 +5,10 @@ import Link from "next/link";
 // photo
 import zingLogo from "public/icons/zing-logo.svg";
 // style
-import styles from "./SidebarBrand.module.scss";
+import styles from "./Brand.module.scss";
 
-const SideBarBrand = () => (
-  <div className={styles["sidebar-brand-container"]} data-cy="sidebar-brand">
+const Brand = () => (
+  <div className={styles["brand-container"]} data-cy="sidebar-brand">
     <Link href="/">
       <a href="/#">
         <Image
@@ -22,4 +22,4 @@ const SideBarBrand = () => (
   </div>
 );
 
-export default SideBarBrand;
+export default Brand;
