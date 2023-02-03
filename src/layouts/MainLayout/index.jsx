@@ -7,8 +7,8 @@ import useTranslate from "src/hooks/useStranslate";
 // action
 import { updateLocale } from "src/redux/actions/authenticationAction";
 // component
-import Sidebar from "../Sidebar";
-import MainBar from "../MainBar";
+import Sidebar from "./mains/Sidebar";
+import MainBar from "./mains/MainBar";
 // style
 import styles from "./MainLayout.module.scss";
 

@@ -1,4 +1,5 @@
-import Header from "../Header";
+// children
+import Header from "../../components/Header";
 // styles
 import styles from "./MainBar.module.scss";
 
