@@ -1,8 +1,8 @@
 // childrem
-import SidebarLineItem from "../SidebarLineItem";
+import LineItem from "../LineItem";
 import ListItem from "../ListItem";
 
-const SidebarItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) =>
+const ItemContainer = ({ item, selectedSideBarItem, setSelectedSideBarItem }) =>
   item.title ? (
     <ListItem
       item={item}
@@ -10,7 +10,7 @@ const SidebarItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) =>
       setSelectedSideBarItem={setSelectedSideBarItem}
     />
   ) : (
-    <SidebarLineItem />
+    <LineItem />
   );
 
-export default SidebarItem;
+export default ItemContainer;
