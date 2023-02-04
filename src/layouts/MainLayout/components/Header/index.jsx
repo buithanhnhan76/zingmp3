@@ -1,15 +1,15 @@
 // libs
 import classNames from "classnames";
 // children of Header
-import LeftSideHeader from "./mains/LeftSideHeader";
-import RightSideHeader from "./mains/RightSideHeader";
+import HeaderLeft from "../HeaderLeft";
+import HeaderRight from "../HeaderRight";
 // style of header
 import styles from "./Header.module.scss";
 
 const Header = () => (
   <div className={classNames(styles["header-container"])}>
-    <LeftSideHeader />
-    <RightSideHeader />
+    <HeaderLeft />
+    <HeaderRight />
   </div>
 );
 
