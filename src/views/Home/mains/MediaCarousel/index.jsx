@@ -5,9 +5,9 @@ import { useRef } from "react";
 import classNames from "classnames";
 // mock
 import { listMediaCarousel } from "src/mocks/MediaCarousel";
-// child
-import CarouselLeftButton from "../../components/CarouselLeftButton";
-import CarouselRightButton from "../../components/CarouselRightButton";
+// children
+import LeftButton from "../../components/LeftButton";
+import RighButton from "../../components/RightButton";
 // style
 import styles from "./MediaCarousel.module.scss";
 
@@ -16,21 +16,22 @@ const MediaCarousel = () => {
 
   return (
     <div className={styles["carousel-container"]}>
-      <Carousel autoplay dots={false} slidesToShow={3} ref={carousel}>
+      <LeftButton carousel={carousel} />
+      <Carousel autoplay dots={true} slidesToShow={3} ref={carousel}>
         {listMediaCarousel.map((item) => (
           <div key={item.id} className={classNames(styles["carousel-item"])}>
             <Image
               src={item.src}
               layout="fill"
-              objectFit="contain"
-              className={styles["carousel-image"]}
+              objectFit="cover"
+              className={styles["carousel-item-image"]}
               priority={item.id === 1}
             />
           </div>
         ))}
       </Carousel>
-      <CarouselLeftButton carousel={carousel} />
-      <CarouselRightButton carousel={carousel} />
+
+      <RighButton carousel={carousel} />
     </div>
   );
 };

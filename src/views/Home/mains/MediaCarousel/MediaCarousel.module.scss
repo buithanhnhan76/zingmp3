@@ -1,17 +1,18 @@
 .carousel-container {
   position: relative;
   margin: 20px 0;
-  width: 1120px;
+  max-width: 1120px;
   height: 190px;
+  text-align: center;
 
   .carousel-item {
     position: relative;
-    overflow: hidden;
-    border-radius: 10px;
+    max-width: 90%;
     height: 190px;
+    overflow: hidden;
 
-    .carousel-image {
-      border-radius: 26px;
+    .carousel-item-image {
+      border-radius: 30px;
     }
   }
 }
