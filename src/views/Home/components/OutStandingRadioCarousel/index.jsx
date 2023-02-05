@@ -4,10 +4,10 @@ import { useRef } from "react";
 // mock
 import { listRadios } from "src/mocks/OutstandingRadio";
 // component
-import CarouselLeftButton from "../CarouselLeftButton";
-import CarouselRightButton from "../CarouselRightButton";
+import LeftButton from "../LeftButton";
+import RightButton from "../RightButton";
 import RadioItem from "../RadioItem";
-// style
+// styles
 import styles from "./OutStandingRadioCarousel.module.scss";
 
 const OutStandingRadioCarousel = () => {
@@ -19,8 +19,8 @@ const OutStandingRadioCarousel = () => {
           <RadioItem key={radio.id} radio={radio} />
         ))}
       </Carousel>
-      <CarouselLeftButton carousel={carousel} />
-      <CarouselRightButton carousel={carousel} />
+      <LeftButton carousel={carousel} />
+      <RightButton carousel={carousel} />
     </div>
   );
 };
