@@ -4,9 +4,9 @@ import { Carousel } from "antd";
 import { useRef } from "react";
 // mock
 import { listArtistCarousel } from "src/mocks/ArtistCarousel";
-// child
-import CarouselLeftButton from "../../components/CarouselLeftButton";
-import CarouselRightButton from "../../components/CarouselRightButton";
+// children
+import LeftButton from "../../components/LeftButton";
+import RightButton from "../../components/RightButton";
 // style
 import styles from "./ArtistCarousel.module.scss";
 
@@ -15,6 +15,7 @@ const ArtistCarousel = () => {
 
   return (
     <div className={styles["carousel-container"]}>
+      <LeftButton carousel={carousel} />
       <Carousel autoplay dots={false} slidesToShow={7} ref={carousel}>
         {listArtistCarousel.map((item) => (
           <div key={item.id} className={styles["carousel-item"]}>
@@ -22,8 +23,7 @@ const ArtistCarousel = () => {
           </div>
         ))}
       </Carousel>
-      <CarouselLeftButton carousel={carousel} />
-      <CarouselRightButton carousel={carousel} />
+      <RightButton carousel={carousel} />
     </div>
   );
 };
