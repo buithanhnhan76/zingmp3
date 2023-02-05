@@ -1,8 +1,7 @@
-// setting items
-import SettingItems from "../Header/components/SettingItems";
-// login container
-import LoginContainer from "../Header/components/LoginContainer";
-import LanguageSetting from "../Header/components/LanguageSetting";
+// children
+import SettingItems from "../SettingItems";
+import LoginContainer from "../LoginContainer";
+import LanguageSetting from "../LanguageSetting";
 // styles
 import styles from "./HeaderRight.module.scss";
 

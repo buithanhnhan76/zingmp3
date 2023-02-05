@@ -1,6 +1,5 @@
 // libs
 import { SearchOutlined } from "@ant-design/icons";
-// redux
 import { useSelector } from "react-redux";
 // style
 import styles from "./SearchBar.module.scss";

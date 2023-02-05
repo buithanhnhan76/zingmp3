@@ -1,15 +1,14 @@
-// next image
+// libs
 import Image from "next/image";
 // redux
 import { logIn } from "src/redux/actions/authenticationAction";
 import { useDispatch } from "react-redux";
 // mocks
 import { user } from "src/mocks/UserData/user";
-// image
+// photo
 import userPhoto from "public/photos/user.jpg";
-// style
+// styles
 import styles from "./LoginButton.module.scss";
-
 
 const LoginButton = () => {
   const dispatch = useDispatch();

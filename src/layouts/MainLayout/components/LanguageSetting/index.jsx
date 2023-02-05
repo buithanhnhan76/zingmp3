@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 // utils
 import { setCookie } from "src/utils";
-// style
+// styles
 import styles from "./LanguageSetting.module.scss";
 
 const LanguageSetting = () => {

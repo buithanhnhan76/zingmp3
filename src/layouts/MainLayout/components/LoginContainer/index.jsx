@@ -1,9 +1,8 @@
 // libs
 import { useSelector } from "react-redux";
-// component
+// children
 import LoginButton from "../LoginButton";
 import UserButton from "../UserButton";
-
 
 const LoginContainer = () => {
   const { authentication } = useSelector((state) => state);
