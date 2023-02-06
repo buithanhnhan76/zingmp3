@@ -1,14 +1,11 @@
 @import "src/assets/styles/_varibles.scss";
 
 .playlist-item-container {
-  min-width: 195px;
-  font-size: 1.4rem;
-
   .playlist-item-photo-container {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    width: 195px;
+    min-width: 195px;
     height: 195px;
   }
 
@@ -22,6 +19,8 @@
   }
 
   .playlist-item-title {
+    margin-top: 12px;
+    margin-bottom: 0;
     color: $text-color;
   }
 
