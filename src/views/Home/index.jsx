@@ -4,7 +4,7 @@ import Event from "src/views/Home/mains/Event";
 import ArtistCarousel from "./mains/ArtistCarousel";
 import MediaCarousel from "./mains/MediaCarousel";
 import XOneCorner from "./mains/XOneCorner";
-import Chill from "./mains/Chill";
+import ChillPlaylist from "./mains/ChillPlaylist";
 import NewSongEveryDay from "./mains/NewSongEveryDay";
 import Top100 from "./mains/Top100";
 import Banner from "./mains/Banner";
@@ -20,7 +20,7 @@ const HomeMain = () => (
   <div className={styles["home-main-container"]}>
     <MediaCarousel />
     <NewRelease />
-    <Chill />
+    <ChillPlaylist />
     <FavoriteArtist />
     <NewSongEveryDay />
     <Chart />
