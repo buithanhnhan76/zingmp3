@@ -1,6 +1,9 @@
 // libs
 import React from "react";
-import { Line } from "@ant-design/plots";
+import dynamic from "next/dynamic";
+const Line = dynamic(() => import("@ant-design/plots").then(({ Line }) => Line), {
+  ssr: false,
+});
 // mock
 import { lineChartData } from "src/mocks/TopSongItems";
 // styles
