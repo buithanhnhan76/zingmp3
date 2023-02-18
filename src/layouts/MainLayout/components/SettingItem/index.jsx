@@ -1,6 +1,5 @@
 // libs
 import Image from "next/image";
-import classNames from "classnames";
 // style
 import styles from "./SettingItem.module.scss";
 
