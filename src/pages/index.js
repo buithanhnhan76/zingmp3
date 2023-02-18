@@ -8,7 +8,7 @@ import iconZing from "public/icons/icon-zing.png";
 // redux
 import { useSelector } from "react-redux";
 // component
-import HomeMain from "src/views/Home";
+import HomeMain from "src/views/HomeMain";
 
 const Home = () => {
   const { title } = useSelector((state) => state.locale.translate.head);

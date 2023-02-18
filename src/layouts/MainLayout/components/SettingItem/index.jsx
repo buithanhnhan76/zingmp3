@@ -1,10 +1,15 @@
-// next image
+// libs
 import Image from "next/image";
+import classNames from "classnames";
 // style
 import styles from "./SettingItem.module.scss";
 
 const SettingItem = ({ item }) => (
-  <div className={styles["setting-item-container"]}>
+  <div
+    className={`${styles["setting-item-container"]} ${
+      item.isImportant ? "important" : "not-important"
+    }`}
+  >
     <Image
       className={styles["setting-item-icon"]}
       width={20}

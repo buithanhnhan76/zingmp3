@@ -10,6 +10,11 @@
   padding: 0;
   background-color: transparent;
 
+  @media screen and (max-width: 426px) {
+    width: 30px;
+    height: 30px;
+  }
+
   .login-button-photo {
     border-radius: 50%;
   }

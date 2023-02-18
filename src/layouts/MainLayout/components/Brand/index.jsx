@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 // photo
 import zingLogo from "public/icons/zing-logo.svg";
+import zingShortLogo from "public/icons/zingmp3-short-logo.svg";
 // style
 import styles from "./Brand.module.scss";
 
@@ -11,12 +12,22 @@ const Brand = () => (
   <div className={styles["brand-container"]} data-cy="sidebar-brand">
     <Link href="/">
       <a href="/#">
-        <Image
-          alt="side bar brand logo"
-          width={120}
-          height={40}
-          src={zingLogo.src}
-        />
+        <div className={styles["zing-long-logo"]}>
+          <Image
+            alt="side bar brand logo"
+            width={120}
+            height={40}
+            src={zingLogo.src}
+          />
+        </div>
+        <div className={styles["zing-short-logo"]}>
+          <Image
+            alt="side bar brand logo"
+            width={50}
+            height={50}
+            src={zingShortLogo.src}
+          />
+        </div>
       </a>
     </Link>
   </div>

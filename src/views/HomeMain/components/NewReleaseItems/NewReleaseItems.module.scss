@@ -1,0 +1,11 @@
+.new-release-items-container {
+  display: grid;
+  grid-template-columns: 30fr 30fr 30fr;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 1082px;
+
+  @media screen and (max-width: 426px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

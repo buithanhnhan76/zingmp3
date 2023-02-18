@@ -11,4 +11,15 @@
     height: 20px;
     color: #000;
   }
+
+  @media screen and (max-width: 426px) {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+
+    .language-select {
+      margin-top: 0;
+    }
+  }
 }

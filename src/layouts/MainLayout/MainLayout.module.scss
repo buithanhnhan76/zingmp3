@@ -13,3 +13,9 @@
   color: $text-color;
   -webkit-tap-highlight-color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+  .main-layout-container {
+    grid-template-columns: 70px 1fr;
+  }
+}

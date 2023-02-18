@@ -41,10 +41,14 @@ const ListItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
                 alt="category item image"
               />
             </div>
-            <span className={styles["list-item-right-margin"]}>
+            <span
+              className={`${styles["list-item-right-margin"]} ${styles["list-item-title"]}`}
+            >
               {item.title}
             </span>
-            {item.title === "Radio" && <LiveIcon />}
+            {item.title === "Radio" && (
+              <LiveIcon />
+            )}
           </div>
         </div>
       </a>

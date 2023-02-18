@@ -13,4 +13,24 @@
   height: 70px;
   padding: 0 28px;
   background-color: $sidebar-background-color;
+
+  .zing-short-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .zing-long-logo {
+    display: none;
+  }
+
+  .brand-container {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    .zing-short-logo {
+      display: block;
+    }
+  }
 }

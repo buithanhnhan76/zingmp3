@@ -92,6 +92,7 @@ export const listEvents = [
     listInterested,
     buttonLabel: "Tham gia",
     footerTitle: "Lượt quan tâm",
+    order: "first",
   },
   {
     id: 2,
@@ -102,6 +103,7 @@ export const listEvents = [
     listInterested: listInterestedSample,
     buttonLabel: "Quan tâm",
     footerTitle: "Lượt chúc mừng",
+    order: "second",
   },
   {
     id: 3,
@@ -112,5 +114,6 @@ export const listEvents = [
     listInterested: listInterestedSample,
     buttonLabel: "Tham gia",
     footerTitle: "Lượt quan tâm",
+    order: "third",
   },
 ];

@@ -8,6 +8,7 @@
   height: 50px;
   padding: 0 10px;
   background-color: $header-search-background-color;
+  font-size: 1.4rem;
 
   @media screen and (max-width: 1248px) {
     width: 400px;
@@ -15,6 +16,11 @@
 
   @media screen and (max-width: 1048px) {
     width: 300px;
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 72px;
+    height: 30px;
   }
 
   .search-bar {

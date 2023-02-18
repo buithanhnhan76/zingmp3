@@ -1,0 +1,30 @@
+@import "src/assets/styles/_varibles.scss";
+
+.chart-container {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  padding: 15px;
+  background-color: $chart-bg-color;
+
+  .chart-title {
+    font-size: 2.8rem;
+  }
+
+  .chart-ranking {
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+    column-gap: 20px;
+  }
+
+  @media screen and (max-width: 426px) {
+    grid-template-columns: 1fr;
+    max-height: 400px;
+
+    .chart-ranking {
+      grid-template-columns: 1fr;
+    }
+  }
+}

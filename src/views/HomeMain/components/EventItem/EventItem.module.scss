@@ -1,0 +1,19 @@
+@import "src/assets/styles/varibles";
+
+.event-item-container {
+  background-color: $home-background-color;
+
+  @media screen and (max-width: 1024px) {
+    &[order="third"] {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 100%;
+
+    &[order="second"] {
+      display: none;
+    }
+  }
+}

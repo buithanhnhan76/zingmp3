@@ -26,6 +26,10 @@
     .list-item-right-margin {
       position: relative;
       margin-right: 10px;
+
+      @media screen and (max-width: 1024px) {
+        margin: 0;
+      }
     }
   }
 }
@@ -33,4 +37,16 @@
 .list-item-active {
   border-color: $banner-background-color;
   background-color: $active-background-color;
+}
+
+@media screen and (max-width: 1024px) {
+  .list-item-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-item-title {
+    display: none;
+  }
 }

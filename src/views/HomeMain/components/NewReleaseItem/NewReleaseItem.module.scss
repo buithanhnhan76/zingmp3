@@ -1,0 +1,40 @@
+@import "src/assets/styles/_varibles.scss";
+
+.new-release-item-container {
+  display: flex;
+
+  @media screen and (max-width: 426px) {
+    &[order="2"],
+    &[order="3"],
+    &[order="4"],
+    &[order="5"],
+    &[order="6"],
+    &[order="7"],
+    &[order="8"],
+    &[order="9"],
+    &[order="10"],
+    &[order="11"] {
+      display: none;
+    }
+
+    .new-release-item-title {
+      max-width: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .new-release-item-photo-container {
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px !important;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .new-release-item-details {
+    color: $text-secondary;
+  }
+}

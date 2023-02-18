@@ -1,0 +1,55 @@
+@import "src/assets/styles/_varibles.scss";
+
+.playlist-item-container {
+  .playlist-item-photo-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    min-width: 195px;
+    height: 195px;
+  }
+
+  .playlist-item-photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    min-width: 195px;
+    width: 97%;
+    height: 210px;
+  }
+
+  .playlist-item-title {
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: $text-color;
+  }
+
+  .playlist-item-desc {
+    color: $text-secondary;
+  }
+
+  @media screen and (max-width: 1024px) {
+    &[order="4"] {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &[order="3"] {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 100%;
+
+    &[order="2"],
+    &[order="1"] {
+      display: none;
+    }
+
+    .playlist-item-photo-container {
+      min-width: 210px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "src/assets/styles/_varibles.scss";
+
+.home-main-container {
+  height: calc(100vh - 70px);
+  padding: 0 59px;
+  overflow-y: auto;
+  background-color: $home-background-color;
+  font-size: 1.4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: $text-color;
+
+  @media screen and (max-width: 1025px) {
+    max-width: calc(100vw - 70px);
+    padding: 0 30px;
+  }
+
+  @media screen and (max-width: 426px) {
+    padding: 0 20px;
+  }
+}

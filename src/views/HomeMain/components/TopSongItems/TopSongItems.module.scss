@@ -1,0 +1,13 @@
+.top-song-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .top-song-items-buttons {
+    text-align: center;
+  }
+
+  > div {
+    margin-bottom: 15px;
+  }
+}
