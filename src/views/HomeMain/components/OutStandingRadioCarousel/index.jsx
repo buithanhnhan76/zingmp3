@@ -23,14 +23,15 @@ const OutStandingRadioCarousel = () => {
       if (windowDimensions.width >= 375) return 2;
       return 1;
     }
+    return 7;
   };
-  const numberOfslidesToShow = useMemo(
-    () => calculateSlide(),
+  const numberOfSlidesToShow = useMemo(
+    calculateSlide,
     [windowDimensions]
   );
   return (
     <div className={styles["carousel-container"]}>
-      <Carousel dots={false} slidesToShow={numberOfslidesToShow} ref={carousel}>
+      <Carousel dots={false} slidesToShow={numberOfSlidesToShow} ref={carousel}>
         {listRadios.map((radio) => (
           <RadioItem key={radio.id} radio={radio} />
         ))}
