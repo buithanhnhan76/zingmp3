@@ -1,16 +1,17 @@
 // libs
 import React from "react";
 import dynamic from "next/dynamic";
-const Line = dynamic(
+// mock
+import { lineChartData } from "src/mocks/TopSongItems";
+// styles
+import styles from "./LineChart.module.scss";
+
+const LineChartComponent = dynamic(
   () => import("@ant-design/plots").then(({ Line }) => Line),
   {
     ssr: false,
   }
 );
-// mock
-import { lineChartData } from "src/mocks/TopSongItems";
-// styles
-import styles from "./LineChart.module.scss";
 
 const config = {
   data: lineChartData,
@@ -22,7 +23,7 @@ const config = {
 
 const LineChart = () => (
   <div className={styles["linechart-container"]}>
-    <Line {...config} />
+    <LineChartComponent {...config} />
   </div>
 );
 
