@@ -2,6 +2,7 @@
   "name": "zingmp3",
   "homepage": "http://thanhnhanbui.github.io/zingmp3",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -26,7 +27,6 @@
     "eslint-plugin-cypress": "^2.12.1",
     "next": "12.2.3",
     "next-redux-wrapper": "^7.0.5",
-    "node-fetch": "2.6.1",
     "normalize.css": "^8.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
