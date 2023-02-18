@@ -20,7 +20,7 @@ const PlaylistCarousel = () => {
     }
     return  5;
   }
-  const calcSlidesToShow = useMemo(() => calcWindowDimension(), [windowDimension]);
+  const calcSlidesToShow = useMemo(calcWindowDimension, [windowDimension]);
   return (
     <div className={styles["playlist-carousel-container"]}>
       <Carousel

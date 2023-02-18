@@ -8,17 +8,21 @@ export const listMediaCarousel = [
   {
     id: 1,
     src: mediaOne.src,
+    priority: true,
   },
   {
     id: 2,
     src: mediaTwo.src,
+    priority: true,
   },
   {
     id: 3,
     src: mediaThree.src,
+    priority: true,
   },
   {
     id: 4,
     src: mediaFour.src,
+    priority: true,
   },
 ];

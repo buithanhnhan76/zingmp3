@@ -24,6 +24,7 @@ const MediaCarousel = () => {
       if (windowDimensions.width > 425) return 2;
       return 1;
     }
+    return 3;
   }, [windowDimensions]);
   return (
     <div className={styles["carousel-container"]}>
@@ -33,9 +34,9 @@ const MediaCarousel = () => {
             <div key={item.id} className={classNames(styles["carousel-item"])}>
               <Image
                 src={item.src}
+                priority={item.priority}
                 layout="fill"
                 objectFit="cover"
-                priority={item.id === 1}
               />
             </div>
         ))}

@@ -20,7 +20,7 @@ const PlaylistCarouselRanking = () => {
     return 3;
   };
   const calcSlidesToShow = useMemo(
-    () => calculateSlideToShow(),
+    calculateSlideToShow,
     [windowDimensions]
   );
   return (
