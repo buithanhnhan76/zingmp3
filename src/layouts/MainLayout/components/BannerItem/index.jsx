@@ -4,9 +4,9 @@ import constant from "src/constant";
 import styles from "./BannerItem.module.scss";
 
 const BannerItem = ({ item }) => {
-  let bannerContainerClassName =
+  const bannerContainerClassName =
     item.type === constant.VIPBANNER ? "vip-banner-container" : "login-banner-container";
-  let bannerButtonClassName =
+  const bannerButtonClassName =
     item.type === constant.VIPBANNER
       ? "vip-banner-button"
       : "login-banner-button";

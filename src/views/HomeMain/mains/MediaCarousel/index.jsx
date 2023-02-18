@@ -1,8 +1,10 @@
 // libs
 import Image from "next/image";
-import { Carousel, Space } from "antd";
+import { Carousel} from "antd";
 import { useRef, useMemo } from "react";
 import classNames from "classnames";
+// hooks
+import useWindowDimensions from "src/hooks/useWindowDimensions";
 // mock
 import { listMediaCarousel } from "src/mocks/MediaCarousel";
 // children
@@ -10,7 +12,7 @@ import LeftButton from "../../components/LeftButton";
 import RighButton from "../../components/RightButton";
 // style
 import styles from "./MediaCarousel.module.scss";
-import useWindowDimensions from "src/hooks/useWindowDimensions";
+
 
 const MediaCarousel = () => {
   const carousel = useRef();
