@@ -3,19 +3,17 @@
 .login-button-container {
   @extend .pointer;
 
+  position: relative;
   border: none;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   padding: 0;
   background-color: transparent;
+  overflow: hidden;
 
   @media screen and (max-width: 426px) {
     width: 30px;
     height: 30px;
-  }
-
-  .login-button-photo {
-    border-radius: 50%;
   }
 }

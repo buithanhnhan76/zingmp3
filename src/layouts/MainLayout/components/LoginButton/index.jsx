@@ -24,9 +24,8 @@ const LoginButton = () => {
       type="button"
     >
       <Image
-        className={styles["login-button-photo"]}
-        width={40}
-        height={40}
+        layout="fill"
+        objectFit="cover"
         src={userPhoto.src}
         alt="login button"
       />
