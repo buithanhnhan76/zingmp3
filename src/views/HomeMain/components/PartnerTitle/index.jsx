@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 import styles from "./PartnerTitle.module.scss";
 
 const PartnerTitle = () => {
-  const translate = useSelector((state) => state.locale.translate);
-  return <h3 className={styles["partner-title"]}>{translate.partner.title}</h3>;
+  const title = useSelector((state) => state.locale.translate.partner.title);
+  return <h3 className={styles["partner-title"]}>{title}</h3>;
 };
 
 export default PartnerTitle;
