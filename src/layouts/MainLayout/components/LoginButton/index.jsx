@@ -28,6 +28,7 @@ const LoginButton = () => {
         width={40}
         height={40}
         src={userPhoto.src}
+        alt="login button"
       />
     </button>
   );

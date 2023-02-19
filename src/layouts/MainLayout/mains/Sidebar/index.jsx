@@ -1,3 +1,5 @@
+// libs
+import React from "react";
 // children
 import BannerItems from "../../components/BannerItems";
 import Brand from "../../components/Brand";
@@ -15,4 +17,4 @@ const Sidebar = () => (
   </div>
 );
 
-export default Sidebar;
+export default React.memo(Sidebar);

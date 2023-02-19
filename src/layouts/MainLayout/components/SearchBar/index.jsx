@@ -1,4 +1,5 @@
 // libs
+import React from "react";
 import { SearchOutlined } from "@ant-design/icons";
 import { useSelector } from "react-redux";
 // style
@@ -16,4 +17,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default React.memo(SearchBar);
