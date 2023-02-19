@@ -1,14 +1,10 @@
+// action
+import vi from "public/locale/vi";
 import { UPDATE_LOCALE } from "../types";
+// initial data
 
 const initialState = {
-  translate: {
-    sidebar: { items: [], bannerItems: [], button: { buttonLabel: "" } },
-    header: {
-      searchBar: {},
-    },
-    partner: {},
-    head: { title: "" },
-  },
+  translate: vi,
   loading: true,
 };
 
