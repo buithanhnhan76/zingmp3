@@ -1,5 +1,5 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 // child
 import liveIcon from "public/icons/live-tag.svg";
 // styles

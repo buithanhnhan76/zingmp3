@@ -1,5 +1,5 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 // child
 import FavoriteArtistItemFooter from "../FavoriteArtistItemFooter";
 // style

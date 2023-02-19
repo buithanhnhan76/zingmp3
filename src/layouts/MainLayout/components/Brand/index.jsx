@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 // photo
 import zingLogo from "public/icons/zing-logo.svg";

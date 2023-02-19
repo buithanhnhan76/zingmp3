@@ -1,5 +1,5 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useDispatch } from "react-redux";
 // redux
 import { logOut } from "src/redux/actions/authentication";

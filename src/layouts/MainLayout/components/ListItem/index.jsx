@@ -2,7 +2,7 @@
 // libs
 import classNames from "classnames";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 // static icon
 import LiveIcon from "../LiveIcon";
 // style
