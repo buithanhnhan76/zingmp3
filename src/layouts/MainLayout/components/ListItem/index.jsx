@@ -14,16 +14,16 @@ const ListItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
   };
 
   return (
-    <Link href="/">
-      <div
-        id="list-item-image"
-        className={classNames(styles["list-item-container"], {
-          [styles["list-item-active"]]: item.title === selectedSideBarItem,
-        })}
-        onClick={() => handleClickSideBarItem(item.title)}
-        role="presentation"
-        data-cy="sidebar-category-item"
-      >
+    <li
+      id="list-item-image"
+      className={classNames(styles["list-item-container"], {
+        [styles["list-item-active"]]: item.title === selectedSideBarItem,
+      })}
+      onClick={() => handleClickSideBarItem(item.title)}
+      role="presentation"
+      data-cy="sidebar-category-item"
+    >
+      <Link href="/">
         <div className={styles["list-item-content"]}>
           <div
             className={classNames(
@@ -47,8 +47,8 @@ const ListItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
           </span>
           {item.title === "Radio" && <LiveIcon />}
         </div>
-      </div>
-    </Link>
+      </Link>
+    </li>
   );
 };
 
