@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useDispatch } from "react-redux";
 // redux
-import { logOut } from "src/redux/actions/authenticationAction";
+import { logOut } from "src/redux/actions/authentication";
 // style
 import styles from "./UserButton.module.scss";
 

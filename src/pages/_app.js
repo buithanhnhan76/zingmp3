@@ -5,7 +5,7 @@ import { Provider, useDispatch } from "react-redux";
 // hook
 import useTranslate from "src/hooks/useStranslate";
 // action
-import { updateLocale } from "src/redux/actions/authenticationAction";
+import { updateLocale } from "src/redux/actions/locale";
 // layout
 import MainLayout from "src/layouts/MainLayout";
 // style
