@@ -1,11 +1,12 @@
 // libs
+import React from "react";
 import { useSelector } from "react-redux";
 // children
 import LoginButton from "../LoginButton";
 import UserButton from "../UserButton";
 
 const LoginContainer = () => {
-  const { authentication } = useSelector((state) => state);
+  const authentication = useSelector((state) => state.authentication);
 
   return !Object.keys(authentication.user).length ? (
     <LoginButton />
@@ -14,4 +15,4 @@ const LoginContainer = () => {
   );
 };
 
-export default LoginContainer;
+export default React.memo(LoginContainer);

@@ -1,3 +1,5 @@
+// libs
+import React from "react";
 // mocks
 import { listSettingItems } from "src/mocks/Header/HeaderMockData";
 // component
@@ -13,4 +15,4 @@ const SettingItems = () => (
   </div>
 );
 
-export default SettingItems;
+export default React.memo(SettingItems);

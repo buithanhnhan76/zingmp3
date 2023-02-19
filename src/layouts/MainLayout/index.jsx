@@ -1,34 +1,19 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 // libs
-import { useDispatch } from "react-redux";
-import React, { useEffect } from "react";
-// hook
-import useTranslate from "src/hooks/useStranslate";
-// action
-import { updateLocale } from "src/redux/actions/authenticationAction";
+import React from "react";
 // component
 import Sidebar from "./mains/Sidebar";
 import MainBar from "./mains/MainBar";
 // style
 import styles from "./MainLayout.module.scss";
 
-const MainLayout = ({ children }) => {
-  const translate = useTranslate();
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(updateLocale({ translate }));
-  }, [translate]);
+const MainLayout = ({ children }) => (
+  <div>
+    <main className={styles["main-layout-container"]}>
+      <Sidebar />
+      <MainBar>{children}</MainBar>
+    </main>
+  </div>
+);
 
-  return (
-    <div>
-      <main className={styles["main-layout-container"]}>
-        <Sidebar />
-        <MainBar>
-          {children}
-        </MainBar>
-      </main>
-    </div>
-  );
-};
-
-export default MainLayout;
+export default React.memo(MainLayout);

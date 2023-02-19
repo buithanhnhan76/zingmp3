@@ -1,3 +1,5 @@
+// libs
+import React from "react";
 // children
 import Partner from "./mains/Partner";
 import Event from "./mains/Event";
@@ -35,4 +37,4 @@ const HomeMain = () => (
   </div>
 );
 
-export default HomeMain;
+export default React.memo(HomeMain);

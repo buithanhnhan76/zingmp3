@@ -1,3 +1,5 @@
+// libs
+import React from "react";
 // children
 import Header from "../../components/Header";
 // styles
@@ -10,4 +12,4 @@ const MainBar = ({ children }) => (
   </div>
 );
 
-export default MainBar;
+export default React.memo(MainBar);

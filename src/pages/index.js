@@ -1,6 +1,6 @@
 // libs
-import "normalize.css";
 import React from "react";
+import "normalize.css";
 // Head
 import Head from "next/head";
 // photos
@@ -11,7 +11,7 @@ import { useSelector } from "react-redux";
 import HomeMain from "src/views/HomeMain";
 
 const Home = () => {
-  const { title } = useSelector((state) => state.locale.translate.head);
+  const title = useSelector((state) => state.locale.translate.head.title);
   return (
     <div>
       <Head>
@@ -24,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default React.memo(Home);

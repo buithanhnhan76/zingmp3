@@ -1,20 +1,14 @@
-// libs
-import { useSelector } from "react-redux";
-// mocks
-import { listPartners } from "src/mocks/Partner";
 // component
 import PartnerItems from "../../components/PartnerItems";
+import PartnerTitle from "../../components/PartnerTitle";
 // style
 import styles from "./Partner.module.scss";
 
-const Partner = () => {
-  const { translate } = useSelector((state) => state.locale);
-  return (
-    <div className={styles["partner-container"]}>
-      <h3 className={styles["partner-title"]}>{translate.partner.title}</h3>
-      <PartnerItems items={listPartners} />
-    </div>
-  );
-};
+const Partner = () => (
+  <div className={styles["partner-container"]}>
+    <PartnerTitle />
+    <PartnerItems />
+  </div>
+);
 
 export default Partner;

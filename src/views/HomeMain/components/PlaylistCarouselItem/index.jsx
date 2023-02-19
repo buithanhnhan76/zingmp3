@@ -1,4 +1,5 @@
 // libs
+import React from "react";
 import Image from "next/image";
 // styles
 import styles from "./PlaylistCarouselItem.module.scss";
@@ -15,4 +16,4 @@ const PlaylistCarouselItem = ({ item, order }) => (
   </div>
 );
 
-export default PlaylistCarouselItem;
+export default React.memo(PlaylistCarouselItem);
