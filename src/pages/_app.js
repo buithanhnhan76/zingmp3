@@ -21,7 +21,6 @@ const MyApp = ({ Component, pageProps }) => {
   }, [translate]);
   return (
     <Provider store={store}>
-      {console.log(pageProps)}
       <MainLayout>
         <Component {...pageProps} />
       </MainLayout>
