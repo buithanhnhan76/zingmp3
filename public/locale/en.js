@@ -43,4 +43,13 @@ export default {
   partner: {
     title: "Music partner",
   },
+  newRelease: {
+    title: "New release",
+  },
+  chillPlaylist: {
+    title: "Chill playlist",
+  },
+  favoriteArtist: {
+    title: "Favorite artist",
+  },
 };

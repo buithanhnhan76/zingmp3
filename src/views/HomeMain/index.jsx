@@ -19,7 +19,7 @@ import NewSongCarousel from "./mains/NewSongCarousel";
 import styles from "./HomeMain.module.scss";
 
 const HomeMain = () => (
-  <div className={styles["home-main-container"]}>
+  <main className={styles["home-main-container"]}>
     <MediaCarousel />
     <NewRelease />
     <ChillPlaylist />
@@ -34,7 +34,7 @@ const HomeMain = () => (
     <OutStandingRadio />
     <Event />
     <Partner />
-  </div>
+  </main>
 );
 
 export default React.memo(HomeMain);

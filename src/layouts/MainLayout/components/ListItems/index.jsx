@@ -9,9 +9,9 @@ import styles from "./ListItems.module.scss";
 const ListItems = () => { 
   // selected sidebar item
   const [selectedSideBarItem, setSelectedSideBarItem] = useState("");
-  const { items } = useSelector((state) => state.locale.translate.sidebar);
+  const items = useSelector((state) => state.locale.translate.sidebar.items);
   return (
-    <div className={styles["list-items-container"]}>
+    <ul className={styles["list-items-container"]}>
       {items &&
         items.map((item) => (
           <ItemContainer
@@ -21,7 +21,7 @@ const ListItems = () => {
             setSelectedSideBarItem={setSelectedSideBarItem}
           />
         ))}
-    </div>
+    </ul>
   );
 };
 
