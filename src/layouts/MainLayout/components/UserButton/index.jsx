@@ -1,8 +1,8 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useDispatch } from "react-redux";
 // redux
-import { logOut } from "src/redux/actions/authenticationAction";
+import { logOut } from "src/redux/actions/authentication";
 // style
 import styles from "./UserButton.module.scss";
 
@@ -14,9 +14,8 @@ const UserButton = ({ src }) => {
   return (
     <button className={styles["user-button"]} onClick={() => handleLogout()} data-cy="user-button" type="button">
       <Image
-        className={styles["user-button-photo"]}
-        width={40}
-        height={40}
+        layout="fill"
+        objectFit="cover"
         src={src}
       />
     </button>

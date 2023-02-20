@@ -43,4 +43,30 @@ export default {
   partner: {
     title: "Music partner",
   },
+  newRelease: {
+    title: "New release",
+  },
+  chillPlaylist: {
+    title: "Chill playlist",
+  },
+  favoriteArtist: {
+    title: "Favorite artist",
+  },
+  newSongEveryday: {
+    title: "New song everyday",
+  },
+  newSong: {
+    title: "New song",
+    buttonLabel: "All",
+  },
+  xOne: {
+    title: "Xone's corner",
+  },
+  featuredRadios: {
+    title: "Featured radios",
+    buttonLabel: "All",
+  },
+  event: {
+    title: "Event",
+  },
 };

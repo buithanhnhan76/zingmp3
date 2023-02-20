@@ -1,5 +1,5 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 // photos
 import userPhoto from "public/photos/user.jpg";
 // style

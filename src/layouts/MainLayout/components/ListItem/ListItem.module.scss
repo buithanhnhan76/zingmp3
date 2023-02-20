@@ -8,6 +8,7 @@
   max-width: 240px;
   padding: 7px 25px;
   color: $text-color;
+  list-style-type: none;
 
   &:hover {
     @extend .pointer;

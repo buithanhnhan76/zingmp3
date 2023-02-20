@@ -1,7 +1,7 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 // redux
-import { logIn } from "src/redux/actions/authenticationAction";
+import { logIn } from "src/redux/actions/authentication";
 import { useDispatch } from "react-redux";
 // mocks
 import { user } from "src/mocks/UserData/user";
@@ -24,9 +24,8 @@ const LoginButton = () => {
       type="button"
     >
       <Image
-        className={styles["login-button-photo"]}
-        width={40}
-        height={40}
+        layout="fill"
+        objectFit="cover"
         src={userPhoto.src}
         alt="login button"
       />

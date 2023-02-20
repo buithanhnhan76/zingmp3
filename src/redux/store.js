@@ -6,7 +6,7 @@ import { createWrapper } from "next-redux-wrapper";
 // reducer
 import rootReducer from "./reducers";
 
-// initial states here
+// initial states
 const initalState = {};
 
 // middleware
@@ -25,7 +25,6 @@ const makeStore = () => store;
 export const wrapper = createWrapper(makeStore);
 
 // custom store
-// creating store
 export const createCustomStore = (customInitalState) =>
   createStore(
     rootReducer,

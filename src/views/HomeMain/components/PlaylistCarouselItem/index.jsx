@@ -1,6 +1,6 @@
 // libs
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 // styles
 import styles from "./PlaylistCarouselItem.module.scss";
 

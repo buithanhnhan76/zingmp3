@@ -43,4 +43,30 @@ export default {
   partner: {
     title: "Đối tác âm nhạc",
   },
+  newRelease: {
+    title: "Mới phát hành",
+  },
+  chillPlaylist: {
+    title: "Chờ iu chill",
+  },
+  favoriteArtist: {
+    title: "Nghệ sĩ yêu thích",
+  },
+  newSongEveryday: {
+    title: "Nhạc mới mỗi ngày",
+  },
+  newSong: {
+    title: "Nhạc mới",
+    buttonLabel: "Tất cả",
+  },
+  xOne: {
+    title: "Góc Xone",
+  },
+  featuredRadios: {
+    title: "Radio nổi bật",
+    buttonLabel: "Tất cả",
+  },
+  event: {
+    title: "Sự kiện",
+  },
 };

@@ -1,5 +1,5 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Carousel } from "antd";
 import { useRef } from "react";
 // mock

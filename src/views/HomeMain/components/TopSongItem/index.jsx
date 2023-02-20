@@ -1,5 +1,5 @@
 // libs
-import Image from "next/image";
+import Image from "next/legacy/image";
 import classNames from "classnames";
 // style
 import styles from "./TopSongItem.module.scss";

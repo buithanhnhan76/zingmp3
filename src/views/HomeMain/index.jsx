@@ -13,13 +13,13 @@ import Banner from "./mains/Banner";
 import FavoriteArtist from "./mains/FavoriteArtist";
 import Chart from "./mains/Chart";
 import NewRelease from "./mains/NewRelease";
-import OutStandingRadio from "./mains/OutStandingRadio";
+import FeaturedRadios from "./mains/FeaturedRadios";
 import NewSongCarousel from "./mains/NewSongCarousel";
 // style
 import styles from "./HomeMain.module.scss";
 
 const HomeMain = () => (
-  <div className={styles["home-main-container"]}>
+  <main className={styles["home-main-container"]}>
     <MediaCarousel />
     <NewRelease />
     <ChillPlaylist />
@@ -31,10 +31,10 @@ const HomeMain = () => (
     <Top100 />
     <NewSongCarousel />
     <XOneCorner />
-    <OutStandingRadio />
+    <FeaturedRadios />
     <Event />
     <Partner />
-  </div>
+  </main>
 );
 
 export default React.memo(HomeMain);
