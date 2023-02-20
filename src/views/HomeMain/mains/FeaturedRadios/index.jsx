@@ -1,13 +1,13 @@
 // children
 import FeaturedRadiosHeader from "../../components/FeaturedRadiosHeader";
-import OutStandingRadioCarousel from "../../components/OutStandingRadioCarousel";
+import FeaturedRadiosCarousel from "../../components/FeaturedRadiosCarousel";
 // style
 import styles from "./FeaturedRadios.module.scss";
 
 const FeaturedRadios = () => (
   <div className={styles["featured-radios-container"]}>
     <FeaturedRadiosHeader />
-    <OutStandingRadioCarousel />
+    <FeaturedRadiosCarousel />
   </div>
 );
 

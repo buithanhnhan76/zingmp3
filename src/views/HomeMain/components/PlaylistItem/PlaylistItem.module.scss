@@ -1,26 +1,19 @@
 @import "src/assets/styles/_varibles.scss";
 
 .playlist-item-container {
+  flex-grow: 1;
+  padding: 0 10px;
+
   .playlist-item-photo-container {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    min-width: 195px;
-    height: 195px;
-  }
-
-  .playlist-item-photo {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    min-width: 195px;
-    width: 97%;
-    height: 210px;
+    width: 100%;
+    min-height: 200px;
   }
 
   .playlist-item-title {
-    margin-top: 12px;
-    margin-bottom: 0;
+    margin-top: 12px 0;
     color: $text-color;
   }
 
@@ -28,28 +21,33 @@
     color: $text-secondary;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 1440px) {
+    width: 222px;
+    height: 260px;
+  }
+
+  @media screen and (max-width: 1350px) {
     &[order="4"] {
       display: none;
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
     &[order="3"] {
       display: none;
     }
   }
 
-  @media screen and (max-width: 426px) {
-    width: 100%;
+  @media screen and (max-width: 730px) {
+    &[order="2"] {
+      display: none;
+    }
+  }
 
+  @media screen and (max-width: 426px) {
     &[order="2"],
     &[order="1"] {
       display: none;
-    }
-
-    .playlist-item-photo-container {
-      min-width: 210px;
     }
   }
 }

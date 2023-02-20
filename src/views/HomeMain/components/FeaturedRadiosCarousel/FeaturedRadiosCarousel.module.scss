@@ -1,0 +1,9 @@
+.carousel-container {
+  position: relative;
+  margin-top: 10px;
+  max-width: calc(100vw - 240px - 59px - 59px);
+
+  @media screen and (max-width: 1024px) {
+    max-width: calc(100vw - 70px - 30px - 30px);
+  }
+}
