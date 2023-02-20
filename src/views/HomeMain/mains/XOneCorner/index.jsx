@@ -1,10 +1,17 @@
+// libs
+import { useSelector } from "react-redux";
+// mock
 import { listPlaylistItems } from "src/mocks/Playlist";
+// child
 import Playlist from "../../components/Playlist";
 
-const XOneCorner = () => (
-  <div>
-    <Playlist title="XONE'S CORNER" listItems={listPlaylistItems} />
-  </div>
-);
+const XOneCorner = () => {
+  const title = useSelector((state) => state.locale.translate.xOne.title);
+  return (
+    <div>
+      <Playlist title={title} listItems={listPlaylistItems} />
+    </div>
+  );
+};
 
 export default XOneCorner;

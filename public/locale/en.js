@@ -52,4 +52,21 @@ export default {
   favoriteArtist: {
     title: "Favorite artist",
   },
+  newSongEveryday: {
+    title: "New song everyday",
+  },
+  newSong: {
+    title: "New song",
+    buttonLabel: "All",
+  },
+  xOne: {
+    title: "Xone's corner",
+  },
+  featuredRadios: {
+    title: "Featured radios",
+    buttonLabel: "All",
+  },
+  event: {
+    title: "Event",
+  },
 };

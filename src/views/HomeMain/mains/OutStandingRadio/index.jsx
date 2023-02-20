@@ -1,4 +1,4 @@
-// child
+// children
 import OutStandingRadioHeader from "../../components/OutStandingRadioHeader";
 import OutStandingRadioCarousel from "../../components/OutStandingRadioCarousel";
 // style
