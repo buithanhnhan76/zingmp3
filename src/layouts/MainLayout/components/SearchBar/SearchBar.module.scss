@@ -4,32 +4,12 @@
   display: flex;
   align-items: center;
   border-radius: 20px;
-  width: 500px;
+  max-width: 440px;
+  min-width: 78px;
   height: 50px;
   padding: 0 10px;
   background-color: $header-search-background-color;
   font-size: 1.4rem;
-
-  @media screen and (max-width: 1248px) {
-    max-width: 340px;
-  }
-
-  @media screen and (max-width: 1048px) {
-    max-width: 300px;
-  }
-
-  @media screen and (max-width: 790px) {
-    max-width: 250px;
-  }
-
-  @media screen and (max-width: 730px) {
-    max-width: 200px;
-  }
-
-  @media screen and (max-width: 680px) {
-    width: 85px;
-    height: 30px;
-  }
 
   .search-bar {
     margin-left: 5px;
@@ -43,5 +23,13 @@
       font-size: 1.2rem;
       color: $header-search-icon-color;
     }
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 440px;
+  }
+
+  @media screen and (max-width: 1439px) {
+    flex-grow: 1;
   }
 }

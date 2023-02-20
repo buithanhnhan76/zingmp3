@@ -34,7 +34,6 @@ const HomeMain = () => (
     <FeaturedRadios />
             */}
     <Event />
-
     <Partner />
   </main>
 );
