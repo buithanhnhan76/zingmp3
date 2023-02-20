@@ -11,15 +11,23 @@
   font-size: 1.4rem;
 
   @media screen and (max-width: 1248px) {
-    width: 400px;
+    max-width: 340px;
   }
 
   @media screen and (max-width: 1048px) {
-    width: 300px;
+    max-width: 300px;
   }
 
-  @media screen and (max-width: 426px) {
-    width: 72px;
+  @media screen and (max-width: 790px) {
+    max-width: 250px;
+  }
+
+  @media screen and (max-width: 730px) {
+    max-width: 200px;
+  }
+
+  @media screen and (max-width: 680px) {
+    width: 85px;
     height: 30px;
   }
 

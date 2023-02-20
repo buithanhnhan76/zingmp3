@@ -15,11 +15,11 @@
   color: $text-color;
 
   @media screen and (max-width: 1024px) {
-    width: calc(100vw - 50px);
+    width: calc(100vw - 70px);
     padding: 0 29px;
   }
 
-  @media screen and (max-width: 426px) {
-    padding: 0 25px 0 10px;
+  @media screen and (max-width: 670px) {
+    padding: 0 10px;
   }
 }
