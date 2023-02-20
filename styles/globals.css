@@ -21,11 +21,16 @@ body {
 
 ::-webkit-scrollbar {
   width: 0.7px;
-  background-color: #000;
+  height: 0.7px;
+  background-color: rgb(168 140 140 / 30%);
+}
+
+::-webkit-scrollbar:horizontal {
+  width: 0.7px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: gray;
 }
 
 h1,
