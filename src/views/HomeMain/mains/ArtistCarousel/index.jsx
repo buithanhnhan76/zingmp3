@@ -17,7 +17,6 @@ const ArtistCarousel = () => {
   const numberOfSlidesToShow = useSlidesNumber(7, 5, 3, 1);
   return (
     <div className={styles["carousel-container"]}>
-      {console.log(numberOfSlidesToShow)}
       <LeftButton carousel={carousel} />
       <Carousel autoplay dots={true} slidesToShow={numberOfSlidesToShow} ref={carousel}>
         {listArtistCarousel.map((item) => (

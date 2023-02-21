@@ -1,6 +1,5 @@
 // libs
 import { Carousel } from "antd";
-import { useMemo } from "react";
 // hook
 import { useSlidesNumber } from "src/hooks/useSlidesNumber";
 // mocks
