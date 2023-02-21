@@ -45,6 +45,10 @@ export default {
   },
   newRelease: {
     title: "Mới phát hành",
+    header: {
+      groupButtons: [{ title: "Bài hát" }, { title: "Album" }],
+      button: { title: "Tất cả" },
+    },
   },
   chillPlaylist: {
     title: "Chờ iu chill",

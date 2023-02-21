@@ -1,8 +1,8 @@
-// mocks
+// mock
 import { listWeekChartItems } from "src/mocks/WeekChart";
 // child
 import WeekChartItems from "../../components/WeekChartItems";
-// style
+// styles
 import styles from "./WeekChart.module.scss";
 
 const WeekChart = () => (

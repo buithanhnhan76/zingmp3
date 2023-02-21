@@ -1,23 +1,32 @@
+// libs
+import { useSelector } from "react-redux";
 // child
 import Button from "src/components/Button";
-// style
+// styles
 import styles from "./NewReleaseHeader.module.scss";
 
-const NewReleaseHeader = () => (
-  <div className={styles["new-release-header-header"]}>
-    <div className={styles["group-button-left"]}>
-      <Button buttonLabel="BÀI HÁT" backGroundColor="purple" border="none" />
-      <Button buttonLabel="ALBUM" />
-    </div>
-    <div>
+const NewReleaseHeader = () => {
+  const newReleaseHeader = useSelector(
+    (state) => state.locale.translate.newRelease.header
+  );
+  return (
+    <div className={styles["new-release-header"]}>
+      <div className={styles["group-button"]}>
+        <Button
+          buttonLabel={newReleaseHeader.groupButtons[0].title}
+          backGroundColor="purple"
+          border="none"
+        />
+        <Button buttonLabel={newReleaseHeader.groupButtons[1].title} />
+      </div>
       <Button
-        buttonLabel="TẤT CẢ"
+        buttonLabel={newReleaseHeader.button.title}
         border="none"
         color="secondary"
         arrow
       />
     </div>
-  </div>
-);
+  );
+};
 
 export default NewReleaseHeader;

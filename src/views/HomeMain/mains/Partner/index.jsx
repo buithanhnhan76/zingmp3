@@ -1,7 +1,7 @@
-// component
+// children
 import PartnerItems from "../../components/PartnerItems";
 import PartnerTitle from "../../components/PartnerTitle";
-// style
+// styles
 import styles from "./Partner.module.scss";
 
 const Partner = () => (

@@ -1,8 +1,8 @@
 // libs
 import { useSelector } from "react-redux";
-// Mock
+// mock
 import { listPlaylistItems } from "src/mocks/Playlist";
-// Child
+// child
 import Playlist from "../../components/Playlist";
 
 const NewSongEveryDay = () => {

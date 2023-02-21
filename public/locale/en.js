@@ -45,6 +45,10 @@ export default {
   },
   newRelease: {
     title: "New release",
+    header: {
+      groupButtons: [{ title: "Songs" }, { title: "Album" }],
+      button: { title: "All" },
+    },
   },
   chillPlaylist: {
     title: "Chill playlist",

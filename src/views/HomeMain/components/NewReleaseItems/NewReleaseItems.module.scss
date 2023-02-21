@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   margin-top: 10px;
-  max-width: 1082px;
+  width: 100%;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
