@@ -1,22 +1,13 @@
 .carousel-container {
   position: relative;
-  max-width: 1082px;
+  max-width: calc(100vw - 240px - 59px - 59px);
 
   .carousel-item {
     position: relative;
     height: 160px;
   }
 
-  @media screen and (max-width: 769px) {
-    .carousel-item {
-      height: 120px;
-    }
-  }
-
-
-  @media screen and (max-width: 426px) {
-    .carousel-item {
-      height: 50px;
-    }
+  @media screen and (max-width: 1024px) {
+    max-width: calc(100vw - 70px - 30px - 30px);
   }
 }
