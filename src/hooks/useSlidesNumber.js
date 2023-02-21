@@ -26,9 +26,8 @@ export const useSlidesNumber = (
     }
     return screenLarge;
   };
-  const numberOfSlidesToShow = useMemo(
-    () => calculateSLidesNumber(),
-    [windowDimensions]
-  );
+  const numberOfSlidesToShow = useMemo(calculateSLidesNumber, [
+    windowDimensions,
+  ]);
   return numberOfSlidesToShow;
 };
