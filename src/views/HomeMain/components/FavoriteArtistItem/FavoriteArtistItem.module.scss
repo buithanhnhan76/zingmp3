@@ -16,6 +16,14 @@
     }
   }
 
+  @media screen and (max-width: 768px) {
+    height: 330px;
+
+    &[order="2"] {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 426px) {
     height: 330px;
 
