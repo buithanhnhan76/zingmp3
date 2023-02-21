@@ -18,7 +18,7 @@ const ArtistCarousel = () => {
   return (
     <div className={styles["carousel-container"]}>
       <LeftButton carousel={carousel} />
-      <Carousel autoplay dots={true} slidesToShow={numberOfSlidesToShow} ref={carousel}>
+      <Carousel autoplay dots slidesToShow={numberOfSlidesToShow} ref={carousel}>
         {listArtistCarousel.map((item) => (
           <div key={item.id} className={styles["carousel-item"]}>
             <Image src={item.src} layout="fill" />
