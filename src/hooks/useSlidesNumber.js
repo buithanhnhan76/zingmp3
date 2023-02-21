@@ -28,6 +28,10 @@ export const useSlidesNumber = (
   };
   const numberOfSlidesToShow = useMemo(calculateSLidesNumber, [
     windowDimensions,
+    screenLarge,
+    screenMedium,
+    screenSmall,
+    screenXSmall,
   ]);
   return numberOfSlidesToShow;
 };
