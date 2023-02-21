@@ -19,6 +19,20 @@ body {
   color: white;
 }
 
+::-webkit-scrollbar {
+  width: 0.7px;
+  height: 0.7px;
+  background-color: rgb(168 140 140 / 30%);
+}
+
+::-webkit-scrollbar:horizontal {
+  width: 0.7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
 h1,
 h2,
 h3,

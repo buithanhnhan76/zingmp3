@@ -20,7 +20,7 @@ import styles from "./HomeMain.module.scss";
 
 const HomeMain = () => (
   <main className={styles["home-main-container"]}>
-    <MediaCarousel />
+    <MediaCarousel />   
     <NewRelease />
     <ChillPlaylist />
     <FavoriteArtist />

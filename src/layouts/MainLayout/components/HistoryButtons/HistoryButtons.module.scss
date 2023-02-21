@@ -9,17 +9,17 @@
   &::before {
     content: "\2190";
     padding-right: 20px;
-
-    @media screen and (max-width: 426px) {
-      padding-right: 0;
-    }
   }
 
   &::after {
     content: "\2192";
   }
 
-  @media screen and (max-width: 426px) {
+  @media screen and (max-width: 680px) {
     width: 55px;
+
+    &::before {
+      padding-right: 0;
+    }
   }
 }

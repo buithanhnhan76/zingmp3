@@ -10,9 +10,9 @@ import LeftButton from "../LeftButton";
 import RightButton from "../RightButton";
 import RadioItem from "../RadioItem";
 // styles
-import styles from "./OutStandingRadioCarousel.module.scss";
+import styles from "./FeaturedRadiosCarousel.module.scss";
 
-const OutStandingRadioCarousel = () => {
+const FeaturedRadiosCarousel = () => {
   const carousel = useRef();
   const windowDimensions = useWindowDimensions();
 
@@ -20,7 +20,7 @@ const OutStandingRadioCarousel = () => {
     if (windowDimensions) {
       if (windowDimensions.width > 1400) return 7;
        if (windowDimensions.width >= 768) return 5;
-      if (windowDimensions.width >= 375) return 2;
+      if (windowDimensions.width >= 375) return 3;
       return 1;
     }
     return 7;
@@ -31,7 +31,7 @@ const OutStandingRadioCarousel = () => {
   );
   return (
     <div className={styles["carousel-container"]}>
-      <Carousel dots={false} slidesToShow={numberOfSlidesToShow} ref={carousel}>
+      <Carousel dots={false} slidesToShow={numberOfSlidesToShow} ref={carousel} autoplay>
         {listRadios.map((radio) => (
           <RadioItem key={radio.id} radio={radio} />
         ))}
@@ -42,4 +42,4 @@ const OutStandingRadioCarousel = () => {
   );
 };
 
-export default OutStandingRadioCarousel;
+export default FeaturedRadiosCarousel;

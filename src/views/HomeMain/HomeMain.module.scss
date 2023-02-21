@@ -9,12 +9,24 @@
   font-family: "Times New Roman", Times, serif;
   color: $text-color;
 
+  > div {
+    max-width: calc(100vw - 240px - 118px);
+  }
+
   @media screen and (max-width: 1025px) {
     max-width: calc(100vw - 70px);
     padding: 0 30px;
+
+    > div {
+      max-width: calc(100vw - 70px - 60px);
+    }
   }
 
   @media screen and (max-width: 426px) {
     padding: 0 20px;
+
+    > div {
+      max-width: calc(100vw - 70px - 40px);
+    }
   }
 }

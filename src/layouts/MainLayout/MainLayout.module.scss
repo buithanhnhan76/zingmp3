@@ -12,6 +12,7 @@
   height: 100vh;
   color: $text-color;
   -webkit-tap-highlight-color: transparent;
+  background-color: $home-background-color;
 }
 
 @media screen and (max-width: 1024px) {
