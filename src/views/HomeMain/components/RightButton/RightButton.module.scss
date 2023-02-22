@@ -10,14 +10,14 @@
   background-color: #fff;
   cursor: pointer;
 
-  @media screen and (max-width: 426px) {
-    width: 30px;
-    height: 30px;
-  }
-
   &::after {
     content: "\003E";
     font-size: 20px;
     color: black;
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 30px;
+    height: 30px;
   }
 }

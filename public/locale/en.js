@@ -66,8 +66,8 @@ export default {
   xOne: {
     title: "Xone's corner",
   },
-  featuredRadios: {
-    title: "Featured radios",
+  featuredRadio: {
+    title: "Featured radio",
     buttonLabel: "All",
   },
   event: {

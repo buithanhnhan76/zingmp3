@@ -13,7 +13,7 @@ import WeekChart from "./mains/WeekChart";
 import FavoriteArtist from "./mains/FavoriteArtist";
 import Chart from "./mains/Chart";
 import NewRelease from "./mains/NewRelease";
-import FeaturedRadios from "./mains/FeaturedRadios";
+import FeaturedRadio from "./mains/FeaturedRadio";
 import NewSongCarousel from "./mains/NewSongCarousel";
 // style
 import styles from "./HomeMain.module.scss";
@@ -31,7 +31,7 @@ const HomeMain = () => (
     <Top100 />
     <NewSongCarousel />
     <XOneCorner />
-    <FeaturedRadios />
+    <FeaturedRadio />
     <Event />
     <Partner />
   </main>

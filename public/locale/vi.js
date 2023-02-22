@@ -66,7 +66,7 @@ export default {
   xOne: {
     title: "Góc Xone",
   },
-  featuredRadios: {
+  featuredRadio: {
     title: "Radio nổi bật",
     buttonLabel: "Tất cả",
   },

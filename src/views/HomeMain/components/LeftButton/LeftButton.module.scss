@@ -1,9 +1,9 @@
 .left-button {
   position: absolute;
-  z-index: 1;
   top: 50%;
   left: 0%;
   transform: translate(-50%, -50%);
+  z-index: 1;
   border: none;
   border-radius: 50%;
   width: 55px;
@@ -11,15 +11,15 @@
   background-color: #fff;
   cursor: pointer;
 
-  @media screen and (max-width: 426px) {
-    width: 30px;
-    height: 30px;
-  }
-
   &::before {
     content: "\003C";
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 30px;
+    height: 30px;
   }
 }

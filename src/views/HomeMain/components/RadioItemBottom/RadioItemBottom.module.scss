@@ -1,0 +1,14 @@
+@import "src/assets/styles/_varibles.scss";
+
+.radio-item-bottom {
+  text-align: center;
+
+  .radio-item-host-photo {
+    margin: 5px 0;
+  }
+
+  .text-secondary {
+    margin: 0;
+    color: $text-secondary;
+  }
+}
