@@ -28,7 +28,7 @@ export const listTopSongs = [
   },
 ];
 
-export const lineChartData = [
+export const chartData = [
   {
     time: "18:00",
     value: 30,

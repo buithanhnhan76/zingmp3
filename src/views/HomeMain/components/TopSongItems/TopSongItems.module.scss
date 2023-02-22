@@ -1,13 +1,10 @@
-.top-song-items-container {
+.top-song-items {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 15px;
 
-  .top-song-items-buttons {
+  .top-song-items-button {
     text-align: center;
-  }
-
-  > div {
-    margin-bottom: 15px;
   }
 }

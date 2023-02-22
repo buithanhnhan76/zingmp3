@@ -2,7 +2,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 // mock
-import { lineChartData } from "src/mocks/TopSongItems";
+import { chartData } from "src/mocks/TopSongItems";
 // styles
 import styles from "./LineChart.module.scss";
 
@@ -14,7 +14,7 @@ const LineChartComponent = dynamic(
 );
 
 const config = {
-  data: lineChartData,
+  data: chartData,
   xField: "time",
   yField: "value",
   seriesField: "category",
@@ -22,7 +22,7 @@ const config = {
 };
 
 const LineChart = () => (
-  <div className={styles["linechart-container"]}>
+  <div className={styles["linechart"]}>
     <LineChartComponent {...config} />
   </div>
 );

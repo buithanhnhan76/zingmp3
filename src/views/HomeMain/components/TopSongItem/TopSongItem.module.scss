@@ -1,79 +1,22 @@
 @import "src/assets/styles/_varibles.scss";
 
-.top-song-item-container {
+.top-song-item {
+  flex-grow: 1;
   position: relative;
   display: flex;
   align-items: center;
+  gap: 15px;
   border-radius: 10px;
   height: 80px;
   padding: 10px 15px;
+  width: 100%;
   background-color: $top-song-bg-color;
 
-  .top-song-item-rank {
-    font-size: 3.2rem;
+  @media screen and (min-width: 500px) {
+    min-width: 250px;
   }
 
-  .top-song-item-rank-first {
-    -webkit-text-stroke: 1px #4a90e2;
-  }
-
-  .top-song-item-rank-second {
-    -webkit-text-stroke: 1px #50e3c2;
-  }
-
-  .top-song-item-rank-third {
-    -webkit-text-stroke: 1px #e35050;
-  }
-
-  .top-song-item-photo {
-    position: relative;
-    border-radius: 5px;
-    width: 60px;
-    height: 60px;
-  }
-
-  .top-song-item-percent {
-    position: absolute;
-    right: 0;
-    font-size: 1.6rem;
-  }
-
-  .top-song-item-title {
-    font-size: 1.4rem;
-  }
-
-  .top-song-item-artists {
-    font-size: 1.2rem;
-  }
-
-  > div {
-    margin-right: 15px;
-
-    &:last-of-type {
-      margin-left: 30px;
-    }
-  }
-
-  @media screen and (max-width: 1024px) {
-    width: 250px;
-  }
-
-  @media screen and (max-width: 426px) {
-    width: 100%;
-  }
-
-  @media screen and (max-width: 321px) {
-    .top-song-item-photo {
-      max-width: 40px;
-      max-height: 40px;
-    }
-
-    > div {
-      margin-right: 5px;
-
-      &:last-of-type {
-        margin-left: 10px;
-      }
-    }
+  @media screen and (max-width: 355px) {
+    gap: 5px;
   }
 }

@@ -1,0 +1,51 @@
+.top-song-item-left {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .top-song-item-rank {
+    font-size: 3.2rem;
+  }
+
+  .top-song-item-first {
+    -webkit-text-stroke: 1px #4a90e2;
+  }
+
+  .top-song-item-second {
+    -webkit-text-stroke: 1px #50e3c2;
+  }
+
+  .top-song-item-third {
+    -webkit-text-stroke: 1px #e35050;
+  }
+
+  .top-song-item-photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .top-song-item-title {
+    font-size: 1.4rem;
+  }
+
+  .top-song-item-artists {
+    font-size: 1.2rem;
+  }
+
+  .top-song-item-percent {
+    font-size: 1.6rem;
+  }
+
+  @media screen and (max-width: 355px) {
+    gap: 5px;
+
+    .top-song-item-photo {
+      max-width: 40px;
+      max-height: 40px;
+    }
+  }
+}
