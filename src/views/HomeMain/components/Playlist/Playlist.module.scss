@@ -1,10 +1,13 @@
 .playlist-container {
   margin-top: 30px;
-  max-width: 1082px;
-  height: 310px;
+  height: auto;
 
   .playlist-title {
     font-size: 2rem;
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 1440px) {
+    height: 310px;
   }
 }
