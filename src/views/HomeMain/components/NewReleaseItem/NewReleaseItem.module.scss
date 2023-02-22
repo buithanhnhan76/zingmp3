@@ -1,9 +1,12 @@
 @import "src/assets/styles/_varibles.scss";
+@import "src/assets/styles/utils";
 
 .new-release-item-container {
   display: flex;
 
   .new-release-item-photo-container {
+    @extend .pointer;
+
     position: relative;
     overflow: hidden;
     margin-right: 10px;
@@ -12,7 +15,13 @@
     height: 60px;
   }
 
+  .new-release-item-title {
+    @extend .pointer;
+  }
+
   .new-release-item-details {
+    @extend .pointer;
+
     color: $text-secondary;
   }
 

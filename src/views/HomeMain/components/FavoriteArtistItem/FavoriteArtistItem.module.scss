@@ -1,4 +1,8 @@
+@import "src/assets/styles/utils";
+
 .favorite-artist-item {
+  @extend .pointer;
+
   position: relative;
   width: 100%;
   height: 260px;

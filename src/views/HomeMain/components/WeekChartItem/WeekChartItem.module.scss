@@ -1,4 +1,8 @@
+@import "src/assets/styles/utils";
+
 .week-chart-item-photo-container {
+  @extend .pointer;
+
   flex-grow: 1;
   position: relative;
   overflow: hidden;

@@ -1,6 +1,9 @@
 @import "src/assets/styles/_varibles.scss";
+@import "src/assets/styles/utils";
 
 .top-song-item {
+  @extend .pointer;
+
   flex-grow: 1;
   position: relative;
   display: flex;

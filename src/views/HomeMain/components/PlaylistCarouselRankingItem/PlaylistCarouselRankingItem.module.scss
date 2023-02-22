@@ -1,6 +1,9 @@
 @import "src/assets/styles/_varibles.scss";
+@import "src/assets/styles/utils";
 
 .playlist-carousel-ranking-item-container {
+  @extend .pointer;
+
   display: inline-block;
   width: 95%;
 

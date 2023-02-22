@@ -1,4 +1,8 @@
+@import "src/assets/styles/utils";
+
 .carousel-item {
+  @extend .pointer;
+
   margin: 0 auto;
   text-align: center;
   position: relative;
