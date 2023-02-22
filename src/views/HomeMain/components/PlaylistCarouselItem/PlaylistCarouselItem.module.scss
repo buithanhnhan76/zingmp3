@@ -4,14 +4,13 @@
 .playlist-carousel-item-container {
   @extend .pointer;
 
-  width: 95%;
+  width: 90%;
 
   .playlist-carousel-item-photo-container {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    min-width: 195px;
-    height: 195px;
+    aspect-ratio: 1/1;
   }
 
   .playlist-carousel-item-title {
@@ -24,17 +23,11 @@
     color: $text-secondary;
   }
 
-  @media screen and (max-width: 769px) {
-    .playlist-carousel-item-photo-container {
-      height: 180px;
-    }
+  @media screen and (min-width: 1440px) {
+    max-height: 250px;
   }
 
   @media screen and (max-width: 426px) {
     width: 100%;
-
-    .playlist-carousel-item-photo-container {
-      min-width: 210px;
-    }
   }
 }
