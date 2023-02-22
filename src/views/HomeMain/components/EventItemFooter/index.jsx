@@ -1,17 +1,23 @@
+// children
 import AvatarList from "../AvatarList";
-// style
+import Button from "src/components/Button";
+// styles
 import styles from "./EventItemFooter.module.scss";
 
 const EventItemFooter = ({ item }) => (
   <div className={styles["event-item-footer"]}>
-    <div className={styles["event-item-footer-title-container"]}>
-      <h5 className={styles["event-item-footer-title"]}>{item.footerTitle}</h5>
-      <AvatarList listAvatar={item.listInterested} />
+    <div>
+      <h5 className={styles["followers-title"]}>{item.followerTitle}</h5>
+      <AvatarList items={item.listFollowers} />
     </div>
     <div>
-      <button className={styles["event-item-footer-button"]} type="button">
-        {item.buttonLabel}
-      </button>
+      <Button
+        buttonLabel={item.buttonLabel}
+        backGroundColor="purple"
+        uppercase
+        large
+        border="none"
+      />
     </div>
   </div>
 );

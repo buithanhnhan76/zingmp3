@@ -31,6 +31,14 @@
   color: $text-secondary;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.button-large {
+  padding: 9px 20px;
+}
+
 .button-arrow {
   &::after {
     content: "\003E";

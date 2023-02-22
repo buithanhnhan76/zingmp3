@@ -1,10 +1,10 @@
-// event photos
+// photos
 import Issac from "public/photos/Issac.webp";
 import NhatKimAnh from "public/photos/NhatKimAnh.webp";
 import TangDuyTan from "public/photos/TangDuyTan.webp";
 import user from "public/photos/user.jpg";
 
-export const listInterested = [
+export const listFollowersOne = [
   {
     id: 1,
     src: user.src,
@@ -35,7 +35,7 @@ export const listInterested = [
   },
 ];
 
-export const listInterestedSample = [
+export const listFollowersSecond = [
   {
     id: 1,
     src: user.src,
@@ -89,10 +89,9 @@ export const listEvents = [
     category: "sinh nhật sao",
     date: "20:00 Thứ Tư, 24 tháng 8",
     src: Issac.src,
-    listInterested,
+    listFollowers: listFollowersOne,
     buttonLabel: "Tham gia",
-    footerTitle: "Lượt quan tâm",
-    order: "first",
+    followerTitle: "Lượt quan tâm",
   },
   {
     id: 2,
@@ -100,10 +99,9 @@ export const listEvents = [
     category: "phát hành album",
     date: "21:00 Thứ Tư, 24 tháng 8",
     src: NhatKimAnh.src,
-    listInterested: listInterestedSample,
+    listFollowers: listFollowersSecond,
     buttonLabel: "Quan tâm",
-    footerTitle: "Lượt chúc mừng",
-    order: "second",
+    followerTitle: "Lượt chúc mừng",
   },
   {
     id: 3,
@@ -111,9 +109,8 @@ export const listEvents = [
     category: "minishow",
     date: "22:00 Thứ Tư, 24 tháng 8",
     src: TangDuyTan.src,
-    listInterested: listInterestedSample,
+    listFollowers: listFollowersOne,
     buttonLabel: "Tham gia",
-    footerTitle: "Lượt quan tâm",
-    order: "third",
+    followerTitle: "Lượt quan tâm",
   },
 ];

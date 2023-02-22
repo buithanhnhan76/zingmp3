@@ -2,14 +2,14 @@ import AvatarItem from "../AvatarItem";
 // style
 import styles from "./AvatarList.module.scss";
 
-const AvatarList = ({ listAvatar }) => (
+const AvatarList = ({ items }) => (
   <div className={styles["avatar-list-container"]}>
     <div className={styles["avatar-list"]}>
-      {listAvatar.slice(0, 5).map((item) => (
+      {items.slice(0, 5).map((item) => (
         <AvatarItem item={item} key={item.id} />
       ))}
     </div>
-    <div className={styles["avatar-list-count"]}>+ {listAvatar.length - 5}</div>
+    <div className={styles["followers-number"]}>+ {items.length}</div>
   </div>
 );
 

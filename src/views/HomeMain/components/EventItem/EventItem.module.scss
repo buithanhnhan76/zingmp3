@@ -1,6 +1,6 @@
 @import "src/assets/styles/varibles";
 
-.event-item-container {
+.event-item {
   flex-grow: 1;
   background-color: $home-background-color;
 
@@ -9,7 +9,7 @@
   }
 
   @media screen and (max-width: 780px) {
-    &[order="third"] {
+    &[order="2"] {
       display: none;
     }
   }
@@ -17,7 +17,7 @@
   @media screen and (max-width: 600px) {
     width: 100%;
 
-    &[order="second"] {
+    &[order="1"] {
       display: none;
     }
   }
