@@ -5,7 +5,7 @@ import RadioItemBottom from "../RadioItemBottom";
 import styles from "./RadioItem.module.scss";
 
 const RadioItem = ({ item }) => (
-  <div class={styles["radio-item"]}>
+  <div className={styles["radio-item"]}>
     <RadioItemTop item={item} />
     <RadioItemBottom item={item} />
   </div>

@@ -1,6 +1,6 @@
 // children
-import AvatarList from "../AvatarList";
 import Button from "src/components/Button";
+import AvatarList from "../AvatarList";
 // styles
 import styles from "./EventItemFooter.module.scss";
 

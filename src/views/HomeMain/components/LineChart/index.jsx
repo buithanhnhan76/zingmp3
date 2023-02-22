@@ -22,7 +22,7 @@ const config = {
 };
 
 const LineChart = () => (
-  <div className={styles["linechart"]}>
+  <div className={styles["line-chart"]}>
     <LineChartComponent {...config} />
   </div>
 );

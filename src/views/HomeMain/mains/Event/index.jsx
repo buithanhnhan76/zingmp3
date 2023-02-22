@@ -5,7 +5,7 @@ import EventItems from "../../components/EventItems";
 import styles from "./Event.module.scss";
 
 const Event = () => (
-  <section className={styles["event"]}>
+  <section className={styles.event}>
     <EventHeader />
     <EventItems />
   </section>
