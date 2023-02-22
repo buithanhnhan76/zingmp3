@@ -7,13 +7,9 @@
 
   .avatar-list {
     display: flex;
-
-    > div:not(:first-child) {
-      margin-left: -4px;
-    }
   }
 
-  .avatar-list-count {
+  .followers-number {
     color: $text-secondary;
     font-size: 1.5rem;
   }

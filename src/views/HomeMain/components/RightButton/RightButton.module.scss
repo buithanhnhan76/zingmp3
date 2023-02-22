@@ -8,15 +8,16 @@
   width: 55px;
   height: 55px;
   background-color: #fff;
-
-  @media screen and (max-width: 426px) {
-    width: 30px;
-    height: 30px;
-  }
+  cursor: pointer;
 
   &::after {
     content: "\003E";
     font-size: 20px;
     color: black;
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 30px;
+    height: 30px;
   }
 }

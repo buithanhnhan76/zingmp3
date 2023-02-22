@@ -9,6 +9,8 @@ const Button = ({
   backGroundColor,
   border,
   color,
+  large,
+  uppercase,
   arrow,
 }) => (
   <button
@@ -19,6 +21,8 @@ const Button = ({
       { [styles["background-transparent"]]: !backGroundColor },
       { [styles["background-purple"]]: backGroundColor === "purple" },
       { [styles["text-secondary"]]: color === "secondary" },
+      { [styles["text-uppercase"]]: uppercase === true },
+      { [styles["button-large"]]: large === true },
       { [styles["button-arrow"]]: arrow === true }
     )}
     type="button"

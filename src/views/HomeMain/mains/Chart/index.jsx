@@ -1,16 +1,16 @@
 // children
 import TopSongItems from "../../components/TopSongItems";
 import LineChart from "../../components/LineChart";
-// style
+// styles
 import styles from "./Chart.module.scss";
 
 const Chart = () => (
-  <div className={styles["chart-container"]}>
+  <section className={styles.chart}>
     <h3 className={styles["chart-title"]}>#zingchart</h3>
     <div className={styles["chart-ranking"]}>
       <TopSongItems />
       <LineChart />
     </div>
-  </div>
+  </section>
 );
 export default Chart;

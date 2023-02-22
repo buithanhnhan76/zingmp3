@@ -9,29 +9,29 @@ import XOneCorner from "./mains/XOneCorner";
 import ChillPlaylist from "./mains/ChillPlaylist";
 import NewSongEveryDay from "./mains/NewSongEveryDay";
 import Top100 from "./mains/Top100";
-import Banner from "./mains/Banner";
+import WeekChart from "./mains/WeekChart";
 import FavoriteArtist from "./mains/FavoriteArtist";
 import Chart from "./mains/Chart";
 import NewRelease from "./mains/NewRelease";
-import FeaturedRadios from "./mains/FeaturedRadios";
+import FeaturedRadio from "./mains/FeaturedRadio";
 import NewSongCarousel from "./mains/NewSongCarousel";
 // style
 import styles from "./HomeMain.module.scss";
 
 const HomeMain = () => (
   <main className={styles["home-main-container"]}>
-    <MediaCarousel />   
+    <MediaCarousel />
     <NewRelease />
     <ChillPlaylist />
     <FavoriteArtist />
     <NewSongEveryDay />
     <Chart />
-    <Banner />
+    <WeekChart />
     <ArtistCarousel />
     <Top100 />
     <NewSongCarousel />
     <XOneCorner />
-    <FeaturedRadios />
+    <FeaturedRadio />
     <Event />
     <Partner />
   </main>

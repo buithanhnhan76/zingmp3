@@ -45,6 +45,10 @@ export default {
   },
   newRelease: {
     title: "New release",
+    header: {
+      groupButtons: [{ title: "Songs" }, { title: "Album" }],
+      button: { title: "All" },
+    },
   },
   chillPlaylist: {
     title: "Chill playlist",
@@ -62,8 +66,8 @@ export default {
   xOne: {
     title: "Xone's corner",
   },
-  featuredRadios: {
-    title: "Featured radios",
+  featuredRadio: {
+    title: "Featured radio",
     buttonLabel: "All",
   },
   event: {

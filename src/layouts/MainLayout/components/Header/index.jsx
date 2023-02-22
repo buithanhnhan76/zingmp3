@@ -7,10 +7,10 @@ import HeaderRight from "../HeaderRight";
 import styles from "./Header.module.scss";
 
 const Header = () => (
-  <div className={classNames(styles["header-container"])}>
+  <header className={classNames(styles["header-container"])}>
     <HeaderLeft />
     <HeaderRight />
-  </div>
+  </header>
 );
 
 export default Header;

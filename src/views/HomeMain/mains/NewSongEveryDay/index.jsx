@@ -1,8 +1,8 @@
 // libs
 import { useSelector } from "react-redux";
-// Mock
+// mock
 import { listPlaylistItems } from "src/mocks/Playlist";
-// Child
+// child
 import Playlist from "../../components/Playlist";
 
 const NewSongEveryDay = () => {
@@ -10,9 +10,9 @@ const NewSongEveryDay = () => {
     (state) => state.locale.translate.newSongEveryday.title
   );
   return (
-    <div>
+    <section>
       <Playlist title={title} listItems={listPlaylistItems} />
-    </div>
+    </section>
   );
 };
 

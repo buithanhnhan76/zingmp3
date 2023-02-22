@@ -1,17 +1,17 @@
 // mock
 import { listTopSongs } from "src/mocks/TopSongItems";
-// component
+// children
 import Button from "src/components/Button";
 import TopSongItem from "../TopSongItem";
 // styles
 import styles from "./TopSongItems.module.scss";
 
 const TopSongItems = () => (
-  <div className={styles["top-song-items-container"]}>
-    {listTopSongs.map((song) => (
-      <TopSongItem song={song} key={song.id} />
+  <div className={styles["top-song-items"]}>
+    {listTopSongs.map((item) => (
+      <TopSongItem item={item} key={item.id} />
     ))}
-    <div className={styles["top-song-items-buttons"]}>
+    <div className={styles["top-song-items-button"]}>
       <Button buttonLabel="Xem thêm" />
     </div>
   </div>

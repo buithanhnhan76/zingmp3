@@ -1,0 +1,8 @@
+@import "src/assets/styles/utils";
+
+.artist-carousel-item {
+  @extend .pointer;
+
+  position: relative;
+  height: 160px;
+}

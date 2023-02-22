@@ -3,7 +3,7 @@ import radioPhotoOne from "public/photos/radio-photo-one.webp";
 import radioHostPhotoOne from "public/photos/radio-host-photo-one.webp";
 import LiveTag from "public/icons/live-tag.svg";
 
-export const listRadios = [
+export const listFeaturedRadios = [
   {
     id: 1,
     name: "Radio one",

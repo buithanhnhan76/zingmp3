@@ -1,7 +1,7 @@
 // photos
 import newReleaseOne from "public/photos/new-release-one.webp";
 
-export const listNewReleaseSongs = [
+export const listNewRelease = [
   {
     id: 1,
     title: "Không Yêu Trả Dép Tôi Về",

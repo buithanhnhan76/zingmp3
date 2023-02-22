@@ -1,9 +1,9 @@
-.linechart-container {
+.line-chart {
   max-width: 600px;
   max-height: 500px;
   overflow: hidden;
 
-  @media screen and (max-width: 426px) {
+  @media screen and (max-width: 500px) {
     display: none;
   }
 }

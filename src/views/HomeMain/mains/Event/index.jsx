@@ -1,5 +1,3 @@
-// mocks
-import { listEvents } from "src/mocks/Event";
 // children
 import EventHeader from "../../components/EventHeader";
 import EventItems from "../../components/EventItems";
@@ -7,10 +5,10 @@ import EventItems from "../../components/EventItems";
 import styles from "./Event.module.scss";
 
 const Event = () => (
-  <div className={styles["event-container"]}>
+  <section className={styles.event}>
     <EventHeader />
-    <EventItems items={listEvents} />
-  </div>
+    <EventItems />
+  </section>
 );
 
 export default Event;

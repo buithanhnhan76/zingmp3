@@ -1,16 +1,16 @@
 @import "src/assets/styles/varibles";
+@import "src/assets/styles/utils";
 
 .partner-item-container {
+  @extend .pointer;
+
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   border-radius: 4px;
-  width: 103px;
-  height: 58px;
+  width: 110px;
+  height: 61px;
   background-color: $partner-item-background-color;
-
-  .partner-item-image {
-    width: 70%;
-    object-fit: contain;
-  }
 }

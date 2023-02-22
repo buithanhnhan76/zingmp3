@@ -1,11 +1,11 @@
-// child
+// children
 import EventItemHeader from "../EventItemHeader";
 import EventItemFooter from "../EventItemFooter";
-// style
+// styles
 import styles from "./EventItem.module.scss";
 
-const EventItem = ({ item }) => (
-  <div className={styles["event-item-container"]} order={item.order}>
+const EventItem = ({ item, order }) => (
+  <div className={styles["event-item"]} order={order}>
     <EventItemHeader item={item} />
     <EventItemFooter item={item} />
   </div>

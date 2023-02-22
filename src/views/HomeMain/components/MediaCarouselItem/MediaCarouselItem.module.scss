@@ -1,0 +1,19 @@
+@import "src/assets/styles/utils";
+
+.carousel-item {
+  @extend .pointer;
+
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  max-width: 90%;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 426px) {
+  .carousel-item {
+    width: 100%;
+  }
+}

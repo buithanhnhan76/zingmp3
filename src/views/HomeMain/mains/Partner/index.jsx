@@ -1,14 +1,14 @@
-// component
+// children
 import PartnerItems from "../../components/PartnerItems";
 import PartnerTitle from "../../components/PartnerTitle";
-// style
+// styles
 import styles from "./Partner.module.scss";
 
 const Partner = () => (
-  <div className={styles["partner-container"]}>
+  <section className={styles["partner-container"]}>
     <PartnerTitle />
     <PartnerItems />
-  </div>
+  </section>
 );
 
 export default Partner;

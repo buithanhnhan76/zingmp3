@@ -2,8 +2,6 @@
 @import "src/assets/styles/utils";
 
 .main-layout-container {
-  @extend .pointer;
-
   display: grid;
   grid-template-columns: 240px 1fr;
   overflow: hidden;

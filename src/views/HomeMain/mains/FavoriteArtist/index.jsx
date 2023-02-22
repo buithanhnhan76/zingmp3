@@ -1,15 +1,14 @@
-
 // mocks
 import { listArtists } from "src/mocks/FavoriteArtist";
 // component
-import FavoriteArtistItems from "../../components/FavoriteArtistItems";
 import FavoriteArtistTitle from "../../components/FavoriteArtistTitle";
+import FavoriteArtistItems from "../../components/FavoriteArtistItems";
 
 const FavoriteArtist = () => (
-  <div>
+  <section>
     <FavoriteArtistTitle />
     <FavoriteArtistItems listArtists={listArtists} />
-  </div>
+  </section>
 );
 
 export default FavoriteArtist;

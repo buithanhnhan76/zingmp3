@@ -1,48 +1,35 @@
 // libs
-import Image from "next/legacy/image";
-import { Carousel} from "antd";
-import { useRef, useMemo } from "react";
-import classNames from "classnames";
+import { Carousel } from "antd";
+import { useRef} from "react";
 // hooks
-import useWindowDimensions from "src/hooks/useWindowDimensions";
+import { useSlidesNumber } from "src/hooks/useSlidesNumber";
 // mock
 import { listMediaCarousel } from "src/mocks/MediaCarousel";
 // children
+import MediaCarouselItem from "../../components/MediaCarouselItem";
 import LeftButton from "../../components/LeftButton";
 import RighButton from "../../components/RightButton";
-// style
+// styles
 import styles from "./MediaCarousel.module.scss";
-
 
 const MediaCarousel = () => {
   const carousel = useRef();
-  const windowDimensions = useWindowDimensions();
-
-  const slideToShow = useMemo(() => {
-    if (windowDimensions) {
-      if (windowDimensions.width > 1028) return 3;
-      if (windowDimensions.width > 425) return 2;
-      return 1;
-    }
-    return 3;
-  }, [windowDimensions]);
+  const numberOfSlidesToShow = useSlidesNumber(3, 2, 1, 1);
   return (
-    <div className={styles["carousel-container"]}>
+    <section className={styles["carousel-container"]}>
       <LeftButton carousel={carousel} />
-      <Carousel autoplay dots={false} slidesToShow={slideToShow} ref={carousel}>
+      <Carousel
+        autoplay
+        dots={false}
+        slidesToShow={numberOfSlidesToShow}
+        ref={carousel}
+      >
         {listMediaCarousel.map((item) => (
-            <div key={item.id} className={classNames(styles["carousel-item"])}>
-              <Image
-                src={item.src}
-                priority={item.priority}
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
+          <MediaCarouselItem key={item.id} item={item} />
         ))}
       </Carousel>
       <RighButton carousel={carousel} />
-    </div>
+    </section>
   );
 };
 

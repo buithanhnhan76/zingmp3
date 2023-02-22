@@ -7,11 +7,7 @@ import Playlist from "../../components/Playlist";
 
 const XOneCorner = () => {
   const title = useSelector((state) => state.locale.translate.xOne.title);
-  return (
-    <div>
-      <Playlist title={title} listItems={listPlaylistItems} />
-    </div>
-  );
+  return <Playlist title={title} listItems={listPlaylistItems} />;
 };
 
 export default XOneCorner;

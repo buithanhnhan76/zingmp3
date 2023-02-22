@@ -1,6 +1,9 @@
 @import "src/assets/styles/_varibles.scss";
+@import "src/assets/styles/utils";
 
 .playlist-carousel-item-container {
+  @extend .pointer;
+
   width: 95%;
 
   .playlist-carousel-item-photo-container {

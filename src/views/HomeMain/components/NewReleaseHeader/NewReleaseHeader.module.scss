@@ -1,12 +1,12 @@
-.new-release-header-header {
+.new-release-header {
   display: flex;
   justify-content: space-between;
   margin: 16px 0 20px;
 
-  .group-button-left {
+  .group-button {
     display: flex;
 
-    > button {
+    > button:not(:last-of-type) {
       margin-right: 10px;
     }
   }
