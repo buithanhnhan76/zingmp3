@@ -1,17 +1,12 @@
-import Image from "next/legacy/image";
-// style
+// children
+import FavoriteArtistItemPhoto from "../FavoriteArtistItemPhoto";
+// styles
 import styles from "./FavoriteArtistItemPhotos.module.scss";
 
-const FavoriteArtistItemPhotos = ({ listPhotos }) => (
-  <div className={styles["favorite-artist-item-photos-container"]}>
-    {listPhotos.map((photo) => (
-      <Image
-        key={photo.id}
-        width={46}
-        height={46}
-        src={photo.src}
-        className={styles["favorite-artist-item-photo"]}
-      />
+const FavoriteArtistItemPhotos = ({ items }) => (
+  <div className={styles["favorite-artist-item-photos"]}>
+    {items.map((item) => (
+    < FavoriteArtistItemPhoto item={item} />
     ))}
   </div>
 );

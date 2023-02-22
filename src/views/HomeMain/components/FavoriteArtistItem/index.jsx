@@ -2,17 +2,18 @@
 import Image from "next/legacy/image";
 // child
 import FavoriteArtistItemFooter from "../FavoriteArtistItemFooter";
-// style
+// styles
 import styles from "./FavoriteArtistItem.module.scss";
 
-const FavoriteArtistItem = ({ artist, order }) => (
-  <div className={styles["favorite-artist-item-container"]} order={order}>
+const FavoriteArtistItem = ({ item, order }) => (
+  <div className={styles["favorite-artist-item"]} order={order}>
     <Image
-      src={artist.src}
+      src={item.src}
       layout="fill"
-      className={styles["favorite-artist-item-main-photo"]}
+      objectFit="cover"
+      className={styles["favorite-artist-item-photo"]}
     />
-    <FavoriteArtistItemFooter artist={artist} />
+    <FavoriteArtistItemFooter item={item} />
   </div>
 );
 
