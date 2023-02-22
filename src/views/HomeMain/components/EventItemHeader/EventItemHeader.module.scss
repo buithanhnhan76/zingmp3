@@ -4,7 +4,8 @@
   position: relative;
   overflow: hidden;
   border-radius: 4px;
-  height: 190px;
+  width: 100%;
+  aspect-ratio: 1.8;
 
   .event-item-header-opacity {
     position: absolute;
@@ -15,5 +16,9 @@
         transparent 27%,
         rgb(0 0 0 / 78%)
       );
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-height: 190px;
   }
 }
