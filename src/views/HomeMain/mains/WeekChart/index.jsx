@@ -6,9 +6,9 @@ import WeekChartItems from "../../components/WeekChartItems";
 import styles from "./WeekChart.module.scss";
 
 const WeekChart = () => (
-  <div className={styles["weekchart-container"]}>
+  <section className={styles["weekchart-container"]}>
     <WeekChartItems listItems={listWeekChartItems} />
-  </div>
+  </section>
 );
 
 export default WeekChart;

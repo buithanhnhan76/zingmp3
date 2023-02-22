@@ -4,11 +4,11 @@ import NewReleaseHeader from "../../components/NewReleaseHeader";
 import NewReleaseItems from "../../components/NewReleaseItems";
 
 const NewRelease = () => (
-  <div className="new-release">
+  <section className="new-release">
     <NewRelaseTitle />
     <NewReleaseHeader />
     <NewReleaseItems />
-  </div>
+  </section>
 );
 
 export default NewRelease;

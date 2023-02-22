@@ -5,10 +5,10 @@ import FeaturedRadioCarousel from "../../components/FeaturedRadioCarousel";
 import styles from "./FeaturedRadio.module.scss";
 
 const FeaturedRadio = () => (
-  <div className={styles["featured-radio-container"]}>
+  <section className={styles["featured-radio-container"]}>
     <FeaturedRadioHeader />
     <FeaturedRadioCarousel />
-  </div>
+  </section>
 );
 
 export default FeaturedRadio;

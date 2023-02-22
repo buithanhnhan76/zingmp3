@@ -7,10 +7,10 @@ import EventItems from "../../components/EventItems";
 import styles from "./Event.module.scss";
 
 const Event = () => (
-  <div className={styles["event-container"]}>
+  <section className={styles["event-container"]}>
     <EventHeader />
     <EventItems items={listEvents} />
-  </div>
+  </section>
 );
 
 export default Event;

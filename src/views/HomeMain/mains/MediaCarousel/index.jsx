@@ -16,7 +16,7 @@ const MediaCarousel = () => {
   const carousel = useRef();
   const numberOfSlidesToShow = useSlidesNumber(3, 2, 1, 1);
   return (
-    <div className={styles["carousel-container"]}>
+    <section className={styles["carousel-container"]}>
       <LeftButton carousel={carousel} />
       <Carousel
         autoplay
@@ -24,10 +24,12 @@ const MediaCarousel = () => {
         slidesToShow={numberOfSlidesToShow}
         ref={carousel}
       >
-        {listMediaCarousel.map((item) => <MediaCarouselItem key={item.id} item={item} />)}
+        {listMediaCarousel.map((item) => (
+          <MediaCarouselItem key={item.id} item={item} />
+        ))}
       </Carousel>
       <RighButton carousel={carousel} />
-    </div>
+    </section>
   );
 };
 

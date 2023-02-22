@@ -16,7 +16,7 @@ const ArtistCarousel = () => {
   const carousel = useRef();
   const numberOfSlidesToShow = useSlidesNumber(7, 5, 3, 1);
   return (
-    <div className={styles["carousel-container"]}>
+    <section className={styles["carousel-container"]}>
       <LeftButton carousel={carousel} />
       <Carousel autoplay dots={false} slidesToShow={numberOfSlidesToShow} ref={carousel}>
         {listArtistCarousel.map((item) => (
@@ -26,7 +26,7 @@ const ArtistCarousel = () => {
         ))}
       </Carousel>
       <RightButton carousel={carousel} />
-    </div>
+    </section>
   );
 };
 

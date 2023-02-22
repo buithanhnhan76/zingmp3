@@ -5,12 +5,12 @@ import LineChart from "../../components/LineChart";
 import styles from "./Chart.module.scss";
 
 const Chart = () => (
-  <div className={styles["chart-container"]}>
+  <section className={styles["chart-container"]}>
     <h3 className={styles["chart-title"]}>#zingchart</h3>
     <div className={styles["chart-ranking"]}>
       <TopSongItems />
       <LineChart />
     </div>
-  </div>
+  </section>
 );
 export default Chart;

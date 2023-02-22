@@ -10,9 +10,9 @@ const NewSongEveryDay = () => {
     (state) => state.locale.translate.newSongEveryday.title
   );
   return (
-    <div>
+    <section>
       <Playlist title={title} listItems={listPlaylistItems} />
-    </div>
+    </section>
   );
 };
 

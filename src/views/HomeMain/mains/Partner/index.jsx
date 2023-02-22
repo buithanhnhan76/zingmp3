@@ -5,10 +5,10 @@ import PartnerTitle from "../../components/PartnerTitle";
 import styles from "./Partner.module.scss";
 
 const Partner = () => (
-  <div className={styles["partner-container"]}>
+  <section className={styles["partner-container"]}>
     <PartnerTitle />
     <PartnerItems />
-  </div>
+  </section>
 );
 
 export default Partner;

@@ -6,11 +6,11 @@ import PlaylistCarouselRanking from "../../components/PlaylistCarouselRanking";
 import styles from "./NewSongCarousel.module.scss";
 
 const NewSongCarousel = () => (
-  <div className={styles["new-song-carousel-container"]}>
+  <section className={styles["new-song-carousel-container"]}>
     <NewSongCarouselTitle />
     <PlaylistCarouselRanking />
     <PlaylistCarousel />
-  </div>
+  </section>
 );
 
 export default NewSongCarousel;
