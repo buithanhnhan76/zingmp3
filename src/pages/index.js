@@ -24,7 +24,10 @@ const Home = () => {
         <link rel="author" href="https://www.buithanhnhan.xyz" />
         <link rel="canonical" href="https://www.buithanhnhan.xyz" />
         <meta property="og:url" content="https://zingmp3-gold.vercel.app/en" />
-        <meta property="og:image" href={iconZing.src} />
+        <meta
+          property="og:image"
+          content="https://static-zmp3.zadn.vn/skins/common/logo600.png"
+        />
         <meta
           property="og:description"
           content="Zing mp3, nghe nhac, tai nhac "
