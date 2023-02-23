@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 // libs
 import { useEffect, useMemo } from "react";
 import { wrapper, store } from "src/redux/store";
@@ -24,7 +25,7 @@ const MyApp = ({ Component, pageProps }) => {
   );
   useEffect(() => {
     dispatch(updateLocale({ translate }));
-  }, [translate]);
+  }, [translate, dispatch]);
   return (
     <Provider store={store}>
       <MainLayout className={myFont.className}>{children}</MainLayout>
