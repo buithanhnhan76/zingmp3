@@ -16,9 +16,9 @@ import NewRelease from "./mains/NewRelease";
 import FeaturedRadio from "./mains/FeaturedRadio";
 import NewSongCarousel from "./mains/NewSongCarousel";
 // style
-import styles from "./HomeMain.module.scss";
+import styles from "./HomePage.module.scss";
 
-const HomeMain = () => (
+const HomePage = () => (
   <main className={styles["home-main-container"]}>
     <MediaCarousel />
     <NewRelease />
@@ -37,4 +37,4 @@ const HomeMain = () => (
   </main>
 );
 
-export default React.memo(HomeMain);
+export default React.memo(HomePage);

@@ -6,7 +6,7 @@ import { listArtists } from "src/mocks/ArtistCarousel";
 // hook
 import { useSlidesNumber } from "src/hooks/useSlidesNumber";
 // children
-import ArtistCarouselItem from "src/views/HomeMain/components/ArtistCarouselItem";
+import ArtistCarouselItem from "../../components/ArtistCarouselItem";
 import LeftButton from "../../components/LeftButton";
 import RightButton from "../../components/RightButton";
 // styles

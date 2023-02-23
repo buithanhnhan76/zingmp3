@@ -8,7 +8,7 @@ import iconZing from "public/icons/icon-zing.png";
 // redux
 import { useSelector } from "react-redux";
 // component
-import HomeMain from "src/views/HomeMain";
+import HomePage from "src/views/HomePage";
 
 const Home = () => {
   const title = useSelector((state) => state.locale.translate.head.title);
@@ -43,7 +43,7 @@ const Home = () => {
         <meta name="twitter:description" content="Zing mp3" />
         <meta name="twitter:image" href={iconZing.src} />
       </Head>
-      <HomeMain />
+      <HomePage />
     </div>
   );
 };
