@@ -19,7 +19,7 @@ import NewSongCarousel from "./mains/NewSongCarousel";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => (
-  <main className={styles["home-main-container"]}>
+  <main className={styles["home-page"]}>
     <MediaCarousel />
     <NewRelease />
     <ChillPlaylist />
