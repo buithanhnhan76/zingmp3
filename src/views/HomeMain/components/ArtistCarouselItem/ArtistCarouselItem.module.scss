@@ -4,5 +4,9 @@
   @extend .pointer;
 
   position: relative;
-  height: 160px;
+  aspect-ratio: 1/1;
+
+  @media screen and (min-width: 1440px) {
+    height: 160px;
+  }
 }
