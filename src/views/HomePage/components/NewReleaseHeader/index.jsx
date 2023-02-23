@@ -19,12 +19,14 @@ const NewReleaseHeader = () => {
         />
         <Button buttonLabel={newReleaseHeader.groupButtons[1].title} />
       </div>
-      <Button
-        buttonLabel={newReleaseHeader.button.title}
-        border="none"
-        color="secondary"
-        arrow
-      />
+      <div>
+        <Button
+          buttonLabel={newReleaseHeader.button.title}
+          border="none"
+          color="secondary"
+          arrow
+        />
+      </div>
     </div>
   );
 };
