@@ -67,3 +67,8 @@ a {
     background: black;
   }
 }
+
+/* antd */
+.slick-slide {
+  padding: 0 8px;
+}

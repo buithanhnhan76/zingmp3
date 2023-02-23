@@ -14,7 +14,7 @@ import styles from "./MediaCarousel.module.scss";
 
 const MediaCarousel = () => {
   const carousel = useRef();
-  const numberOfSlidesToShow = useSlidesNumber(3, 2, 1, 1);
+  const numberOfSlidesToShow = useSlidesNumber(3, 2, 2, 1);
   return (
     <section className={styles["carousel-container"]}>
       <LeftButton carousel={carousel} />
