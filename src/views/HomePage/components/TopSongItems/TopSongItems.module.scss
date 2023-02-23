@@ -1,0 +1,11 @@
+.top-song-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 15px;
+
+  .top-song-items-button {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,28 @@
+@import "src/assets/styles/_varibles.scss";
+@import "src/assets/styles/utils";
+
+.playlist-carousel-item-container {
+  @extend .pointer;
+
+  width: 100%;
+
+  .playlist-carousel-item-photo-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    aspect-ratio: 1/1;
+  }
+
+  .playlist-carousel-item-title {
+    margin: 12px 0 0;
+    color: $text-color;
+  }
+
+  .playlist-carousel-item-desc {
+    color: $text-secondary;
+  }
+
+  @media screen and (min-width: 1440px) {
+    height: 270px;
+  }
+}

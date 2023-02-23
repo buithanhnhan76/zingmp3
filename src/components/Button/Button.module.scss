@@ -1,6 +1,8 @@
 @import "src/assets/styles/_varibles.scss";
 
 .button-container {
+  display: flex;
+  align-items: center;
   border-radius: 20px;
   padding: 5px 25px;
   font-size: 1.4rem;

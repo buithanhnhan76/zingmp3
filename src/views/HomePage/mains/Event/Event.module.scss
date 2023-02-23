@@ -1,0 +1,12 @@
+@import "src/assets/styles/_varibles.scss";
+
+.event {
+  margin-top: 30px;
+  width: 100%;
+  background-color: $home-background-color;
+  color: $text-color;
+
+  @media screen and (min-width: 1440px) {
+    height: 300px;
+  }
+}

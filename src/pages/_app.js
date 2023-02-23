@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 // libs
 import { useEffect, useMemo } from "react";
 import { wrapper, store } from "src/redux/store";
@@ -18,10 +19,13 @@ const myFont = localFont({ src: "../assets/fonts/inter/Inter-Black.ttf" });
 const MyApp = ({ Component, pageProps }) => {
   const translate = useTranslate();
   const dispatch = useDispatch();
-  const children = useMemo(() => <Component {...pageProps} />, [Component]);
+  const children = useMemo(
+    () => <Component {...pageProps} />,
+    [Component, pageProps]
+  );
   useEffect(() => {
     dispatch(updateLocale({ translate }));
-  }, [translate]);
+  }, [translate, dispatch]);
   return (
     <Provider store={store}>
       <MainLayout className={myFont.className}>{children}</MainLayout>

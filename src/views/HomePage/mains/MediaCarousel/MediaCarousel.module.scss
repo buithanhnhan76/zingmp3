@@ -1,0 +1,10 @@
+.carousel-container {
+  position: relative;
+  margin: 20px 0 30px;
+  width: 100%;
+  text-align: center;
+
+  @media screen and (min-width: 1440px) {
+    height: 190px;
+  }
+}

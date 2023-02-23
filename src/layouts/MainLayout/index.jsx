@@ -3,7 +3,7 @@
 import React from "react";
 // component
 import Sidebar from "./mains/Sidebar";
-import MainBar from "./mains/MainBar";
+import MainPage from "./mains/MainPage";
 // style
 import styles from "./MainLayout.module.scss";
 
@@ -11,7 +11,7 @@ const MainLayout = ({ children }) => (
   <div>
     <main className={styles["main-layout-container"]}>
       <Sidebar />
-      <MainBar>{children}</MainBar>
+      <MainPage>{children}</MainPage>
     </main>
   </div>
 );
