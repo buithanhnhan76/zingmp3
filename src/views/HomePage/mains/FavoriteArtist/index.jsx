@@ -1,11 +1,13 @@
 // mocks
 import { listArtists } from "src/mocks/FavoriteArtist";
-// component
+// children
 import FavoriteArtistTitle from "../../components/FavoriteArtistTitle";
 import FavoriteArtistItems from "../../components/FavoriteArtistItems";
+// styles
+import styles from "./FavoriteArtist.module.scss";
 
 const FavoriteArtist = () => (
-  <section>
+  <section className={styles["favorite-artist"]}>
     <FavoriteArtistTitle />
     <FavoriteArtistItems listArtists={listArtists} />
   </section>

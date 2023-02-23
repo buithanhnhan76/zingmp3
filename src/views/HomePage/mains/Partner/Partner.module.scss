@@ -1,7 +1,7 @@
 @import "src/assets/styles/_varibles.scss";
 
 .partner-container {
-  margin-top: 48px;
+  margin: 48px 0 40px;
   padding: 0 40px;
   width: 100%;
   background-color: $partner-background-color;
@@ -11,6 +11,10 @@
     text-align: center;
     text-transform: uppercase;
     color: $partner-item-color;
+  }
+
+  @media screen and (min-width: 1440px) {
+    height: 225px;
   }
 
   @media screen and (max-width: 769px) {
