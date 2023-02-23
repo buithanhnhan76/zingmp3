@@ -1,3 +1,11 @@
 .mainbar-container {
-  max-width: 1200px;
+  max-width: calc(100vw - 70px);
+
+  @media screen and (min-width: 1025px) {
+    max-width: calc(100vw - 240px);
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1200px;
+  }
 }

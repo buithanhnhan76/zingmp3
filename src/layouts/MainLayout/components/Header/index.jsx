@@ -7,7 +7,7 @@ import HeaderRight from "../HeaderRight";
 import styles from "./Header.module.scss";
 
 const Header = () => (
-  <header className={classNames(styles["header-container"])}>
+  <header className={classNames(styles["header"])}>
     <HeaderLeft />
     <HeaderRight />
   </header>
