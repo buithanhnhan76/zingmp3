@@ -28,6 +28,8 @@ const Home = () => {
           property="og:image"
           content="https://static-zmp3.zadn.vn/skins/common/logo600.png"
         />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
         <meta
           property="og:description"
           content="Zing mp3, nghe nhac, tai nhac "
