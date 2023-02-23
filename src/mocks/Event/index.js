@@ -1,7 +1,7 @@
 // photos
-import Issac from "public/photos/Issac.webp";
-import NhatKimAnh from "public/photos/NhatKimAnh.webp";
-import TangDuyTan from "public/photos/TangDuyTan.webp";
+import issac from "public/photos/issac.webp";
+import nhatKimAnh from "public/photos/nhat-kim-anh.webp";
+import tangDuyTan from "public/photos/tang-duy-tan.webp";
 import user from "public/photos/user.jpg";
 
 export const listFollowersOne = [
@@ -88,7 +88,7 @@ export const listEvents = [
     title: "Sinh nhật sao BTN",
     category: "sinh nhật sao",
     date: "20:00 Thứ Tư, 24 tháng 8",
-    src: Issac.src,
+    src: issac.src,
     listFollowers: listFollowersOne,
     buttonLabel: "Tham gia",
     followerTitle: "Lượt quan tâm",
@@ -98,7 +98,7 @@ export const listEvents = [
     title: "Ra măt mv abc",
     category: "phát hành album",
     date: "21:00 Thứ Tư, 24 tháng 8",
-    src: NhatKimAnh.src,
+    src: nhatKimAnh.src,
     listFollowers: listFollowersSecond,
     buttonLabel: "Quan tâm",
     followerTitle: "Lượt chúc mừng",
@@ -108,7 +108,7 @@ export const listEvents = [
     title: "Ra mắt mv bcd",
     category: "minishow",
     date: "22:00 Thứ Tư, 24 tháng 8",
-    src: TangDuyTan.src,
+    src: tangDuyTan.src,
     listFollowers: listFollowersOne,
     buttonLabel: "Tham gia",
     followerTitle: "Lượt quan tâm",

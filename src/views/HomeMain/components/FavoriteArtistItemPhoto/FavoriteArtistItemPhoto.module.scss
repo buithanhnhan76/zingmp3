@@ -1,7 +1,10 @@
 .favorite-artist-item-photo {
   position: relative;
   border-radius: 10px;
-  width: 32px;
-  height: 32px;
+  flex-grow: 1;
+  max-width: 70px;
+  max-height: 70px;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
+  background-color: rgb(222 239 233);
 }

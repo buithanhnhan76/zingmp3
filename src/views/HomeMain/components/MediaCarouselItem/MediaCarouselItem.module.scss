@@ -6,14 +6,16 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
-  max-width: 90%;
-  height: 190px;
   overflow: hidden;
+  max-width: 90%;
   border-radius: 30px;
-}
+  aspect-ratio: 1.78;
 
-@media screen and (max-width: 426px) {
-  .carousel-item {
+  @media screen and (min-width: 1440px) {
+    height: 190px;
+  }
+
+  @media screen and (max-width: 426px) {
     width: 100%;
   }
 }
