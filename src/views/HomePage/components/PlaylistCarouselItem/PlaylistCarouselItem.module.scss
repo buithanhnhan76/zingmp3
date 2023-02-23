@@ -4,7 +4,7 @@
 .playlist-carousel-item-container {
   @extend .pointer;
 
-  width: 90%;
+  width: 100%;
 
   .playlist-carousel-item-photo-container {
     position: relative;
@@ -14,8 +14,7 @@
   }
 
   .playlist-carousel-item-title {
-    margin-top: 12px;
-    margin-bottom: 0;
+    margin: 12px 0 0;
     color: $text-color;
   }
 
@@ -24,10 +23,6 @@
   }
 
   @media screen and (min-width: 1440px) {
-    max-height: 250px;
-  }
-
-  @media screen and (max-width: 426px) {
-    width: 100%;
+    height: 270px;
   }
 }
