@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import styles from "./MainPage.module.scss";
 
 const MainPage = ({ children }) => (
-  <div className={styles["mainpage"]}>
+  <div className={styles.mainpage}>
     <Header />
     {children}
   </div>
