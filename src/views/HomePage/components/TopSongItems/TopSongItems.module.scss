@@ -5,6 +5,7 @@
   row-gap: 15px;
 
   .top-song-items-button {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 }
