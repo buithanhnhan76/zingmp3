@@ -1,28 +1,47 @@
 @import "src/assets/styles/varibles";
+@import "src/assets/styles/utils";
 
 .search-bar-container {
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  max-width: 440px;
+  @extend .hover-brightness;
+
+  flex-grow: 1;
+  position: relative;
   min-width: 78px;
-  height: 50px;
-  padding: 0 10px;
-  background-color: $header-search-background-color;
+  height: 40px;
   font-size: 1.4rem;
 
   .search-bar {
-    margin-left: 5px;
-    outline: none;
-    border: none;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    padding: 0 10px;
+    min-height: 40px;
     background-color: $header-search-background-color;
-    color: $text-color;
 
-    .search-bar::placeholder {
-      font-size: 1.2rem;
-      color: $header-search-icon-color;
+    .search-bar-input {
+      flex-grow: 1;
+      outline: none;
+      border: none;
+      background-color: $header-search-background-color;
+      color: $text-color;
+
+      .search-bar::placeholder {
+        font-size: 1.2rem;
+        color: $header-search-icon-color;
+      }
     }
+  }
+
+  .search-bar-result {
+    position: absolute;
+    z-index: 100;
+    margin-top: 2px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    list-style-type: none;
+    background-color: $header-search-background-color;
   }
 
   @media screen and (min-width: 1440px) {

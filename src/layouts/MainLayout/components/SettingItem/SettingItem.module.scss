@@ -3,6 +3,7 @@
 
 .setting-item-container {
   @extend .pointer;
+  @extend .hover-brightness;
 
   display: flex;
   justify-content: center;
@@ -13,8 +14,6 @@
   background-color: $header-setting-item-background-color;
 
   .setting-item-icon {
-    filter:
-      invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
-      brightness(102%) contrast(102%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
   }
 }
