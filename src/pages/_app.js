@@ -10,8 +10,9 @@ import useTranslate from "src/hooks/useStranslate";
 import { updateLocale } from "src/redux/actions/locale";
 // layout
 import MainLayout from "src/layouts/MainLayout";
-// style
+// styles
 import "antd/dist/antd.css";
+import "normalize.css";
 import "styles/globals.css";
 
 const myFont = localFont({ src: "../assets/fonts/inter/Inter-Black.ttf" });

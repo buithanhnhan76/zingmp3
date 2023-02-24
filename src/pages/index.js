@@ -1,13 +1,10 @@
 // libs
 import React from "react";
-import "normalize.css";
-// Head
 import Head from "next/head";
+import { useSelector } from "react-redux";
 // photos
 import iconZing from "public/icons/icon-zing.png";
-// redux
-import { useSelector } from "react-redux";
-// component
+// child
 import HomePage from "src/views/HomePage";
 
 const Home = () => {
