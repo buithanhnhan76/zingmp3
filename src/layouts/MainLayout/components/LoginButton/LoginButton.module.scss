@@ -2,6 +2,7 @@
 
 .login-button-container {
   @extend .pointer;
+  @extend .hover-brightness;
 
   position: relative;
   border: none;

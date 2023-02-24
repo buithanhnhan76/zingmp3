@@ -2,6 +2,7 @@
 
 .user-button {
   @extend .pointer;
+  @extend .hover-brightness;
 
   border: none;
   border-radius: 50%;

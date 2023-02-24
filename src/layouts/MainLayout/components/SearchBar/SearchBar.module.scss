@@ -1,6 +1,9 @@
 @import "src/assets/styles/varibles";
+@import "src/assets/styles/utils";
 
 .search-bar-container {
+  @extend .hover-brightness;
+
   display: flex;
   align-items: center;
   border-radius: 20px;
