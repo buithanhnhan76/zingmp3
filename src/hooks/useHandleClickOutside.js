@@ -13,7 +13,7 @@ const useHandleClickOutSide = (idContainer, callBack, value) => {
         }
       }
     });
-    return () => window.removeEventListener("click");
+    return () => window.removeEventListener("click", null);
   }, [idContainer, callBack, value]);
 };
 
