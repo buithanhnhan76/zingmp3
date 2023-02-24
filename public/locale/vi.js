@@ -8,16 +8,20 @@ export default {
   },
   sidebar: {
     items: [
-      { title: "Cá Nhân", src: EducationGeologyGlobal.src },
-      { title: "Khám Phá", src: LiveTag.src },
-      { title: "#zingchart", src: EducationGeologyGlobal.src },
-      { title: "Radio", src: LiveTag.src },
-      { title: "Theo Dõi", src: EducationGeologyGlobal.src },
+      { title: "Cá Nhân", src: EducationGeologyGlobal.src, path: "/personal" },
+      { title: "Khám Phá", src: LiveTag.src, path: "/discover" },
+      {
+        title: "#zingchart",
+        src: EducationGeologyGlobal.src,
+        path: "/zingchart",
+      },
+      { title: "Radio", src: LiveTag.src, path: "/radio" },
+      { title: "Theo Dõi", src: EducationGeologyGlobal.src, path: "/follow" },
       { title: "" },
-      { title: "Nhạc Mới", src: LiveTag.src },
-      { title: "Thể Loại", src: EducationGeologyGlobal.src },
-      { title: "Top 100", src: LiveTag.src },
-      { title: "MV", src: EducationGeologyGlobal.src },
+      { title: "Nhạc Mới", src: LiveTag.src, path: "/newsong" },
+      { title: "Thể Loại", src: EducationGeologyGlobal.src, path: "/category" },
+      { title: "Top 100", src: LiveTag.src, path: "/top100" },
+      { title: "MV", src: EducationGeologyGlobal.src, path: "/mv" },
     ],
     bannerItems: [
       {

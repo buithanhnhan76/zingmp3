@@ -8,16 +8,20 @@ export default {
   },
   sidebar: {
     items: [
-      { title: "Personal", src: EducationGeologyGlobal.src },
-      { title: "Discover", src: LiveTag.src },
-      { title: "#zingchart", src: EducationGeologyGlobal.src },
-      { title: "Radio", src: LiveTag.src },
-      { title: "Follow", src: EducationGeologyGlobal.src },
+      { title: "Personal", src: EducationGeologyGlobal.src, path: "/personal" },
+      { title: "Discover", src: LiveTag.src, path: "/discover" },
+      {
+        title: "#zingchart",
+        src: EducationGeologyGlobal.src,
+        path: "/zingchart",
+      },
+      { title: "Radio", src: LiveTag.src, path: "/radio" },
+      { title: "Follow", src: EducationGeologyGlobal.src, path: "/follow" },
       { title: "" },
-      { title: "New music", src: LiveTag.src },
-      { title: "Category", src: EducationGeologyGlobal.src },
-      { title: "Top 100", src: LiveTag.src },
-      { title: "MV", src: EducationGeologyGlobal.src },
+      { title: "New song", src: LiveTag.src, path: "/newsong" },
+      { title: "Category", src: EducationGeologyGlobal.src, path: "/category" },
+      { title: "Top 100", src: LiveTag.src, path: "/top100" },
+      { title: "MV", src: EducationGeologyGlobal.src, path: "/mv" },
     ],
     bannerItems: [
       {
