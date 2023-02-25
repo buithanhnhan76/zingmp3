@@ -20,7 +20,7 @@ const TopSongItemLeft = ({ item }) => (
       <Image src={item.src} layout="fill" objectFit="cover" />
     </div>
     <div>
-      <div className={styles["top-song-item-title"]}>{item.title}</div>
+      <h4 className={styles["top-song-item-title"]}>{item.title}</h4>
       <div className={styles["top-song-item-artists"]}>{item.artists}</div>
     </div>
   </div>

@@ -10,7 +10,7 @@ const PlaylistCarouselItem = ({ item, order }) => (
       <Image src={item.src} layout="fill" objectFit="cover" />
     </div>
     <div>
-      <h3 className={styles["playlist-carousel-item-title"]}>{item.title}</h3>
+      <h4 className={styles["playlist-carousel-item-title"]}>{item.title}</h4>
     </div>
     <div className={styles["playlist-carousel-item-desc"]}>{item.desc}</div>
   </div>

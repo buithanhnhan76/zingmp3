@@ -4,9 +4,9 @@ import classNames from "classnames";
 import Link from "next/link";
 import Image from "next/legacy/image";
 import { useMemo } from "react";
-// static icon
+// icon
 import LiveIcon from "../LiveIcon";
-// style
+// styles
 import styles from "./ListItem.module.scss";
 
 const ListItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
@@ -37,7 +37,7 @@ const ListItem = ({ item, selectedSideBarItem, setSelectedSideBarItem }) => {
       role="presentation"
       data-cy="sidebar-category-item"
     >
-      <Link href="/">
+      <Link href={item.path}>
         <div className={styles["list-item-content"]}>
           <div
             className={classNames(
