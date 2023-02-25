@@ -1,9 +1,12 @@
 .playlist-container {
-  margin: 0;
   height: auto;
 
   .playlist-title {
     text-transform: uppercase;
+  }
+
+  > :not(:nth-child(1)) {
+    margin-top: 20px;
   }
 
   @media screen and (min-width: 1440px) {

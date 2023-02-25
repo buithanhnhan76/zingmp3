@@ -17,6 +17,10 @@
     column-gap: 20px;
   }
 
+  > :not(:nth-child(1)) {
+    margin-top: 20px;
+  }
+
   @media screen and (max-width: 500px) {
     max-height: 400px;
 

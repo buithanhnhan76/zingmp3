@@ -12,6 +12,10 @@
     color: $partner-item-color;
   }
 
+  > :not(:nth-child(1)) {
+    margin-top: 20px;
+  }
+
   @media screen and (min-width: 1440px) {
     height: 225px;
   }
