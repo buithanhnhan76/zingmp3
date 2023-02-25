@@ -5,9 +5,13 @@
   margin: 15px 20px 10px;
   border-radius: 8px;
   padding: 15px 8px;
-  font-size: 1.2rem;
   text-align: center;
   color: $text-color;
+
+  .banner-title {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
 }
 
 @mixin banner-button($borderColor, $bannerBackgroundColor, $textColor) {
@@ -30,11 +34,9 @@
   background-color: $banner-background-color;
 
   .login-banner-button {
-    @include banner-button(
-      $border-color,
-      $banner-background-color,
-      $text-color
-    );
+    @include banner-button($border-color,
+    $banner-background-color,
+      $text-color );
   }
 }
 
@@ -44,10 +46,8 @@
   background-image: $vip-banner-linear-gradient;
 
   .vip-banner-button {
-    @include banner-button(
-      $vip-border-color,
-      $banner-vip-background-color,
-      $dark-text-color
-    );
+    @include banner-button($vip-border-color,
+    $banner-vip-background-color,
+      $dark-text-color );
   }
 }

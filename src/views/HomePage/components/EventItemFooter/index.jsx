@@ -7,7 +7,7 @@ import styles from "./EventItemFooter.module.scss";
 const EventItemFooter = ({ item }) => (
   <div className={styles["event-item-footer"]}>
     <div>
-      <h5 className={styles["followers-title"]}>{item.followerTitle}</h5>
+      <span className={styles["followers-title"]}>{item.followerTitle}</span>
       <AvatarList items={item.listFollowers} />
     </div>
     <div>

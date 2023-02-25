@@ -10,9 +10,9 @@ const PlaylistCarouselRankingItem = ({ song, order }) => (
     </div>
     <div className={styles["playlist-carousel-ranking-content"]}>
       <div>
-        <h3 className={styles["playlist-carousel-ranking-item-title"]}>
+        <h4 className={styles["playlist-carousel-ranking-item-title"]}>
           {song.title}
-        </h3>
+        </h4>
         <div className={styles["playlist-carousel-ranking-item-artists"]}>
           {song.artists}
         </div>

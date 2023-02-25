@@ -9,9 +9,9 @@ const NewReleaseItem = ({ item, order }) => (
       <Image src={item.src} layout="fill" objectFit="cover" />
     </div>
     <div>
-      <h3 className={styles["new-release-item-title"]}>{item.title}</h3>
-      <p className={styles["new-release-item-details"]}>{item.artists}</p>
-      <p className={styles["new-release-item-details"]}>{item.dateRelease}</p>
+      <h4 className={styles["new-release-item-title"]}>{item.title}</h4>
+      <span className={styles["new-release-item-details"]}>{item.artists}</span>
+      <span className={styles["new-release-item-details"]}>{item.dateRelease}</span>
     </div>
   </div>
 );

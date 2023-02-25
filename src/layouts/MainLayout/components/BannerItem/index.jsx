@@ -12,11 +12,11 @@ const BannerItem = ({ item }) => {
       : "login-banner-button";
   return (
     <div className={styles[bannerContainerClassName]}>
-      <h3>{item.title}</h3>
+      <div className={styles["banner-title"]}>{item.title}</div>
       <button type="button" className={styles[bannerButtonClassName]}>
         {item.buttonLabel}
       </button>
     </div>
-  )
+  );
 };
 export default BannerItem;

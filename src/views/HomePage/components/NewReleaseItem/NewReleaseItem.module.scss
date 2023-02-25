@@ -23,6 +23,7 @@
   .new-release-item-details {
     @extend .pointer;
 
+    display: block;
     color: $text-secondary;
   }
 
