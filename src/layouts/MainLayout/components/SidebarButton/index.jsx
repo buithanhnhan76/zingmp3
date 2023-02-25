@@ -10,7 +10,7 @@ const SidebarButton = () => {
   );
   return (
     <div className={styles["sidebar-button"]}>
-      <button className={styles["button"]}>
+      <button type="button" className={styles.button}>
         <PlusOutlined className={styles["button-icon"]} />
         {buttonLabel}
       </button>
