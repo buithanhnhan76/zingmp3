@@ -3,7 +3,7 @@
 import { useEffect, useMemo } from "react";
 import { wrapper, store } from "src/redux/store";
 import { Provider, useDispatch } from "react-redux";
-import localFont from "@next/font/local";
+import { Inter } from "@next/font/google";
 // hook
 import useTranslate from "src/hooks/useStranslate";
 // action
@@ -15,21 +15,23 @@ import "antd/dist/antd.css";
 import "normalize.css";
 import "styles/globals.css";
 
-const myFont = localFont({ src: "../assets/fonts/inter/Inter-Black.ttf" });
+const inter = Inter({ subsets: ["latin"], style: "normal" });
 
 const MyApp = ({ Component, pageProps }) => {
   const translate = useTranslate();
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(updateLocale({ translate }));
+  }, [translate, dispatch]);
+
   const children = useMemo(
     () => <Component {...pageProps} />,
     [Component, pageProps]
   );
-  useEffect(() => {
-    dispatch(updateLocale({ translate }));
-  }, [translate, dispatch]);
   return (
     <Provider store={store}>
-      <MainLayout className={myFont.className}>{children}</MainLayout>
+      <MainLayout className={inter.className}>{children}</MainLayout>
     </Provider>
   );
 };
