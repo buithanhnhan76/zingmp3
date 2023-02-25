@@ -3,7 +3,7 @@ import React from "react";
 // children
 import BannerItems from "../../components/BannerItems";
 import Brand from "../../components/Brand";
-import Button from "../../components/Button";
+import SidebarButton from "../../components/SidebarButton";
 import ListItems from "../../components/ListItems";
 // styles
 import styles from "./sidebar.module.scss";
@@ -13,7 +13,7 @@ const Sidebar = () => (
     <Brand />
     <ListItems />
     <BannerItems />
-    <Button />
+    <SidebarButton />
   </div>
 );
 
