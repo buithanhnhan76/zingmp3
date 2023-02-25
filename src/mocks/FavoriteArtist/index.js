@@ -3,7 +3,7 @@ import camila from "public/photos/camila-cabello-second.png";
 import emma from "public/photos/emma.png";
 import jisoo from "public/photos/jisoo.png";
 import ariana from "public/photos/ariana-grande-second.png";
-import jennie from "public/photos/jennie-second.png";
+import jennie from "public/photos/jennie-third-no-background.png";
 
 export const listArtists = [
   {
