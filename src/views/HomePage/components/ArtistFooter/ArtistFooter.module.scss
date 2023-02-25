@@ -1,8 +1,11 @@
-.favorite-artist-item-footer {
+.artist-footer {
   position: absolute;
   bottom: 15px;
   z-index: 10;
   width: 100%;
   padding: 0 16px;
-  font-size: 2.1rem;
+
+  .artist-name {
+    margin-bottom: 0.5rem;
+  }
 }
