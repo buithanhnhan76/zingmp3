@@ -1,6 +1,6 @@
-// libs
-import React from "react";
+// child
+import DiscoverPage from "src/views/DiscoverPage";
 
-const Discover = () => <div>Discover</div>;
+const Discover = () => <DiscoverPage />;
 
 export default Discover;

@@ -1,6 +1,6 @@
-// libs
-import React from 'react';
+// child
+import PersonalPage from "src/views/PersonalPage";
 
-const Personal = () => <div>Personal</div>
+const Personal = () => <PersonalPage />;
 
 export default Personal;
