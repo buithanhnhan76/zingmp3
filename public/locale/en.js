@@ -13,14 +13,14 @@ export default {
       {
         title: "#zingchart",
         src: EducationGeologyGlobal.src,
-        path: "/zingchart",
+        path: "/zing-chart",
       },
       { title: "Radio", src: LiveTag.src, path: "/radio" },
       { title: "Follow", src: EducationGeologyGlobal.src, path: "/follow" },
       { title: "" },
-      { title: "New song", src: LiveTag.src, path: "/newsong" },
+      { title: "New song", src: LiveTag.src, path: "/new-song" },
       { title: "Category", src: EducationGeologyGlobal.src, path: "/category" },
-      { title: "Top 100", src: LiveTag.src, path: "/top100" },
+      { title: "Top 100", src: LiveTag.src, path: "/top-100" },
       { title: "MV", src: EducationGeologyGlobal.src, path: "/mv" },
     ],
     bannerItems: [

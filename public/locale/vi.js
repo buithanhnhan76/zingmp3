@@ -13,14 +13,14 @@ export default {
       {
         title: "#zingchart",
         src: EducationGeologyGlobal.src,
-        path: "/zingchart",
+        path: "/zing-chart",
       },
       { title: "Radio", src: LiveTag.src, path: "/radio" },
       { title: "Theo Dõi", src: EducationGeologyGlobal.src, path: "/follow" },
       { title: "" },
-      { title: "Nhạc Mới", src: LiveTag.src, path: "/newsong" },
+      { title: "Nhạc Mới", src: LiveTag.src, path: "/new-song" },
       { title: "Thể Loại", src: EducationGeologyGlobal.src, path: "/category" },
-      { title: "Top 100", src: LiveTag.src, path: "/top100" },
+      { title: "Top 100", src: LiveTag.src, path: "/top-100" },
       { title: "MV", src: EducationGeologyGlobal.src, path: "/mv" },
     ],
     bannerItems: [
