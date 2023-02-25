@@ -1,7 +1,7 @@
 // mock
 import { listPlaylistItems } from "src/mocks/Playlist";
 // child
-import Playlist from "../../components/Playlist";
+import Playlist from "../Playlist";
 
 const Top100 = () => <Playlist title="Top 100" listItems={listPlaylistItems} />;
 

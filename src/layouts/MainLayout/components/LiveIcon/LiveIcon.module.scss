@@ -1,5 +1,8 @@
-@media screen and (max-width: 1024px) {
-  .list-item-decoration {
+.live-icon {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 1024px) {
     display: none;
   }
 }

@@ -1,27 +1,29 @@
 @import "src/assets/styles/varibles";
 @import "src/assets/styles/utils.scss";
 
-.button-container {
+.sidebar-button {
   @extend .pointer;
   @extend .hover-darkness;
   @extend .border-top;
 
-  display: flex;
-  align-items: center;
   max-width: 240px;
   height: 53px;
-  padding: 0 28px;
+  padding: 0 2.8rem;
   background-color: $sidebar-background-color;
-  font-size: 1.4rem;
-  color: $text-color;
 
-  .button-icon {
-    margin-right: 10px;
+  .button {
+    margin-top: 5px;
+    border: none;
+    background-color: inherit;
+
+    .button-icon {
+      margin-right: 5px;
+    }
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .button-container {
+  .sidebar-button {
     display: none;
   }
 }
