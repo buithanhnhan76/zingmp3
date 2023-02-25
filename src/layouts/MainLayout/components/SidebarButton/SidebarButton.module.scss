@@ -6,10 +6,9 @@
   @extend .hover-darkness;
   @extend .border-top;
 
-  text-align: center;
   max-width: 240px;
   height: 53px;
-  padding: 0 28px;
+  padding: 0 2.8rem;
   background-color: $sidebar-background-color;
 
   .button {
