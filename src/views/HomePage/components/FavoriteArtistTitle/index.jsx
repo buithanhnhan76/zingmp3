@@ -1,14 +1,14 @@
 // libs
 import React from "react";
 import { useSelector } from "react-redux";
-// styles
-import styles from "./FavoriteArtistTitle.module.scss";
+// child
+import SectionTitle from "src/components/SectionTitle";
 
 const FavoriteArtistTitle = () => {
   const title = useSelector(
     (state) => state.locale.translate.favoriteArtist.title
   );
-  return <h3 className={styles["favorite-artist-title"]}>{title}</h3>;
+  return <SectionTitle>{title}</SectionTitle>;
 };
 
 export default FavoriteArtistTitle;
