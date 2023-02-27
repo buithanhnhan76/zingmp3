@@ -5,7 +5,7 @@ import SectionTitle from "src/components/SectionTitle";
 
 const EventTitle = () => {
   const title = useSelector((state) => state.locale.translate.event.title);
-  return <SectionTitle textAlign="left" textTransform="uppercase">{title}</SectionTitle>;
+  return <SectionTitle>{title}</SectionTitle>;
 };
 
 export default EventTitle;
