@@ -1,14 +1,12 @@
 // libs
 import React from "react";
 import { useSelector } from "react-redux";
-// styles
-import styles from "./NewReleaseTitle.module.scss";
+// child
+import SectionTitle from "src/components/SectionTitle";
 
-const NewRelaseTitle = () => { 
-    const title = useSelector(state => state.locale.translate.newRelease.title)
-    return <h3 className={styles["new-release-title"]}>{title}</h3>
-}
- 
+const NewRelaseTitle = () => {
+  const title = useSelector((state) => state.locale.translate.newRelease.title);
+  return <SectionTitle>{title}</SectionTitle>;
+};
+
 export default NewRelaseTitle;
-
-
