@@ -1,10 +1,6 @@
 .playlist-container {
   height: auto;
 
-  .playlist-title {
-    text-transform: uppercase;
-  }
-
   > :not(:nth-child(1)) {
     margin-top: 20px;
   }
