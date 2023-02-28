@@ -3,11 +3,15 @@ import issac from "public/photos/issac.webp";
 import nhatKimAnh from "public/photos/nhat-kim-anh.webp";
 import tangDuyTan from "public/photos/tang-duy-tan.webp";
 import user from "public/photos/user.jpg";
+import userTwo from "public/photos/user-two.png";
+import userThree from "public/photos/user-three.png";
+import userFourth from "public/photos/user-fourth.png";
+import userFive from "public/photos/user-five.png";
 
 export const listFollowersOne = [
   {
     id: 1,
-    src: user.src,
+    src: userTwo.src,
   },
   {
     id: 2,
@@ -15,7 +19,7 @@ export const listFollowersOne = [
   },
   {
     id: 3,
-    src: user.src,
+    src: userThree.src,
   },
   {
     id: 4,
@@ -23,15 +27,15 @@ export const listFollowersOne = [
   },
   {
     id: 5,
-    src: user.src,
+    src: userFive.src,
   },
   {
     id: 6,
-    src: user.src,
+    src: userThree.src,
   },
   {
     id: 7,
-    src: user.src,
+    src: userFourth.src,
   },
 ];
 
@@ -42,19 +46,19 @@ export const listFollowersSecond = [
   },
   {
     id: 2,
-    src: user.src,
+    src: userFive.src,
   },
   {
     id: 3,
-    src: user.src,
+    src: userFourth.src,
   },
   {
     id: 4,
-    src: user.src,
+    src: userTwo.src,
   },
   {
     id: 5,
-    src: user.src,
+    src: userThree.src,
   },
   {
     id: 6,
