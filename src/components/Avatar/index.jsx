@@ -7,7 +7,7 @@ import styles from "./Avatar.module.scss";
 const Avatar = ({ item, avatarSize = "small", avatarShape = "round" }) => (
   <div
     className={classNames(
-      styles["avatar"],
+      styles.avatar,
       {
         [[styles["avatar__small"]]]: avatarSize === "small",
       },

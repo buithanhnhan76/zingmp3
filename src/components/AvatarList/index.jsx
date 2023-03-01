@@ -12,7 +12,7 @@ const AvatarList = ({ items, listType = "half", numberAvatarRender = "5" }) => (
         [[styles["avatar-list__half"]]]: listType === "half",
       })}
     >
-      {items.slice(0, parseInt(numberAvatarRender)).map((item) => (
+      {items.slice(0, parseInt(numberAvatarRender, 10)).map((item) => (
         <Avatar item={item} key={item.id} />
       ))}
     </div>

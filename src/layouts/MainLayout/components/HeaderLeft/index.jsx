@@ -1,6 +1,6 @@
 // children
-import HistoryButton from "../HistoryButtons";
 import DynamicSearchBar from "src/components/DynamicSearchBar";
+import HistoryButton from "../HistoryButtons";
 // style
 import styles from "./HeaderLeft.module.scss";
 

@@ -1,17 +1,17 @@
 // libs
 import React from "react";
 
-const HotSale = (props) => (
+const HotSale = ({ stroke, ...others }) => (
   <svg
     width={32}
     height={32}
     xmlSpace="preserve"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...others}
   >
     <g
       fill="none"
-      stroke={props.stroke}
+      stroke={stroke}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}
