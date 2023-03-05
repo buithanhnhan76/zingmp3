@@ -1,0 +1,13 @@
+.avatar {
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar__small {
+  width: 16px;
+  height: 16px;
+}
+
+.avatar__rounded {
+  border-radius: 50%;
+}

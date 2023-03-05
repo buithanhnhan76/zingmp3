@@ -1,3 +1,4 @@
+// icons
 import DiscountLabelPrice from "public/icons/discount-label-price.svg";
 import DiscountHotSale from "public/icons/discount-hot-sale.svg";
 import DiscountLabelSale from "public/icons/discount-label-sale.svg";

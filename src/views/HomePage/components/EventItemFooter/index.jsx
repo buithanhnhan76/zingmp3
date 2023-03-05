@@ -1,15 +1,15 @@
 // children
+import MediaInteraction from "src/components/MediaInteraction";
 import Button from "src/components/Button";
-import AvatarList from "../AvatarList";
 // styles
 import styles from "./EventItemFooter.module.scss";
 
 const EventItemFooter = ({ item }) => (
   <div className={styles["event-item-footer"]}>
-    <div>
-      <span className={styles["followers-title"]}>{item.followerTitle}</span>
-      <AvatarList items={item.listFollowers} />
-    </div>
+    <MediaInteraction
+      interactionType={item.followerTitle}
+      interactionList={item.listFollowers}
+    />
     <div>
       <Button
         buttonLabel={item.buttonLabel}

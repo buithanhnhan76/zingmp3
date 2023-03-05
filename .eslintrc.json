@@ -20,6 +20,7 @@
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "default-param-last": "off",
+    "dot-notation": "off",
     "cypress/no-unnecessary-waiting": "off",
     "consistent-return": "off",
     "react/function-component-definition": [

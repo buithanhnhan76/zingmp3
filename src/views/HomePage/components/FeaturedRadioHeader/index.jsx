@@ -1,23 +1,19 @@
 // libs
 import { useSelector } from "react-redux";
 // child
+import SectionTitle from "src/components/SectionTitle";
 import Button from "src/components/Button";
-// style
+// styles
 import styles from "./FeaturedRadioHeader.module.scss";
 
 const FeaturedRadioHeader = () => {
-  const featuredRadio = useSelector(
+  const { title, buttonLabel } = useSelector(
     (state) => state.locale.translate.featuredRadio
   );
   return (
     <div className={styles["featured-radio-header"]}>
-      <h3 className={styles["featured-radio-title"]}>{featuredRadio.title}</h3>
-      <Button
-        buttonLabel={featuredRadio.buttonLabel}
-        border="none"
-        color="secondary"
-        arrow
-      />
+      <SectionTitle>{title}</SectionTitle>
+      <Button buttonLabel={buttonLabel} border="none" color="secondary" arrow />
     </div>
   );
 };

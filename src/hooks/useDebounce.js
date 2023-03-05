@@ -1,3 +1,4 @@
+/* eslint react-hooks/exhaustive-deps: 0 */
 // libs
 import { useEffect, useCallback } from "react";
 
